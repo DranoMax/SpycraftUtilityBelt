@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>FLKAutoLayout-iOS8.0.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>FLKAutoLayout-iOS9.3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SpyCraft Utility Belt.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SpyCraft Utility BeltTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-SpyCraft Utility BeltUITests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>2D7B4EAE0BBD76D038E799BA73D94326</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7352F1608727A68E5B1F8CB079E2F69F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>78C32F998459C37B2C7D85C7D36B5F64</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8858490A0F14D8D93BDB3FE984E88CC4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E2468320611DBA6675E61C65FFC227CC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

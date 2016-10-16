@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323E5509AB97C79D2F66753D /* Pods_SpyCraft_Utility_Belt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24FDEACF6C655D2F8DC31D2 /* Pods_SpyCraft_Utility_Belt.framework */; };
+		9D6BE0A5FE77553324D49980 /* Pods_SpyCraft_Utility_BeltUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C4CBA83DB1E31BF2D49B30 /* Pods_SpyCraft_Utility_BeltUITests.framework */; };
+		D8C6F4C4D75DA98DD13CDAE2 /* Pods_SpyCraft_Utility_BeltTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BDB16EAA2CA75898FC6A3ED /* Pods_SpyCraft_Utility_BeltTests.framework */; };
+		E751F8C91DB361C700334F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751F8C81DB361C700334F3D /* AppDelegate.swift */; };
+		E751F8CB1DB361C700334F3D /* CrisisCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751F8CA1DB361C700334F3D /* CrisisCardsViewController.swift */; };
+		E751F8D01DB361C700334F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E751F8CE1DB361C700334F3D /* Main.storyboard */; };
+		E751F8D21DB361C700334F3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E751F8D11DB361C700334F3D /* Assets.xcassets */; };
+		E751F8D51DB361C700334F3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E751F8D31DB361C700334F3D /* LaunchScreen.storyboard */; };
+		E751F8E01DB361C800334F3D /* SpyCraft_Utility_BeltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751F8DF1DB361C800334F3D /* SpyCraft_Utility_BeltTests.swift */; };
+		E751F8EB1DB361C800334F3D /* SpyCraft_Utility_BeltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751F8EA1DB361C800334F3D /* SpyCraft_Utility_BeltUITests.swift */; };
+		E75CC7DD1DB436D7006A1162 /* HSRoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E75CC7DC1DB436D7006A1162 /* HSRoundedButton.swift */; };
+		E7BE642D1DB40E0E00C7A039 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = E7BE642C1DB40E0E00C7A039 /* Podfile */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E751F8DC1DB361C800334F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E751F8BD1DB361C500334F3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E751F8C41DB361C500334F3D;
+			remoteInfo = "SpyCraft Utility Belt";
+		};
+		E751F8E71DB361C800334F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E751F8BD1DB361C500334F3D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E751F8C41DB361C500334F3D;
+			remoteInfo = "SpyCraft Utility Belt";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07C4CBA83DB1E31BF2D49B30 /* Pods_SpyCraft_Utility_BeltUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_BeltUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C590D6BB31A797BB5742428 /* Pods-SpyCraft Utility Belt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility Belt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility Belt/Pods-SpyCraft Utility Belt.debug.xcconfig"; sourceTree = "<group>"; };
+		181DDD3F152E189C62F89E04 /* Pods-SpyCraft Utility BeltUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility BeltUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility BeltUITests/Pods-SpyCraft Utility BeltUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		50D50BAD672ED05091003F6A /* Pods-SpyCraft Utility BeltTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility BeltTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility BeltTests/Pods-SpyCraft Utility BeltTests.release.xcconfig"; sourceTree = "<group>"; };
+		57AB681858A99607AD7AC0C0 /* Pods-SpyCraft Utility BeltUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility BeltUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility BeltUITests/Pods-SpyCraft Utility BeltUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9BDB16EAA2CA75898FC6A3ED /* Pods_SpyCraft_Utility_BeltTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_BeltTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24FDEACF6C655D2F8DC31D2 /* Pods_SpyCraft_Utility_Belt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_Belt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D09A91AB9723F2E7271118 /* Pods-SpyCraft Utility BeltTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility BeltTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility BeltTests/Pods-SpyCraft Utility BeltTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E751F8C51DB361C500334F3D /* SpyCraft Utility Belt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpyCraft Utility Belt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E751F8C81DB361C700334F3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E751F8CA1DB361C700334F3D /* CrisisCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrisisCardsViewController.swift; sourceTree = "<group>"; };
+		E751F8CF1DB361C700334F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E751F8D11DB361C700334F3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E751F8D41DB361C700334F3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E751F8D61DB361C700334F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E751F8DB1DB361C800334F3D /* SpyCraft Utility BeltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpyCraft Utility BeltTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E751F8DF1DB361C800334F3D /* SpyCraft_Utility_BeltTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyCraft_Utility_BeltTests.swift; sourceTree = "<group>"; };
+		E751F8E11DB361C800334F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E751F8E61DB361C800334F3D /* SpyCraft Utility BeltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SpyCraft Utility BeltUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E751F8EA1DB361C800334F3D /* SpyCraft_Utility_BeltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyCraft_Utility_BeltUITests.swift; sourceTree = "<group>"; };
+		E751F8EC1DB361C800334F3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E75CC7DC1DB436D7006A1162 /* HSRoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSRoundedButton.swift; sourceTree = "<group>"; };
+		E7BE642C1DB40E0E00C7A039 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		FF03C569F13D6470DF0BC6AB /* Pods-SpyCraft Utility Belt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility Belt.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility Belt/Pods-SpyCraft Utility Belt.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E751F8C21DB361C500334F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323E5509AB97C79D2F66753D /* Pods_SpyCraft_Utility_Belt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E751F8D81DB361C800334F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8C6F4C4D75DA98DD13CDAE2 /* Pods_SpyCraft_Utility_BeltTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E751F8E31DB361C800334F3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D6BE0A5FE77553324D49980 /* Pods_SpyCraft_Utility_BeltUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A1309E1D834612EB8AE4D7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C24FDEACF6C655D2F8DC31D2 /* Pods_SpyCraft_Utility_Belt.framework */,
+				9BDB16EAA2CA75898FC6A3ED /* Pods_SpyCraft_Utility_BeltTests.framework */,
+				07C4CBA83DB1E31BF2D49B30 /* Pods_SpyCraft_Utility_BeltUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD6AF3CF3835AAF7C6981210 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C590D6BB31A797BB5742428 /* Pods-SpyCraft Utility Belt.debug.xcconfig */,
+				FF03C569F13D6470DF0BC6AB /* Pods-SpyCraft Utility Belt.release.xcconfig */,
+				D7D09A91AB9723F2E7271118 /* Pods-SpyCraft Utility BeltTests.debug.xcconfig */,
+				50D50BAD672ED05091003F6A /* Pods-SpyCraft Utility BeltTests.release.xcconfig */,
+				181DDD3F152E189C62F89E04 /* Pods-SpyCraft Utility BeltUITests.debug.xcconfig */,
+				57AB681858A99607AD7AC0C0 /* Pods-SpyCraft Utility BeltUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E751F8BC1DB361C500334F3D = {
+			isa = PBXGroup;
+			children = (
+				E7BE642C1DB40E0E00C7A039 /* Podfile */,
+				E751F8C71DB361C700334F3D /* SpyCraft Utility Belt */,
+				E751F8DE1DB361C800334F3D /* SpyCraft Utility BeltTests */,
+				E751F8E91DB361C800334F3D /* SpyCraft Utility BeltUITests */,
+				E751F8C61DB361C500334F3D /* Products */,
+				DD6AF3CF3835AAF7C6981210 /* Pods */,
+				4A1309E1D834612EB8AE4D7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E751F8C61DB361C500334F3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E751F8C51DB361C500334F3D /* SpyCraft Utility Belt.app */,
+				E751F8DB1DB361C800334F3D /* SpyCraft Utility BeltTests.xctest */,
+				E751F8E61DB361C800334F3D /* SpyCraft Utility BeltUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E751F8C71DB361C700334F3D /* SpyCraft Utility Belt */ = {
+			isa = PBXGroup;
+			children = (
+				E75CC7DB1DB43695006A1162 /* Widgets */,
+				E7BE642E1DB40E6500C7A039 /* ViewControllers */,
+				E751F8C81DB361C700334F3D /* AppDelegate.swift */,
+				E751F8CE1DB361C700334F3D /* Main.storyboard */,
+				E751F8D11DB361C700334F3D /* Assets.xcassets */,
+				E751F8D31DB361C700334F3D /* LaunchScreen.storyboard */,
+				E751F8D61DB361C700334F3D /* Info.plist */,
+			);
+			path = "SpyCraft Utility Belt";
+			sourceTree = "<group>";
+		};
+		E751F8DE1DB361C800334F3D /* SpyCraft Utility BeltTests */ = {
+			isa = PBXGroup;
+			children = (
+				E751F8DF1DB361C800334F3D /* SpyCraft_Utility_BeltTests.swift */,
+				E751F8E11DB361C800334F3D /* Info.plist */,
+			);
+			path = "SpyCraft Utility BeltTests";
+			sourceTree = "<group>";
+		};
+		E751F8E91DB361C800334F3D /* SpyCraft Utility BeltUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E751F8EA1DB361C800334F3D /* SpyCraft_Utility_BeltUITests.swift */,
+				E751F8EC1DB361C800334F3D /* Info.plist */,
+			);
+			path = "SpyCraft Utility BeltUITests";
+			sourceTree = "<group>";
+		};
+		E75CC7DB1DB43695006A1162 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				E75CC7DC1DB436D7006A1162 /* HSRoundedButton.swift */,
+			);
+			name = Widgets;
+			sourceTree = "<group>";
+		};
+		E7BE642E1DB40E6500C7A039 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E751F8CA1DB361C700334F3D /* CrisisCardsViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E751F8C41DB361C500334F3D /* SpyCraft Utility Belt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E751F8EF1DB361C800334F3D /* Build configuration list for PBXNativeTarget "SpyCraft Utility Belt" */;
+			buildPhases = (
+				550D0FB54E3C2E7520FB121A /* [CP] Check Pods Manifest.lock */,
+				E751F8C11DB361C500334F3D /* Sources */,
+				E751F8C21DB361C500334F3D /* Frameworks */,
+				E751F8C31DB361C500334F3D /* Resources */,
+				AD463812883227F3A77F68E0 /* [CP] Embed Pods Frameworks */,
+				49A47E57B48B01F59E3C57D4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SpyCraft Utility Belt";
+			productName = "SpyCraft Utility Belt";
+			productReference = E751F8C51DB361C500334F3D /* SpyCraft Utility Belt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E751F8DA1DB361C800334F3D /* SpyCraft Utility BeltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E751F8F21DB361C800334F3D /* Build configuration list for PBXNativeTarget "SpyCraft Utility BeltTests" */;
+			buildPhases = (
+				C709DA3625087B3727DE6EA7 /* [CP] Check Pods Manifest.lock */,
+				E751F8D71DB361C800334F3D /* Sources */,
+				E751F8D81DB361C800334F3D /* Frameworks */,
+				E751F8D91DB361C800334F3D /* Resources */,
+				D7828F4DDA9FC6768462B824 /* [CP] Embed Pods Frameworks */,
+				729E29B5D63E697C029B596F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E751F8DD1DB361C800334F3D /* PBXTargetDependency */,
+			);
+			name = "SpyCraft Utility BeltTests";
+			productName = "SpyCraft Utility BeltTests";
+			productReference = E751F8DB1DB361C800334F3D /* SpyCraft Utility BeltTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E751F8E51DB361C800334F3D /* SpyCraft Utility BeltUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E751F8F51DB361C800334F3D /* Build configuration list for PBXNativeTarget "SpyCraft Utility BeltUITests" */;
+			buildPhases = (
+				A01B20D9F6C46910F2A35D4E /* [CP] Check Pods Manifest.lock */,
+				E751F8E21DB361C800334F3D /* Sources */,
+				E751F8E31DB361C800334F3D /* Frameworks */,
+				E751F8E41DB361C800334F3D /* Resources */,
+				4EB6F9B50D47FD7A8212C7EC /* [CP] Embed Pods Frameworks */,
+				62D0F51CCE95D481970E9F23 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E751F8E81DB361C800334F3D /* PBXTargetDependency */,
+			);
+			name = "SpyCraft Utility BeltUITests";
+			productName = "SpyCraft Utility BeltUITests";
+			productReference = E751F8E61DB361C800334F3D /* SpyCraft Utility BeltUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E751F8BD1DB361C500334F3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Alexander Scroggins";
+				TargetAttributes = {
+					E751F8C41DB361C500334F3D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = V28U7ECY8K;
+						LastSwiftMigration = 0800;
+					};
+					E751F8DA1DB361C800334F3D = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = E751F8C41DB361C500334F3D;
+					};
+					E751F8E51DB361C800334F3D = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = E751F8C41DB361C500334F3D;
+					};
+				};
+			};
+			buildConfigurationList = E751F8C01DB361C500334F3D /* Build configuration list for PBXProject "SpyCraft Utility Belt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E751F8BC1DB361C500334F3D;
+			productRefGroup = E751F8C61DB361C500334F3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E751F8C41DB361C500334F3D /* SpyCraft Utility Belt */,
+				E751F8DA1DB361C800334F3D /* SpyCraft Utility BeltTests */,
+				E751F8E51DB361C800334F3D /* SpyCraft Utility BeltUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E751F8C31DB361C500334F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7BE642D1DB40E0E00C7A039 /* Podfile in Resources */,
+				E751F8D51DB361C700334F3D /* LaunchScreen.storyboard in Resources */,
+				E751F8D21DB361C700334F3D /* Assets.xcassets in Resources */,
+				E751F8D01DB361C700334F3D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E751F8D91DB361C800334F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E751F8E41DB361C800334F3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49A47E57B48B01F59E3C57D4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpyCraft Utility Belt/Pods-SpyCraft Utility Belt-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4EB6F9B50D47FD7A8212C7EC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpyCraft Utility BeltUITests/Pods-SpyCraft Utility BeltUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		550D0FB54E3C2E7520FB121A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		62D0F51CCE95D481970E9F23 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpyCraft Utility BeltUITests/Pods-SpyCraft Utility BeltUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		729E29B5D63E697C029B596F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpyCraft Utility BeltTests/Pods-SpyCraft Utility BeltTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01B20D9F6C46910F2A35D4E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD463812883227F3A77F68E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpyCraft Utility Belt/Pods-SpyCraft Utility Belt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C709DA3625087B3727DE6EA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D7828F4DDA9FC6768462B824 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpyCraft Utility BeltTests/Pods-SpyCraft Utility BeltTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E751F8C11DB361C500334F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E751F8C91DB361C700334F3D /* AppDelegate.swift in Sources */,
+				E751F8CB1DB361C700334F3D /* CrisisCardsViewController.swift in Sources */,
+				E75CC7DD1DB436D7006A1162 /* HSRoundedButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E751F8D71DB361C800334F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E751F8E01DB361C800334F3D /* SpyCraft_Utility_BeltTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E751F8E21DB361C800334F3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E751F8EB1DB361C800334F3D /* SpyCraft_Utility_BeltUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E751F8DD1DB361C800334F3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E751F8C41DB361C500334F3D /* SpyCraft Utility Belt */;
+			targetProxy = E751F8DC1DB361C800334F3D /* PBXContainerItemProxy */;
+		};
+		E751F8E81DB361C800334F3D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E751F8C41DB361C500334F3D /* SpyCraft Utility Belt */;
+			targetProxy = E751F8E71DB361C800334F3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E751F8CE1DB361C700334F3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E751F8CF1DB361C700334F3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E751F8D31DB361C700334F3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E751F8D41DB361C700334F3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E751F8ED1DB361C800334F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E751F8EE1DB361C800334F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E751F8F01DB361C800334F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C590D6BB31A797BB5742428 /* Pods-SpyCraft Utility Belt.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SpyCraft Utility Belt/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hatstick.SpyCraft-Utility-Belt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E751F8F11DB361C800334F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF03C569F13D6470DF0BC6AB /* Pods-SpyCraft Utility Belt.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "SpyCraft Utility Belt/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hatstick.SpyCraft-Utility-Belt";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E751F8F31DB361C800334F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7D09A91AB9723F2E7271118 /* Pods-SpyCraft Utility BeltTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SpyCraft Utility BeltTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hatstick.SpyCraft-Utility-BeltTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpyCraft Utility Belt.app/SpyCraft Utility Belt";
+			};
+			name = Debug;
+		};
+		E751F8F41DB361C800334F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D50BAD672ED05091003F6A /* Pods-SpyCraft Utility BeltTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SpyCraft Utility BeltTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hatstick.SpyCraft-Utility-BeltTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpyCraft Utility Belt.app/SpyCraft Utility Belt";
+			};
+			name = Release;
+		};
+		E751F8F61DB361C800334F3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 181DDD3F152E189C62F89E04 /* Pods-SpyCraft Utility BeltUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "SpyCraft Utility BeltUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hatstick.SpyCraft-Utility-BeltUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SpyCraft Utility Belt";
+			};
+			name = Debug;
+		};
+		E751F8F71DB361C800334F3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57AB681858A99607AD7AC0C0 /* Pods-SpyCraft Utility BeltUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "SpyCraft Utility BeltUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hatstick.SpyCraft-Utility-BeltUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "SpyCraft Utility Belt";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E751F8C01DB361C500334F3D /* Build configuration list for PBXProject "SpyCraft Utility Belt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E751F8ED1DB361C800334F3D /* Debug */,
+				E751F8EE1DB361C800334F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E751F8EF1DB361C800334F3D /* Build configuration list for PBXNativeTarget "SpyCraft Utility Belt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E751F8F01DB361C800334F3D /* Debug */,
+				E751F8F11DB361C800334F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E751F8F21DB361C800334F3D /* Build configuration list for PBXNativeTarget "SpyCraft Utility BeltTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E751F8F31DB361C800334F3D /* Debug */,
+				E751F8F41DB361C800334F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E751F8F51DB361C800334F3D /* Build configuration list for PBXNativeTarget "SpyCraft Utility BeltUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E751F8F61DB361C800334F3D /* Debug */,
+				E751F8F71DB361C800334F3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E751F8BD1DB361C500334F3D /* Project object */;
+}
