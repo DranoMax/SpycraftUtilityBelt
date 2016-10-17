@@ -9,7 +9,7 @@
 import UIKit
 import FLKAutoLayout
 
-class CrisisCardsViewController: UIViewController {
+class HSCrisisCardSetSelectionViewController: UIViewController {
     
     @IBOutlet weak var mainScrollView: UIScrollView!
     
@@ -30,7 +30,7 @@ class CrisisCardsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let screenWidth = UIScreen.main.bounds.width
+        let screenWidth = UIScreen.mainScreen().bounds.width
         // buttonPadding*4 comes from padding on the left and right of each button
         let totalHorBtnPad = buttonPadding * (numberOfButtonsPerRow * 2)
         self.buttonWidth = String.init(format: "%f", screenWidth / self.numberOfButtonsPerRow - totalHorBtnPad)
@@ -45,19 +45,19 @@ class CrisisCardsViewController: UIViewController {
 
     private func setupCrisisTypeButtons() {
         self.setButtonLabels()
+        
         self.buildButtonsConstraints(self.brainWashingButton, buttonTwo: self.chaseButton)
         self.buildButtonsConstraints(self.hackingButton, buttonTwo: self.infiltrationButton)
         self.buildButtonsConstraints(self.interrogationButton, buttonTwo: self.manhuntButton)
+        self.brainWashingButton.alignTopEdgeWithView(self.mainScrollView, predicate: self.buttonPaddingStr)
+        self.chaseButton.alignTopEdgeWithView(self.mainScrollView, predicate: self.buttonPaddingStr)
         
-        self.brainWashingButton.alignTopEdge(withView: self.mainScrollView, predicate: self.buttonPaddingStr)
-        self.chaseButton.alignTopEdge(withView: self.mainScrollView, predicate: self.buttonPaddingStr)
+        self.hackingButton.constrainTopSpaceToView(self.brainWashingButton, predicate: self.buttonPaddingStr)
+        self.infiltrationButton.constrainTopSpaceToView(self.chaseButton, predicate: self.buttonPaddingStr)
         
-        self.hackingButton.constrainTopSpace(toView: self.brainWashingButton, predicate: self.buttonPaddingStr)
-        self.infiltrationButton.constrainTopSpace(toView: self.chaseButton, predicate: self.buttonPaddingStr)
+        self.interrogationButton.constrainTopSpaceToView(self.hackingButton, predicate: self.buttonPaddingStr)
+        self.manhuntButton.constrainTopSpaceToView(self.infiltrationButton, predicate: self.buttonPaddingStr)
         
-        self.interrogationButton.constrainTopSpace(toView: self.hackingButton, predicate: self.buttonPaddingStr)
-        self.manhuntButton.constrainTopSpace(toView: self.infiltrationButton, predicate: self.buttonPaddingStr)
- 
  //       self.buildButtons(self.seductionButton)
     }
     
@@ -70,20 +70,18 @@ class CrisisCardsViewController: UIViewController {
         self.manhuntButton.buttonLabel.text = "Manhunt"
     }
     
-    private func buildButtonsConstraints(_ buttonOne: HSRoundedButton, buttonTwo: HSRoundedButton) {
+    private func buildButtonsConstraints(buttonOne: HSRoundedButton, buttonTwo: HSRoundedButton) {
         buttonOne.constrainWidth(self.buttonWidth, height: self.buttonWidth)
         self.mainScrollView.addSubview(buttonOne)
         
         buttonTwo.constrainWidth(self.buttonWidth, height: self.buttonWidth)
         self.mainScrollView.addSubview(buttonTwo)
+        buttonOne.backgroundColor = UIColor.yellowColor()
+        buttonTwo.backgroundColor = UIColor.redColor()
+        buttonOne.alignLeadingEdgeWithView(self.mainScrollView, predicate: self.buttonPaddingStr)
         
-        buttonOne.alignLeading(self.buttonPaddingStr,
-                               trailing: self.buttonPaddingStr,
-                               toView: self.mainScrollView)
-        
-        buttonTwo.constrainLeadingSpace(toView: buttonOne, predicate: self.buttonPaddingStr)
-        buttonTwo.alignTrailingEdge(withView: self.mainScrollView, predicate: self.buttonPaddingStr)
+        buttonTwo.constrainLeadingSpaceToView(buttonOne, predicate: self.buttonPaddingStr)
+        buttonTwo.alignTrailingEdgeWithView(self.mainScrollView, predicate: self.buttonPaddingStr)
     }
-    
 }
 

@@ -9,6 +9,7 @@
 import UIKit
 import Foundation
 import FLKAutoLayout
+import QuartzCore
 
 class HSRoundedButton: UIView {
     
@@ -16,7 +17,7 @@ class HSRoundedButton: UIView {
     
     // MARK: - Lifecycle Methods
     
-    public override init(frame: CGRect) {
+    override init(frame: CGRect) {
         super.init(frame: frame)
         
         self.setupDefaults()
@@ -27,7 +28,11 @@ class HSRoundedButton: UIView {
     }
     
     private func setupDefaults() {
+        // Rounded Corners
+        self.layer.cornerRadius = 5
+        self.layer.masksToBounds = true
+        
         self.addSubview(self.buttonLabel)
-        self.buttonLabel.alignCenter(withView: self)
+        self.buttonLabel.alignCenterWithView(self)
     }
 }
