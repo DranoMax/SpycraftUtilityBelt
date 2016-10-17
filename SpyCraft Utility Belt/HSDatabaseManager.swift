@@ -9,7 +9,17 @@
 import Foundation
 import SQLite
 
-class HSDatabaseManager {
+public class HSDatabaseManager {
     
+    public let db: Connection!
+    
+    public init() {
+        do {
+            db = try Connection("db.sqlite3")
+        } catch {
+            print("Couldn't create database...")
+            db = nil
+        }
+    }
     
 }

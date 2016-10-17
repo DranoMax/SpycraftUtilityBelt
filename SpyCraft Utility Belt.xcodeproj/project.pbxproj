@@ -10,6 +10,7 @@
 		1174D8691DB4485D00147108 /* HSConflictCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174D8681DB4485D00147108 /* HSConflictCardTableViewController.swift */; };
 		1174D86C1DB4510B00147108 /* HSDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174D86B1DB4510B00147108 /* HSDatabaseManager.swift */; };
 		11D34FF11DB4641B00001D52 /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11D34FE41DB460F600001D52 /* SQLite.framework */; };
+		11D34FF31DB4682D00001D52 /* ConflictCardTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D34FF21DB4682D00001D52 /* ConflictCardTable.swift */; };
 		323E5509AB97C79D2F66753D /* Pods_SpyCraft_Utility_Belt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24FDEACF6C655D2F8DC31D2 /* Pods_SpyCraft_Utility_Belt.framework */; };
 		9D6BE0A5FE77553324D49980 /* Pods_SpyCraft_Utility_BeltUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C4CBA83DB1E31BF2D49B30 /* Pods_SpyCraft_Utility_BeltUITests.framework */; };
 		D8C6F4C4D75DA98DD13CDAE2 /* Pods_SpyCraft_Utility_BeltTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BDB16EAA2CA75898FC6A3ED /* Pods_SpyCraft_Utility_BeltTests.framework */; };
@@ -173,6 +174,7 @@
 		11D34FD91DB460F600001D52 /* StatementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatementTests.swift; sourceTree = "<group>"; };
 		11D34FDA1DB460F600001D52 /* TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 		11D34FDB1DB460F600001D52 /* ValueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValueTests.swift; sourceTree = "<group>"; };
+		11D34FF21DB4682D00001D52 /* ConflictCardTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConflictCardTable.swift; sourceTree = "<group>"; };
 		181DDD3F152E189C62F89E04 /* Pods-SpyCraft Utility BeltUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility BeltUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility BeltUITests/Pods-SpyCraft Utility BeltUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		50D50BAD672ED05091003F6A /* Pods-SpyCraft Utility BeltTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility BeltTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility BeltTests/Pods-SpyCraft Utility BeltTests.release.xcconfig"; sourceTree = "<group>"; };
 		57AB681858A99607AD7AC0C0 /* Pods-SpyCraft Utility BeltUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility BeltUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility BeltUITests/Pods-SpyCraft Utility BeltUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -230,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				1174D86B1DB4510B00147108 /* HSDatabaseManager.swift */,
+				11D34FF21DB4682D00001D52 /* ConflictCardTable.swift */,
 			);
 			name = Database;
 			sourceTree = "<group>";
@@ -936,6 +939,7 @@
 				E751F8C91DB361C700334F3D /* AppDelegate.swift in Sources */,
 				1174D86C1DB4510B00147108 /* HSDatabaseManager.swift in Sources */,
 				E751F8CB1DB361C700334F3D /* HSCrisisCardSetSelectionViewController.swift in Sources */,
+				11D34FF31DB4682D00001D52 /* ConflictCardTable.swift in Sources */,
 				E75CC7DD1DB436D7006A1162 /* HSRoundedButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
