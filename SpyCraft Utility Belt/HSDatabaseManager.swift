@@ -10,7 +10,7 @@ import Foundation
 import SQLite
 
 public class HSDatabaseManager {
-    
+    public let sharedInstance = HSDatabaseManager()
     public let db: Connection!
     
     public init() {

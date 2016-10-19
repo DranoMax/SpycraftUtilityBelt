@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:../SQLite.swift-swift-2.3/SQLite.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:SpyCraft Utility Belt.xcodeproj">
    </FileRef>
    <FileRef
