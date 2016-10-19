@@ -6,8 +6,8 @@
 //  Copyright © 2016 Alexander Scroggins. All rights reserved.
 //
 
-import Foundation
 import UIKit
+import CoreData
 
 class HSConflictCardTableViewcontroller: UITableViewController {
     
@@ -21,6 +21,20 @@ class HSConflictCardTableViewcontroller: UITableViewController {
         case kSeduction = 6
     }
     
+    override func viewDidLoad() {
+        // Load our database stuff
+        self.loadCards()
+    }
+    
+    private func loadCards() {
+        let mob = HSDatabaseManager.sharedInstance.mob
+        
+        let entity = NSEntityDescription.entity(forEntityName: "CrisisCard", in: mob)
+        let card = NSManagedObject(entity: entity!, insertInto: mob) as! CrisisCard
+        
+        card.name = "Test"
+        HSDatabaseManager.sharedInstance.save()
+    }
     
     
 //    override func numberOfSections(in tableView: UITableView) -> Int {

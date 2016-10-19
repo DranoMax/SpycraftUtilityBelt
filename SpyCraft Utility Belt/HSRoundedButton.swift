@@ -11,9 +11,7 @@ import Foundation
 import FLKAutoLayout
 import QuartzCore
 
-class HSRoundedButton: UIView {
-    
-    var buttonLabel = UILabel()
+class HSRoundedButton: UIButton {
     
     // MARK: - Lifecycle Methods
     
@@ -32,7 +30,6 @@ class HSRoundedButton: UIView {
         self.layer.cornerRadius = 5
         self.layer.masksToBounds = true
         
-        self.addSubview(self.buttonLabel)
-        self.buttonLabel.alignCenterWithView(self)
+
     }
 }

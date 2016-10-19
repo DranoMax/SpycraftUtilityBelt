@@ -30,7 +30,7 @@ class HSCrisisCardSetSelectionViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let screenWidth = UIScreen.mainScreen().bounds.width
+        let screenWidth = UIScreen.main.bounds.width
         // buttonPadding*4 comes from padding on the left and right of each button
         let totalHorBtnPad = buttonPadding * (numberOfButtonsPerRow * 2)
         self.buttonWidth = String.init(format: "%f", screenWidth / self.numberOfButtonsPerRow - totalHorBtnPad)
@@ -46,28 +46,28 @@ class HSCrisisCardSetSelectionViewController: UIViewController {
     private func setupCrisisTypeButtons() {
         self.setButtonLabels()
         
-        self.buildButtonsConstraints(self.brainWashingButton, buttonTwo: self.chaseButton)
-        self.buildButtonsConstraints(self.hackingButton, buttonTwo: self.infiltrationButton)
-        self.buildButtonsConstraints(self.interrogationButton, buttonTwo: self.manhuntButton)
-        self.brainWashingButton.alignTopEdgeWithView(self.mainScrollView, predicate: self.buttonPaddingStr)
-        self.chaseButton.alignTopEdgeWithView(self.mainScrollView, predicate: self.buttonPaddingStr)
+        self.buildButtonsConstraints(buttonOne: self.brainWashingButton, buttonTwo: self.chaseButton)
+        self.buildButtonsConstraints(buttonOne: self.hackingButton, buttonTwo: self.infiltrationButton)
+        self.buildButtonsConstraints(buttonOne: self.interrogationButton, buttonTwo: self.manhuntButton)
+        self.brainWashingButton.alignTopEdge(withView: self.mainScrollView, predicate: self.buttonPaddingStr)
+        self.chaseButton.alignTopEdge(withView: self.mainScrollView, predicate: self.buttonPaddingStr)
         
-        self.hackingButton.constrainTopSpaceToView(self.brainWashingButton, predicate: self.buttonPaddingStr)
-        self.infiltrationButton.constrainTopSpaceToView(self.chaseButton, predicate: self.buttonPaddingStr)
+        self.hackingButton.constrainTopSpace(toView: self.brainWashingButton, predicate: self.buttonPaddingStr)
+        self.infiltrationButton.constrainTopSpace(toView: self.chaseButton, predicate: self.buttonPaddingStr)
         
-        self.interrogationButton.constrainTopSpaceToView(self.hackingButton, predicate: self.buttonPaddingStr)
-        self.manhuntButton.constrainTopSpaceToView(self.infiltrationButton, predicate: self.buttonPaddingStr)
+        self.interrogationButton.constrainTopSpace(toView: self.hackingButton, predicate: self.buttonPaddingStr)
+        self.manhuntButton.constrainTopSpace(toView: self.infiltrationButton, predicate: self.buttonPaddingStr)
         
  //       self.buildButtons(self.seductionButton)
     }
     
     private func setButtonLabels() {
-        self.brainWashingButton.buttonLabel.text = "Brain Washing"
-        self.chaseButton.buttonLabel.text = "Chase"
-        self.hackingButton.buttonLabel.text = "Hacking"
-        self.infiltrationButton.buttonLabel.text = "Infiltration"
-        self.interrogationButton.buttonLabel.text = "Interrogation"
-        self.manhuntButton.buttonLabel.text = "Manhunt"
+        self.brainWashingButton.titleLabel?.text = "Brain Washing"
+        self.chaseButton.titleLabel?.text = "Chase"
+        self.hackingButton.titleLabel?.text = "Hacking"
+        self.infiltrationButton.titleLabel?.text = "Infiltration"
+        self.interrogationButton.titleLabel?.text = "Interrogation"
+        self.manhuntButton.titleLabel?.text = "Manhunt"
     }
     
     private func buildButtonsConstraints(buttonOne: HSRoundedButton, buttonTwo: HSRoundedButton) {
@@ -76,12 +76,21 @@ class HSCrisisCardSetSelectionViewController: UIViewController {
         
         buttonTwo.constrainWidth(self.buttonWidth, height: self.buttonWidth)
         self.mainScrollView.addSubview(buttonTwo)
-        buttonOne.backgroundColor = UIColor.yellowColor()
-        buttonTwo.backgroundColor = UIColor.redColor()
-        buttonOne.alignLeadingEdgeWithView(self.mainScrollView, predicate: self.buttonPaddingStr)
+        buttonOne.backgroundColor = UIColor.yellow
+        buttonTwo.backgroundColor = UIColor.red
+        buttonOne.alignLeadingEdge(withView: self.mainScrollView, predicate: self.buttonPaddingStr)
         
-        buttonTwo.constrainLeadingSpaceToView(buttonOne, predicate: self.buttonPaddingStr)
-        buttonTwo.alignTrailingEdgeWithView(self.mainScrollView, predicate: self.buttonPaddingStr)
+        buttonTwo.constrainLeadingSpace(toView: buttonOne, predicate: self.buttonPaddingStr)
+        buttonTwo.alignTrailingEdge(withView: self.mainScrollView, predicate: self.buttonPaddingStr)
+        
+        buttonOne.addTarget(self, action: #selector(buttonPress), for: .touchUpInside)
+    }
+    
+    @objc private func buttonPress(sender: UIButton!) {
+        let viewCon = HSConflictCardTableViewcontroller()
+        let navCon = UINavigationController(rootViewController: viewCon)
+        
+        self.present(navCon, animated: true, completion: nil)
     }
 }
 
