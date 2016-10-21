@@ -1,12 +1,15 @@
 PODS:
   - FLKAutoLayout (1.0.0)
+  - UIColor_Hex_Swift (3.0.2)
 
 DEPENDENCIES:
   - FLKAutoLayout (~> 1.0)
+  - UIColor_Hex_Swift (~> 3.0.2)
 
 SPEC CHECKSUMS:
   FLKAutoLayout: 106b14dbae09d32c6730190f4e78a959759ba4a4
+  UIColor_Hex_Swift: 95f718452092a3efc8a827dffd2c04d3237be02d
 
-PODFILE CHECKSUM: 1cc35ea2bcf7d8307d8dad6287d740da80bfac70
+PODFILE CHECKSUM: 5f7a06688b88ecceeb097050551a71d3f5f14c31
 
 COCOAPODS: 1.0.1

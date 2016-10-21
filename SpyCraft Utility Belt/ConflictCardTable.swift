@@ -10,8 +10,6 @@ import CoreData
 
 public class ConflictCardTable: NSObject {
     
-
-    
     /**
      This is so stupid but there are 8 rows for the first 18 cards and 7 thereafter, so this
      is going to be complicated...
@@ -26,7 +24,7 @@ public class ConflictCardTable: NSObject {
                 let partsOfCard = NSMutableArray()
                 for i in 0..<myStrings.count {
                     if myStrings[i] != "*" {
-                        partsOfCard.add((myStrings[i] as! String).trimmingCharacters(in: .whitespaces))
+                        partsOfCard.add((myStrings[i]).trimmingCharacters(in: .whitespaces))
                     } else {
                         self.putTogetherCardPieces(cardParts: partsOfCard, mob: mob)
                         partsOfCard.removeAllObjects()
@@ -56,8 +54,8 @@ public class ConflictCardTable: NSObject {
     
     private func putTogetherCardPieces(cardParts: NSArray, mob: NSManagedObjectContext) {
         // The Name and Strategy are always first
-        var name = cardParts[0] as? String
-        var strategy = cardParts[1] as? String
+        let name = cardParts[0] as? String
+        let strategy = cardParts[1] as? String
         var desc: String?
         var skill: String?
         var requirements: String?
@@ -65,7 +63,7 @@ public class ConflictCardTable: NSObject {
         var duration: String?
         var advantages: String?
         // CrisisType is always the last value
-        var crisisType = cardParts[cardParts.count-1] as? String
+        let crisisType = cardParts[cardParts.count-1] as? String
         
         for i in 0..<cardParts.count {
             if self.matches(for: "Skill: ", in: cardParts[i] as! String).count != 0 {
@@ -83,16 +81,16 @@ public class ConflictCardTable: NSObject {
             }
         }
         
-        let crisisCard = CrisisCard(context: mob,
-                                    name: name,
-                                    desc: desc,
-                                    strategy: strategy,
-                                    skill: skill,
-                                    duration: duration,
-                                    requirements: requirements,
-                                    advantages: advantages,
-                                    skillmod: skillMod,
-                                    crisisType: crisisType)
+        _ = CrisisCard(context: mob,
+                       name: name,
+                       desc: desc,
+                       strategy: strategy,
+                       skill: skill,
+                       duration: duration,
+                       requirements: requirements,
+                       advantages: advantages,
+                       skillmod: skillMod,
+                       crisisType: crisisType)
     }
     
     private func getCrisisType(str: String) -> String? {

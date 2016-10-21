@@ -5,10 +5,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--First-->
+        <!--HSCrisisCardSetSelectionViewController-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="HSCrisisCardSetSelectionViewController" customModule="SpyCraft_Utility_Belt" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="HSCrisisCardSetSelectionViewController" id="9pv-A4-QxB" customClass="HSCrisisCardSetSelectionViewController" customModule="SpyCraft_Utility_Belt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -16,21 +16,9 @@
                     <view key="view" contentMode="scaleToFill" id="tsR-hK-woN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mlo-qN-fxG"/>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="Mlo-qN-fxG" secondAttribute="bottom" constant="67" id="0Vl-LP-eTU"/>
-                            <constraint firstAttribute="trailing" secondItem="Mlo-qN-fxG" secondAttribute="trailing" constant="-225" id="2ay-ns-PaO"/>
-                            <constraint firstItem="Mlo-qN-fxG" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="6fR-4u-d4d"/>
-                            <constraint firstItem="Mlo-qN-fxG" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="x7s-Ge-ZnY"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="First" image="first" id="acW-dT-cKf"/>
-                    <connections>
-                        <outlet property="mainScrollView" destination="Mlo-qN-fxG" id="nVm-R2-O4v"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
@@ -68,10 +56,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <connections>
-                                    <outlet property="descLabel" destination="KtD-37-dpp" id="xzA-PC-de4"/>
-                                    <outlet property="nameLabel" destination="JvZ-C4-Sgg" id="kvL-8Z-BpN"/>
-                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>

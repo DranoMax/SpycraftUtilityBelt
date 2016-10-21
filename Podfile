@@ -1,6 +1,7 @@
 def shared_pods
     use_frameworks!
     pod 'FLKAutoLayout', '~> 1.0'
+    pod 'UIColor_Hex_Swift', '~> 3.0.2'
 end
 
 target 'SpyCraft Utility Belt' do

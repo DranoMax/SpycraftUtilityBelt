@@ -29,7 +29,11 @@ class HSRoundedButton: UIButton {
         // Rounded Corners
         self.layer.cornerRadius = 5
         self.layer.masksToBounds = true
-        
-
+    }
+    
+    private func setupTitleLabel() {
+        self.titleLabel?.alignCenter(withView: self)
+        self.titleLabel?.font = UIFont(name: "Helvetica Neue Ultralight", size: 36)
+        self.titleLabel?.textColor = UIColor.black
     }
 }

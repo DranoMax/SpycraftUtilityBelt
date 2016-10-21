@@ -19,6 +19,8 @@
 		11AC3FCB1DB9CF2500F2F433 /* HSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AC3FCA1DB9CF2500F2F433 /* HSNavigationController.swift */; };
 		11D34FF31DB4682D00001D52 /* ConflictCardTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D34FF21DB4682D00001D52 /* ConflictCardTable.swift */; };
 		2D6AA0A60C94DCB00C4F97C1 /* Pods_SpyCraft_Utility_Belt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24FDEACF6C655D2F8DC31D2 /* Pods_SpyCraft_Utility_Belt.framework */; };
+		67DECFDB7DD3829739D6F015 /* Pods_SpyCraft_Utility_BeltTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3422D3406DF9D52D209651B5 /* Pods_SpyCraft_Utility_BeltTests.framework */; };
+		A5C7172E7753F65ABD36513E /* Pods_SpyCraft_Utility_BeltUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 462771BB12D271068A8B2396 /* Pods_SpyCraft_Utility_BeltUITests.framework */; };
 		E751F8C91DB361C700334F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751F8C81DB361C700334F3D /* AppDelegate.swift */; };
 		E751F8CB1DB361C700334F3D /* HSCrisisCardSetSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751F8CA1DB361C700334F3D /* HSCrisisCardSetSelectionViewController.swift */; };
 		E751F8D01DB361C700334F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E751F8CE1DB361C700334F3D /* Main.storyboard */; };
@@ -63,6 +65,8 @@
 		11D34FF21DB4682D00001D52 /* ConflictCardTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConflictCardTable.swift; sourceTree = "<group>"; };
 		11D3500C1DB6FC8000001D52 /* SpyCraft Utility Belt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpyCraft Utility Belt-Bridging-Header.h"; sourceTree = "<group>"; };
 		181DDD3F152E189C62F89E04 /* Pods-SpyCraft Utility BeltUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility BeltUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility BeltUITests/Pods-SpyCraft Utility BeltUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3422D3406DF9D52D209651B5 /* Pods_SpyCraft_Utility_BeltTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_BeltTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		462771BB12D271068A8B2396 /* Pods_SpyCraft_Utility_BeltUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_BeltUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D50BAD672ED05091003F6A /* Pods-SpyCraft Utility BeltTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility BeltTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility BeltTests/Pods-SpyCraft Utility BeltTests.release.xcconfig"; sourceTree = "<group>"; };
 		57AB681858A99607AD7AC0C0 /* Pods-SpyCraft Utility BeltUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility BeltUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility BeltUITests/Pods-SpyCraft Utility BeltUITests.release.xcconfig"; sourceTree = "<group>"; };
 		C24FDEACF6C655D2F8DC31D2 /* Pods_SpyCraft_Utility_Belt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_Belt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67DECFDB7DD3829739D6F015 /* Pods_SpyCraft_Utility_BeltTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5C7172E7753F65ABD36513E /* Pods_SpyCraft_Utility_BeltUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +152,8 @@
 			children = (
 				116FB5901DB710A2000E475C /* FLKAutoLayout.framework */,
 				C24FDEACF6C655D2F8DC31D2 /* Pods_SpyCraft_Utility_Belt.framework */,
+				3422D3406DF9D52D209651B5 /* Pods_SpyCraft_Utility_BeltTests.framework */,
+				462771BB12D271068A8B2396 /* Pods_SpyCraft_Utility_BeltUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

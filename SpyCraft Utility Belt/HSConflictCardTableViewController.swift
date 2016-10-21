@@ -23,10 +23,13 @@ class HSConflictCardTableViewcontroller: UITableViewController {
     
     var tableSource: [CrisisCard]!
     
+    // Padding and other table values
+    let kCellHeight: CGFloat = 92.0
+    
     override func viewDidLoad() {
         // Load our database stuff
         self.loadCards()
-         self.tableView.register(HSCrisisCardCell.self, forCellReuseIdentifier: "crisisCardCell")
+        self.tableView.register(HSCrisisCardCell.self, forCellReuseIdentifier: "crisisCardCell")
     }
     
     private func loadCards() {
@@ -54,8 +57,12 @@ class HSConflictCardTableViewcontroller: UITableViewController {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "crisisCardCell", for: indexPath) as? HSCrisisCardCell {
             let card = self.tableSource[indexPath.row]
             
-//            cell.nameLabel.text = card.name
-//            cell.descLabel.text = card.desc
+            if let value = card.name {
+                cell.nameLabel.text = value
+            }
+            if let value = card.desc {
+                cell.descLabel.text = value
+            }
             
             return cell
         }
@@ -65,5 +72,9 @@ class HSConflictCardTableViewcontroller: UITableViewController {
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //
     }
-
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return kCellHeight;
+    }
+    
 }

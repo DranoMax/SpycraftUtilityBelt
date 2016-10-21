@@ -24,7 +24,7 @@
                   moduleName = "SpyCraft Utility Belt"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Alexander/Documents/HatStick/Spycraft%20Utility%20Belt/SpyCraft%20Utility%20Belt/ConflictCardTable.swift"
-                  timestampString = "498716227.531912"
+                  timestampString = "498723700.097104"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "11"
@@ -39,7 +39,7 @@
                   moduleName = "SpyCraft Utility Belt"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Alexander/Documents/HatStick/Spycraft%20Utility%20Belt/SpyCraft%20Utility%20Belt/ConflictCardTable.swift"
-                  timestampString = "498716227.533189"
+                  timestampString = "498723700.098976"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "0"
@@ -56,11 +56,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SpyCraft Utility Belt/ConflictCardTable.swift"
-            timestampString = "498712125.863047"
+            timestampString = "498722836.782548"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
             landmarkName = "loadCrisisCardTableForFirstTime()"
             landmarkType = "7">
          </BreakpointContent>
@@ -72,12 +72,60 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SpyCraft Utility Belt/HSConflictCardTableViewController.swift"
-            timestampString = "498716227.460946"
+            timestampString = "498718585.420762"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpyCraft_Utility_Belt.HSConflictCardTableViewcontroller.tableView (__ObjC.UITableView, cellForRowAt : Foundation.IndexPath) -&gt; __ObjC.UITableViewCell"
+                  moduleName = "SpyCraft Utility Belt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alexander/Documents/HatStick/Spycraft%20Utility%20Belt/SpyCraft%20Utility%20Belt/HSConflictCardTableViewController.swift"
+                  timestampString = "498723700.107485"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "595">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SpyCraft_Utility_Belt.HSConflictCardTableViewcontroller.tableView (__ObjC.UITableView, cellForRowAt : Foundation.IndexPath) -&gt; __ObjC.UITableViewCell"
+                  moduleName = "SpyCraft Utility Belt"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Alexander/Documents/HatStick/Spycraft%20Utility%20Belt/SpyCraft%20Utility%20Belt/HSConflictCardTableViewController.swift"
+                  timestampString = "498723700.108608"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "865">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SpyCraft Utility Belt/HSCrisisCardCell.swift"
+            timestampString = "498717568.522811"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "init(style:reuseIdentifier:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
