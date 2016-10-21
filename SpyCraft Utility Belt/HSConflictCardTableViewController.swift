@@ -21,38 +21,49 @@ class HSConflictCardTableViewcontroller: UITableViewController {
         case kSeduction = 6
     }
     
+    var tableSource: [CrisisCard]!
+    
     override func viewDidLoad() {
         // Load our database stuff
         self.loadCards()
+         self.tableView.register(HSCrisisCardCell.self, forCellReuseIdentifier: "crisisCardCell")
     }
     
     private func loadCards() {
-        let mob = HSDatabaseManager.sharedInstance.mob
-        
-        let entity = NSEntityDescription.entity(forEntityName: "CrisisCard", in: mob)
-        let card = NSManagedObject(entity: entity!, insertInto: mob) as! CrisisCard
-        
-        card.name = "Test"
-        HSDatabaseManager.sharedInstance.save()
+        let moc = HSDatabaseManager.sharedInstance.mob
+        do {
+            let crisisCardFetchRequest: NSFetchRequest<CrisisCard> = CrisisCard.fetchRequest()
+            self.tableSource = try moc.fetch(crisisCardFetchRequest)
+        } catch {
+            fatalError("Failed to fetch employees: \(error)")
+        }
     }
     
+    // MARK: - UITableViewDelegate
     
-//    override func numberOfSections(in tableView: UITableView) -> Int {
-//        return 1
-//    }
-//    
-//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        super.tableView(tableView, numberOfRowsInSection: section)
-//        return 0
-//        
-//    }
-//    
-//    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-//        return nil
-//    }
-//    
-//    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        //
-//    }
+    override func numberOfSections(in tableView: UITableView) -> Int {
+        return 1
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        super.tableView(tableView, numberOfRowsInSection: section)
+        return self.tableSource.count
+    }
+    
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "crisisCardCell", for: indexPath) as? HSCrisisCardCell {
+            let card = self.tableSource[indexPath.row]
+            
+//            cell.nameLabel.text = card.name
+//            cell.descLabel.text = card.desc
+            
+            return cell
+        }
+        return UITableViewCell()
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        //
+    }
 
 }

@@ -7,215 +7,149 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01A79DB37E43A0ECFD997D39E9376D1B /* UIView+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E13AE4D1A2C7879A458421BD2249263 /* UIView+FLKAutoLayout.m */; };
-		0AC27054BBEC4377C07B788C262BD38A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		0C24A0FCDDF216E844F02B312F656662 /* FLKAutoLayout-iOS9.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CD0A124D66FB92FC0A703649C07F9904 /* FLKAutoLayout-iOS9.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D5F855797DF03AF9DC0DD0EAEC587AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		0F056898FF0460E35CA0815E152DFD72 /* FLKAutoLayoutPredicateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498C8D0228E09B7B37207B87799F0ED /* FLKAutoLayoutPredicateList.m */; };
-		1873CBDE251E2EE0A4C3A5DD2FF209C9 /* NSObject+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8CE983600F25623963B3F905095A68 /* NSObject+FLKAutoLayoutDebug.m */; };
-		1893212B05F1010241CDDB559E305E62 /* UIViewController+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BE268B02BFB008B50E21F3DA207DAC51 /* UIViewController+FLKAutoLayout.m */; };
-		1BFF598EDD965BB3AC507F65EC7B3061 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		1CAFE65121B1A8596C2382EA4F712178 /* Pods-SpyCraft Utility BeltUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E6E3A07761E588FD17555DA76CC218 /* Pods-SpyCraft Utility BeltUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1DDBF5BA697DF3D2916C87A3E19658A0 /* NSObject+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8CE983600F25623963B3F905095A68 /* NSObject+FLKAutoLayoutDebug.m */; };
-		208ADE253F053F51A16CFDD52ACFA222 /* UIView+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = A61AF248A88D75CAA3100C8B0607FB27 /* UIView+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2C32DA6F4C0D2A85BF9990F210AACC83 /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B04C646E8B342DA887905446F28821 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */; };
-		2D4424609CBC41F244AE03B47DFA08A8 /* UIViewController+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = BE268B02BFB008B50E21F3DA207DAC51 /* UIViewController+FLKAutoLayout.m */; };
-		404B34794721B7474ECB325284253C22 /* FLKAutoLayout-iOS9.3-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D723144D655E02A254F6D2D94A49EC /* FLKAutoLayout-iOS9.3-dummy.m */; };
-		43BD5B3776AFC1744A84B814A1C288DA /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08509FD46539D23C2683CF2D429B2F31 /* UIView+FLKAutoLayoutPredicate.m */; };
-		46C84A56938F41A8B4612A4C180C33E9 /* FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A703A33E3A4B6D01534C907E85A201 /* FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4960C2A1F6172EE871C3B5E3F37BC4AE /* FLKAutoLayoutPredicateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1498C8D0228E09B7B37207B87799F0ED /* FLKAutoLayoutPredicateList.m */; };
-		4E4E1A4D43931B86002AD5CC0D0AF51F /* NSObject+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = A57B91B14AB7B9435C730A0D83A55DCE /* NSObject+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4EB8C692F9A16EF0C719512700DBA3E3 /* Pods-SpyCraft Utility Belt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BB19E47A4F9F0857A82B66203B165E /* Pods-SpyCraft Utility Belt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51139A1FE7D93328DC60AB5FFEB4C21E /* UIView+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 893BAA3281A69AA411C5C1B0B5AA7B8F /* UIView+FLKAutoLayoutDebug.m */; };
-		57BD5308601AFA76A0910B8268F0B9AA /* FLKAutoLayout-iOS9.3-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 505F6649F3CF96E6E7D04483CB02A7E4 /* FLKAutoLayout-iOS9.3-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5B1D7D7869DCC2DC65D2F8558671A56A /* UIView+FLKAutoLayoutPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 105F42BB44D525ED8641C80BDC4FC919 /* UIView+FLKAutoLayoutPredicate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5F89C6814A2EFCCB0237B6755FAB978C /* UIView+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7060D155FD3A1608C7515CD2B71C14C3 /* UIView+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		653126751A48F90E5637DCEB4E83DCBD /* Pods-SpyCraft Utility BeltUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C5E56107BF4366609E0493DF83CA43 /* Pods-SpyCraft Utility BeltUITests-dummy.m */; };
-		6DF7F86CAC3AA6AD7CD99D8B45D3B10E /* FLKAutoLayoutPredicateList.h in Headers */ = {isa = PBXBuildFile; fileRef = DC51EE97A3EE6476B8007BF55B05F903 /* FLKAutoLayoutPredicateList.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		70A48BA494615D4F70C31548F63B8326 /* FLKAutoLayout-iOS9.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA993E15CAFF66E5AEC2AB491233F34B /* FLKAutoLayout-iOS9.0-dummy.m */; };
-		7959BFB0A12A92494BD3CF4578F76EB4 /* FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = C4A703A33E3A4B6D01534C907E85A201 /* FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		79BB5F1EC2DBD995EA1875B294356922 /* UIView+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 893BAA3281A69AA411C5C1B0B5AA7B8F /* UIView+FLKAutoLayoutDebug.m */; };
-		81A351B4D011DFCBC423974A63FD17AD /* UIViewController+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F85494AB5A04D4989A99C04DAC9060 /* UIViewController+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		860F5B15C8D478FFA0C2E8890E4CBB84 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 5783D4640D741E5E7A6F228728F0A041 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8616253F882C27F2888027EB2090B719 /* UIView+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E13AE4D1A2C7879A458421BD2249263 /* UIView+FLKAutoLayout.m */; };
-		87AD282CA23D3A670732A8BF30EE3F0C /* UIView+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7060D155FD3A1608C7515CD2B71C14C3 /* UIView+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9062754845721A59DAAA7CA582BA512F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		A09B5F1F87D9105CCF3E1E7D48B63B0B /* FLKAutoLayoutPredicateList.h in Headers */ = {isa = PBXBuildFile; fileRef = DC51EE97A3EE6476B8007BF55B05F903 /* FLKAutoLayoutPredicateList.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		A1680E5D1FC53AFF5402A31E264A484D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		B53AA55505D4C430D88AF78CE6D89043 /* UIView+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = A61AF248A88D75CAA3100C8B0607FB27 /* UIView+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7C56AFF674FD12D795BA736AF705BEC /* Pods-SpyCraft Utility Belt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37212EBC8FB49E7925DC56376BAA03 /* Pods-SpyCraft Utility Belt-dummy.m */; };
-		BF31ED050A7758353A89BB631EE70C87 /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 69B04C646E8B342DA887905446F28821 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */; };
-		E5A1FFFC5F41101EA104891DBF0C20F7 /* Pods-SpyCraft Utility BeltTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36273922D07699E9C2C85EA285F8BD50 /* Pods-SpyCraft Utility BeltTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E7AB9A464F197253AE21C95F63630354 /* NSObject+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = A57B91B14AB7B9435C730A0D83A55DCE /* NSObject+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E8E9017CCF6B1F185F9B0EDF28E5F5E3 /* Pods-SpyCraft Utility BeltTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 469ACABE655D15682F78B3D89ECBEDE4 /* Pods-SpyCraft Utility BeltTests-dummy.m */; };
-		EA368A2B935EB10FB4FBA6E77315E6B6 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 5783D4640D741E5E7A6F228728F0A041 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EC861C4075F59A78D854AE66789B10F8 /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08509FD46539D23C2683CF2D429B2F31 /* UIView+FLKAutoLayoutPredicate.m */; };
-		F8FDDB7FFA0A778B1D7D9D67826B67DD /* UIView+FLKAutoLayoutPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 105F42BB44D525ED8641C80BDC4FC919 /* UIView+FLKAutoLayoutPredicate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		FC797D9BC019E6D8B8704C8DD3853C85 /* UIViewController+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 68F85494AB5A04D4989A99C04DAC9060 /* UIViewController+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		079C7C5437FFBF406E8BD73C46D8CBCE /* UIViewController+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 66634FD96CCEE7F610269ACD98AEE11D /* UIViewController+FLKAutoLayout.m */; };
+		1035016B231157E67641D57FCC2A05FA /* UIView+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D6CE810E949528DD681518B7D56F8113 /* UIView+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EA6C1BEA1BA585C25D9789F36BC7F8D /* Pods-SpyCraft Utility BeltUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 25E6E3A07761E588FD17555DA76CC218 /* Pods-SpyCraft Utility BeltUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		220DF4AC27ECA2F3F858D803BD2509E8 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4158F2CFF72E8FC285D1F2892B225FB8 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2D179ADD33FCAC31DE202E491811E4A8 /* FLKAutoLayoutPredicateList.h in Headers */ = {isa = PBXBuildFile; fileRef = 9982BC678AC710DC7576FD4E2EB85A1C /* FLKAutoLayoutPredicateList.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33514869C3CC490715AB5E1CBA8162B1 /* FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 53A35C8BF78985A8D303691603CCBCA9 /* FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4675057A56B1D84DEE7A38D9A0718305 /* Pods-SpyCraft Utility BeltTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 36273922D07699E9C2C85EA285F8BD50 /* Pods-SpyCraft Utility BeltTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D1C3DC77AD1434568F272DCC5A7DDAF /* Pods-SpyCraft Utility Belt-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BB19E47A4F9F0857A82B66203B165E /* Pods-SpyCraft Utility Belt-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CCDCA2FC0DC02DAA491072CFD6ACCFC /* NSObject+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0547F67827B6B537DF9DB8958F0A65 /* NSObject+FLKAutoLayoutDebug.m */; };
+		6C8D6F0A325ADB34E5D77A2712ABEA94 /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = A7C3FF4661B250D3845DE8EF5DE4A306 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */; };
+		7384714E09F3E63AE73F48D4EFD4831D /* Pods-SpyCraft Utility BeltTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 469ACABE655D15682F78B3D89ECBEDE4 /* Pods-SpyCraft Utility BeltTests-dummy.m */; };
+		74310AC3743AEBD89B117D1AF8E53064 /* UIView+FLKAutoLayoutPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 962C664A3A8F1E0E6EF8FA0106BB535C /* UIView+FLKAutoLayoutPredicate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		7C4FCB0B34D815B8A394F4B32D0A6ED0 /* Pods-SpyCraft Utility BeltUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 33C5E56107BF4366609E0493DF83CA43 /* Pods-SpyCraft Utility BeltUITests-dummy.m */; };
+		8B2CF5F00019F12B54132C7A8BDDF889 /* UIView+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5194FC839EF495BCC02F5570000C65 /* UIView+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D54EA30BC6DC57434925290813770F8 /* NSObject+FLKAutoLayoutDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E5136FF44B82EC98DCFBBA3B287F33A /* NSObject+FLKAutoLayoutDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94E530B8F63C44DD84F212502CB3E264 /* UIView+FLKAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 67DF31B5DDFE401F8A12D623E82CC768 /* UIView+FLKAutoLayout.m */; };
+		9BD85FFDC5BE5044AD22576C4C020094 /* FLKAutoLayoutPredicateList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1386E1425E3AD2F7219193CECF1B6FE7 /* FLKAutoLayoutPredicateList.m */; };
+		B33EEAECDA3150314D280B7032B70C69 /* UIView+FLKAutoLayoutDebug.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EE29B75FA1CAA0A1E02BE986D7533C5 /* UIView+FLKAutoLayoutDebug.m */; };
+		B8115E37B7325665210B7A6F927DC844 /* FLKAutoLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96D40F2FCF6CBF70910EAB4EBDBA90E7 /* FLKAutoLayout-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAF6AFF4F150C99880FCC8FEA28018EF /* UIViewController+FLKAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 41E6D073FB7B7371F79D042E0573EF17 /* UIViewController+FLKAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC2820A003F22016A60879A879E0867E /* FLKAutoLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACBA7ED9C811CA4C6D3BA38171EFC68 /* FLKAutoLayout-dummy.m */; };
+		D4711FC70DE8ED758A2A38A41264285A /* Pods-SpyCraft Utility Belt-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB37212EBC8FB49E7925DC56376BAA03 /* Pods-SpyCraft Utility Belt-dummy.m */; };
+		F62F1C4C9DB5D9D0B84B445BE1DC60FF /* UIView+FLKAutoLayoutPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B14A02BEDC7E9FEA0CC3EBDEC461D9 /* UIView+FLKAutoLayoutPredicate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2D15D586D447F67F9763B64217402360 /* PBXContainerItemProxy */ = {
+		ADCBA5D13D72351B48DAF35A28508D41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E2468320611DBA6675E61C65FFC227CC;
-			remoteInfo = "FLKAutoLayout-iOS9.3";
+			remoteGlobalIDString = 7BFF26AFDBBCCAC9145945157AF97ED0;
+			remoteInfo = FLKAutoLayout;
 		};
-		6875EEF4E750E8F0A9D27AE9549E43F0 /* PBXContainerItemProxy */ = {
+		AE615996F9E7FFEAE82EFBD2C2D14DBD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3DE9B718804BE0BCC5346F73FD1E2166;
-			remoteInfo = "FLKAutoLayout-iOS9.0";
+			remoteGlobalIDString = 7BFF26AFDBBCCAC9145945157AF97ED0;
+			remoteInfo = FLKAutoLayout;
 		};
-		CBD299F4E6F9734E26A084AB956D25A3 /* PBXContainerItemProxy */ = {
+		E54B082A0554C9791AD0C4839D1FED45 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E2468320611DBA6675E61C65FFC227CC;
-			remoteInfo = "FLKAutoLayout-iOS9.3";
+			remoteGlobalIDString = 7BFF26AFDBBCCAC9145945157AF97ED0;
+			remoteInfo = FLKAutoLayout;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08509FD46539D23C2683CF2D429B2F31 /* UIView+FLKAutoLayoutPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutPredicate.m"; path = "FLKAutoLayout/Private/UIView+FLKAutoLayoutPredicate.m"; sourceTree = "<group>"; };
 		0B2AF2B9D9CFA0CB91AEA8A6FD809D13 /* Pods-SpyCraft Utility BeltUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpyCraft Utility BeltUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0B4340101EC0EED55DB95AC6256D5E41 /* Pods-SpyCraft Utility Belt-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpyCraft Utility Belt-acknowledgements.markdown"; sourceTree = "<group>"; };
-		105F42BB44D525ED8641C80BDC4FC919 /* UIView+FLKAutoLayoutPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutPredicate.h"; path = "FLKAutoLayout/Private/UIView+FLKAutoLayoutPredicate.h"; sourceTree = "<group>"; };
-		1498C8D0228E09B7B37207B87799F0ED /* FLKAutoLayoutPredicateList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLKAutoLayoutPredicateList.m; path = FLKAutoLayout/Private/FLKAutoLayoutPredicateList.m; sourceTree = "<group>"; };
+		1386E1425E3AD2F7219193CECF1B6FE7 /* FLKAutoLayoutPredicateList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FLKAutoLayoutPredicateList.m; path = FLKAutoLayout/Private/FLKAutoLayoutPredicateList.m; sourceTree = "<group>"; };
 		15842580CB5E9A2091CDC68E87AECBE7 /* Pods-SpyCraft Utility BeltUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SpyCraft Utility BeltUITests.modulemap"; sourceTree = "<group>"; };
-		1757E3E89EB93C74A216599315841BF4 /* FLKAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLKAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E6E3A07761E588FD17555DA76CC218 /* Pods-SpyCraft Utility BeltUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpyCraft Utility BeltUITests-umbrella.h"; sourceTree = "<group>"; };
-		293891E8AD9D823F1291E8061383C1FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../FLKAutoLayout-iOS9.3/Info.plist"; sourceTree = "<group>"; };
-		320F22C8123BEB38E8C70325FAB602B1 /* FLKAutoLayout-iOS9.3-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FLKAutoLayout-iOS9.3-prefix.pch"; path = "../FLKAutoLayout-iOS9.3/FLKAutoLayout-iOS9.3-prefix.pch"; sourceTree = "<group>"; };
 		331981350D06FA8AA90E0E1DD1A9A85B /* Pods-SpyCraft Utility BeltUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpyCraft Utility BeltUITests-resources.sh"; sourceTree = "<group>"; };
 		33C5E56107BF4366609E0493DF83CA43 /* Pods-SpyCraft Utility BeltUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpyCraft Utility BeltUITests-dummy.m"; sourceTree = "<group>"; };
 		36273922D07699E9C2C85EA285F8BD50 /* Pods-SpyCraft Utility BeltTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpyCraft Utility BeltTests-umbrella.h"; sourceTree = "<group>"; };
 		3ECCF1FAF0BCFA7B9754691419B5065A /* Pods-SpyCraft Utility BeltUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpyCraft Utility BeltUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		40BB19E47A4F9F0857A82B66203B165E /* Pods-SpyCraft Utility Belt-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SpyCraft Utility Belt-umbrella.h"; sourceTree = "<group>"; };
+		4158F2CFF72E8FC285D1F2892B225FB8 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/Private/NSLayoutConstraint+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		41E6D073FB7B7371F79D042E0573EF17 /* UIViewController+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FLKAutoLayout.h"; path = "FLKAutoLayout/UIViewController+FLKAutoLayout.h"; sourceTree = "<group>"; };
 		469ACABE655D15682F78B3D89ECBEDE4 /* Pods-SpyCraft Utility BeltTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpyCraft Utility BeltTests-dummy.m"; sourceTree = "<group>"; };
-		505F6649F3CF96E6E7D04483CB02A7E4 /* FLKAutoLayout-iOS9.3-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "FLKAutoLayout-iOS9.3-umbrella.h"; path = "../FLKAutoLayout-iOS9.3/FLKAutoLayout-iOS9.3-umbrella.h"; sourceTree = "<group>"; };
+		4B5194FC839EF495BCC02F5570000C65 /* UIView+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		53A35C8BF78985A8D303691603CCBCA9 /* FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayout.h; path = FLKAutoLayout/FLKAutoLayout.h; sourceTree = "<group>"; };
 		5496F835637905891E5ADBAE18CEE4E9 /* Pods-SpyCraft Utility Belt-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpyCraft Utility Belt-frameworks.sh"; sourceTree = "<group>"; };
-		5783D4640D741E5E7A6F228728F0A041 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/Private/NSLayoutConstraint+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
-		5F2FC373F59402BB8A082F84F42EAD19 /* FLKAutoLayout-iOS9.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "FLKAutoLayout-iOS9.0.modulemap"; sourceTree = "<group>"; };
+		655D3BF981752A18E67B3FE3EA08BCC6 /* FLKAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLKAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		65EF89B356584C45C953DCF22A1E5626 /* Pods-SpyCraft Utility Belt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpyCraft Utility Belt.release.xcconfig"; sourceTree = "<group>"; };
-		68F85494AB5A04D4989A99C04DAC9060 /* UIViewController+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FLKAutoLayout.h"; path = "FLKAutoLayout/UIViewController+FLKAutoLayout.h"; sourceTree = "<group>"; };
-		69B04C646E8B342DA887905446F28821 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/Private/NSLayoutConstraint+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
-		6AB748A256D5F9D43364DEB034647CAA /* FLKAutoLayout-iOS9.3.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "FLKAutoLayout-iOS9.3.xcconfig"; path = "../FLKAutoLayout-iOS9.3/FLKAutoLayout-iOS9.3.xcconfig"; sourceTree = "<group>"; };
-		6E13AE4D1A2C7879A458421BD2249263 /* UIView+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayout.m"; path = "FLKAutoLayout/UIView+FLKAutoLayout.m"; sourceTree = "<group>"; };
-		7060D155FD3A1608C7515CD2B71C14C3 /* UIView+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayout.h"; path = "FLKAutoLayout/UIView+FLKAutoLayout.h"; sourceTree = "<group>"; };
-		76427216FE2C81DC0EC26C2D56B034FC /* FLKAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FLKAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66169FC41B065688033DD6F6D70DE342 /* FLKAutoLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FLKAutoLayout.xcconfig; sourceTree = "<group>"; };
+		66634FD96CCEE7F610269ACD98AEE11D /* UIViewController+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FLKAutoLayout.m"; path = "FLKAutoLayout/UIViewController+FLKAutoLayout.m"; sourceTree = "<group>"; };
+		67DF31B5DDFE401F8A12D623E82CC768 /* UIView+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayout.m"; path = "FLKAutoLayout/UIView+FLKAutoLayout.m"; sourceTree = "<group>"; };
+		68B14A02BEDC7E9FEA0CC3EBDEC461D9 /* UIView+FLKAutoLayoutPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutPredicate.m"; path = "FLKAutoLayout/Private/UIView+FLKAutoLayoutPredicate.m"; sourceTree = "<group>"; };
+		6ACBA7ED9C811CA4C6D3BA38171EFC68 /* FLKAutoLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLKAutoLayout-dummy.m"; sourceTree = "<group>"; };
 		773E2763C60800AF08EAC582906C456F /* Pods-SpyCraft Utility BeltTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpyCraft Utility BeltTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7A0547F67827B6B537DF9DB8958F0A65 /* NSObject+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/NSObject+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
 		7BFE88A92425889B4500B866C0DBA225 /* Pods-SpyCraft Utility Belt-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpyCraft Utility Belt-acknowledgements.plist"; sourceTree = "<group>"; };
 		837B1D9F517C685055A0FEB007583B18 /* Pods-SpyCraft Utility Belt-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpyCraft Utility Belt-resources.sh"; sourceTree = "<group>"; };
-		893BAA3281A69AA411C5C1B0B5AA7B8F /* UIView+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
-		8DF1C681DF9BB267C811E1E8A4E20DF5 /* FLKAutoLayout-iOS9.3.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "FLKAutoLayout-iOS9.3.modulemap"; path = "../FLKAutoLayout-iOS9.3/FLKAutoLayout-iOS9.3.modulemap"; sourceTree = "<group>"; };
+		8E829485FC145DFF0436B8D2F55575FB /* Pods_SpyCraft_Utility_Belt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_Belt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE29B75FA1CAA0A1E02BE986D7533C5 /* UIView+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
 		8EE90A4872B1B36EE1F05B535F42A2A4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9EB3003705D07A5208AC25D36EC82E3F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		962C664A3A8F1E0E6EF8FA0106BB535C /* UIView+FLKAutoLayoutPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutPredicate.h"; path = "FLKAutoLayout/Private/UIView+FLKAutoLayoutPredicate.h"; sourceTree = "<group>"; };
+		96D40F2FCF6CBF70910EAB4EBDBA90E7 /* FLKAutoLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-umbrella.h"; sourceTree = "<group>"; };
+		9982BC678AC710DC7576FD4E2EB85A1C /* FLKAutoLayoutPredicateList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayoutPredicateList.h; path = FLKAutoLayout/Private/FLKAutoLayoutPredicateList.h; sourceTree = "<group>"; };
+		9E5136FF44B82EC98DCFBBA3B287F33A /* NSObject+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/NSObject+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
 		A36D548AC6F0073F382335187734F2C0 /* Pods-SpyCraft Utility BeltTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SpyCraft Utility BeltTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A41AE1A659F3B72C6026715B6DCB811F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A57B91B14AB7B9435C730A0D83A55DCE /* NSObject+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/NSObject+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
-		A61AF248A88D75CAA3100C8B0607FB27 /* UIView+FLKAutoLayoutDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayoutDebug.h"; path = "FLKAutoLayout/UIView+FLKAutoLayoutDebug.h"; sourceTree = "<group>"; };
+		A711F0550C68761A99702AA5ECD4CE98 /* FLKAutoLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FLKAutoLayout.modulemap; sourceTree = "<group>"; };
+		A7C3FF4661B250D3845DE8EF5DE4A306 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/Private/NSLayoutConstraint+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
 		A7FED33E86F98D6C1AD654B30398283D /* Pods-SpyCraft Utility BeltTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpyCraft Utility BeltTests-resources.sh"; sourceTree = "<group>"; };
 		AB999F52501671A783DD4F27E21AA5F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE47CF10731F2E2E01E88022A8716419 /* Pods-SpyCraft Utility BeltTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SpyCraft Utility BeltTests.modulemap"; sourceTree = "<group>"; };
 		B7FC9F41CAAC86651CE2126902392206 /* Pods-SpyCraft Utility BeltUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SpyCraft Utility BeltUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BE268B02BFB008B50E21F3DA207DAC51 /* UIViewController+FLKAutoLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FLKAutoLayout.m"; path = "FLKAutoLayout/UIViewController+FLKAutoLayout.m"; sourceTree = "<group>"; };
-		C4A703A33E3A4B6D01534C907E85A201 /* FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayout.h; path = FLKAutoLayout/FLKAutoLayout.h; sourceTree = "<group>"; };
+		C140AB2804616E5100234FE0494C2DC2 /* FLKAutoLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-prefix.pch"; sourceTree = "<group>"; };
 		C9B1CA30940D1E6B6A2452F8E83A5EEB /* Pods-SpyCraft Utility BeltTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpyCraft Utility BeltTests.release.xcconfig"; sourceTree = "<group>"; };
 		CB37212EBC8FB49E7925DC56376BAA03 /* Pods-SpyCraft Utility Belt-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SpyCraft Utility Belt-dummy.m"; sourceTree = "<group>"; };
-		CD0A124D66FB92FC0A703649C07F9904 /* FLKAutoLayout-iOS9.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-iOS9.0-umbrella.h"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		DA993E15CAFF66E5AEC2AB491233F34B /* FLKAutoLayout-iOS9.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FLKAutoLayout-iOS9.0-dummy.m"; sourceTree = "<group>"; };
-		DACEE82C71EE497AE6BCEBE809FBFD08 /* Pods_SpyCraft_Utility_Belt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_Belt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6CE810E949528DD681518B7D56F8113 /* UIView+FLKAutoLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+FLKAutoLayout.h"; path = "FLKAutoLayout/UIView+FLKAutoLayout.h"; sourceTree = "<group>"; };
 		DAF2902CA7B5BA6E47E7A331694D0872 /* Pods-SpyCraft Utility BeltTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpyCraft Utility BeltTests-frameworks.sh"; sourceTree = "<group>"; };
-		DC51EE97A3EE6476B8007BF55B05F903 /* FLKAutoLayoutPredicateList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FLKAutoLayoutPredicateList.h; path = FLKAutoLayout/Private/FLKAutoLayoutPredicateList.h; sourceTree = "<group>"; };
-		E103C6C37527931227C8D5E8A89CAC12 /* Pods_SpyCraft_Utility_BeltUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_BeltUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E145408878750BA032DD08BC9A4EDED3 /* Pods_SpyCraft_Utility_BeltTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_BeltTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2D723144D655E02A254F6D2D94A49EC /* FLKAutoLayout-iOS9.3-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "FLKAutoLayout-iOS9.3-dummy.m"; path = "../FLKAutoLayout-iOS9.3/FLKAutoLayout-iOS9.3-dummy.m"; sourceTree = "<group>"; };
 		E33633BA876C0AD33E71BB6B9E24DA6A /* Pods-SpyCraft Utility BeltUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpyCraft Utility BeltUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E4A9929B8F150C473FCA15D09A998CEE /* Pods-SpyCraft Utility Belt.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SpyCraft Utility Belt.modulemap"; sourceTree = "<group>"; };
-		E7D0CE292B161D8B67001FC008A0BA64 /* FLKAutoLayout-iOS9.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "FLKAutoLayout-iOS9.0.xcconfig"; sourceTree = "<group>"; };
+		EBD3CCA09F6254F049552EB6502D10FF /* Pods_SpyCraft_Utility_BeltTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_BeltTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2601218C55DF2B6730F6C683C96F025 /* Pods-SpyCraft Utility BeltTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpyCraft Utility BeltTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2D1B3B91FB45A3FC7840EEDF90A3335 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F300296F014F9EF80503B495A54CBA1D /* Pods_SpyCraft_Utility_BeltUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_BeltUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA65FE2180981E3EE435E07FA03EFE19 /* Pods-SpyCraft Utility BeltUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SpyCraft Utility BeltUITests-frameworks.sh"; sourceTree = "<group>"; };
-		FB8CE983600F25623963B3F905095A68 /* NSObject+FLKAutoLayoutDebug.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FLKAutoLayoutDebug.m"; path = "FLKAutoLayout/NSObject+FLKAutoLayoutDebug.m"; sourceTree = "<group>"; };
 		FC75A8E227D8980B6B3C52EEFADC1DC7 /* Pods-SpyCraft Utility Belt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SpyCraft Utility Belt.debug.xcconfig"; sourceTree = "<group>"; };
-		FF6642B5EFC700BFD6BF4B7CF411BFCC /* FLKAutoLayout-iOS9.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FLKAutoLayout-iOS9.0-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		324432BE274CD03767E4011A7E9FBAAA /* Frameworks */ = {
+		6095FD5943FBE1C27A74AF4F5154387C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AC27054BBEC4377C07B788C262BD38A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		443958EF0A37291CCB649FF53419F97A /* Frameworks */ = {
+		6B9F8F8E01D32552CE380901EE4914CD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1680E5D1FC53AFF5402A31E264A484D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		50F145ACA692BC0910A9C95AB2258CA9 /* Frameworks */ = {
+		B1C8D65F903B5DED669697D3108EAF24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BFF598EDD965BB3AC507F65EC7B3061 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78983965F04B64CA372676391132A531 /* Frameworks */ = {
+		BDB262DBB797BABC11EA8D824DAB3824 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D5F855797DF03AF9DC0DD0EAEC587AE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD5843ABB036D731D1091A4B1263D2F0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9062754845721A59DAAA7CA582BA512F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		35A8796A4E1074596EE87F4E583DB790 /* FLKAutoLayout */ = {
-			isa = PBXGroup;
-			children = (
-				C4A703A33E3A4B6D01534C907E85A201 /* FLKAutoLayout.h */,
-				DC51EE97A3EE6476B8007BF55B05F903 /* FLKAutoLayoutPredicateList.h */,
-				1498C8D0228E09B7B37207B87799F0ED /* FLKAutoLayoutPredicateList.m */,
-				5783D4640D741E5E7A6F228728F0A041 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */,
-				69B04C646E8B342DA887905446F28821 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */,
-				A57B91B14AB7B9435C730A0D83A55DCE /* NSObject+FLKAutoLayoutDebug.h */,
-				FB8CE983600F25623963B3F905095A68 /* NSObject+FLKAutoLayoutDebug.m */,
-				7060D155FD3A1608C7515CD2B71C14C3 /* UIView+FLKAutoLayout.h */,
-				6E13AE4D1A2C7879A458421BD2249263 /* UIView+FLKAutoLayout.m */,
-				A61AF248A88D75CAA3100C8B0607FB27 /* UIView+FLKAutoLayoutDebug.h */,
-				893BAA3281A69AA411C5C1B0B5AA7B8F /* UIView+FLKAutoLayoutDebug.m */,
-				105F42BB44D525ED8641C80BDC4FC919 /* UIView+FLKAutoLayoutPredicate.h */,
-				08509FD46539D23C2683CF2D429B2F31 /* UIView+FLKAutoLayoutPredicate.m */,
-				68F85494AB5A04D4989A99C04DAC9060 /* UIViewController+FLKAutoLayout.h */,
-				BE268B02BFB008B50E21F3DA207DAC51 /* UIViewController+FLKAutoLayout.m */,
-				9E73FDE6181A6ADD8BC86AC9A95C45ED /* Support Files */,
-			);
-			path = FLKAutoLayout;
-			sourceTree = "<group>";
-		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
@@ -241,21 +175,9 @@
 		4F4480E62592AD768B8E95B555B5A47B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				35A8796A4E1074596EE87F4E583DB790 /* FLKAutoLayout */,
+				C4A096FBDA3BF3539C50132ADAB88A06 /* FLKAutoLayout */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		6FD65CBF693F37F346F34302C9911294 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1757E3E89EB93C74A216599315841BF4 /* FLKAutoLayout.framework */,
-				76427216FE2C81DC0EC26C2D56B034FC /* FLKAutoLayout.framework */,
-				DACEE82C71EE497AE6BCEBE809FBFD08 /* Pods_SpyCraft_Utility_Belt.framework */,
-				E145408878750BA032DD08BC9A4EDED3 /* Pods_SpyCraft_Utility_BeltTests.framework */,
-				E103C6C37527931227C8D5E8A89CAC12 /* Pods_SpyCraft_Utility_BeltUITests.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -264,7 +186,7 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				4F4480E62592AD768B8E95B555B5A47B /* Pods */,
-				6FD65CBF693F37F346F34302C9911294 /* Products */,
+				F2C8CDF393049C715DF1ED801E12FA56 /* Products */,
 				D93C4EBA66B8206C742F555D4C11F842 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -287,32 +209,49 @@
 			path = "Target Support Files/Pods-SpyCraft Utility Belt";
 			sourceTree = "<group>";
 		};
-		9E73FDE6181A6ADD8BC86AC9A95C45ED /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5F2FC373F59402BB8A082F84F42EAD19 /* FLKAutoLayout-iOS9.0.modulemap */,
-				E7D0CE292B161D8B67001FC008A0BA64 /* FLKAutoLayout-iOS9.0.xcconfig */,
-				DA993E15CAFF66E5AEC2AB491233F34B /* FLKAutoLayout-iOS9.0-dummy.m */,
-				FF6642B5EFC700BFD6BF4B7CF411BFCC /* FLKAutoLayout-iOS9.0-prefix.pch */,
-				CD0A124D66FB92FC0A703649C07F9904 /* FLKAutoLayout-iOS9.0-umbrella.h */,
-				8DF1C681DF9BB267C811E1E8A4E20DF5 /* FLKAutoLayout-iOS9.3.modulemap */,
-				6AB748A256D5F9D43364DEB034647CAA /* FLKAutoLayout-iOS9.3.xcconfig */,
-				E2D723144D655E02A254F6D2D94A49EC /* FLKAutoLayout-iOS9.3-dummy.m */,
-				320F22C8123BEB38E8C70325FAB602B1 /* FLKAutoLayout-iOS9.3-prefix.pch */,
-				505F6649F3CF96E6E7D04483CB02A7E4 /* FLKAutoLayout-iOS9.3-umbrella.h */,
-				293891E8AD9D823F1291E8061383C1FB /* Info.plist */,
-				9EB3003705D07A5208AC25D36EC82E3F /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/FLKAutoLayout-iOS9.0";
-			sourceTree = "<group>";
-		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4A096FBDA3BF3539C50132ADAB88A06 /* FLKAutoLayout */ = {
+			isa = PBXGroup;
+			children = (
+				53A35C8BF78985A8D303691603CCBCA9 /* FLKAutoLayout.h */,
+				9982BC678AC710DC7576FD4E2EB85A1C /* FLKAutoLayoutPredicateList.h */,
+				1386E1425E3AD2F7219193CECF1B6FE7 /* FLKAutoLayoutPredicateList.m */,
+				4158F2CFF72E8FC285D1F2892B225FB8 /* NSLayoutConstraint+FLKAutoLayoutDebug.h */,
+				A7C3FF4661B250D3845DE8EF5DE4A306 /* NSLayoutConstraint+FLKAutoLayoutDebug.m */,
+				9E5136FF44B82EC98DCFBBA3B287F33A /* NSObject+FLKAutoLayoutDebug.h */,
+				7A0547F67827B6B537DF9DB8958F0A65 /* NSObject+FLKAutoLayoutDebug.m */,
+				D6CE810E949528DD681518B7D56F8113 /* UIView+FLKAutoLayout.h */,
+				67DF31B5DDFE401F8A12D623E82CC768 /* UIView+FLKAutoLayout.m */,
+				4B5194FC839EF495BCC02F5570000C65 /* UIView+FLKAutoLayoutDebug.h */,
+				8EE29B75FA1CAA0A1E02BE986D7533C5 /* UIView+FLKAutoLayoutDebug.m */,
+				962C664A3A8F1E0E6EF8FA0106BB535C /* UIView+FLKAutoLayoutPredicate.h */,
+				68B14A02BEDC7E9FEA0CC3EBDEC461D9 /* UIView+FLKAutoLayoutPredicate.m */,
+				41E6D073FB7B7371F79D042E0573EF17 /* UIViewController+FLKAutoLayout.h */,
+				66634FD96CCEE7F610269ACD98AEE11D /* UIViewController+FLKAutoLayout.m */,
+				D292745652449021246DF2502583AE29 /* Support Files */,
+			);
+			path = FLKAutoLayout;
+			sourceTree = "<group>";
+		};
+		D292745652449021246DF2502583AE29 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A711F0550C68761A99702AA5ECD4CE98 /* FLKAutoLayout.modulemap */,
+				66169FC41B065688033DD6F6D70DE342 /* FLKAutoLayout.xcconfig */,
+				6ACBA7ED9C811CA4C6D3BA38171EFC68 /* FLKAutoLayout-dummy.m */,
+				C140AB2804616E5100234FE0494C2DC2 /* FLKAutoLayout-prefix.pch */,
+				96D40F2FCF6CBF70910EAB4EBDBA90E7 /* FLKAutoLayout-umbrella.h */,
+				F2D1B3B91FB45A3FC7840EEDF90A3335 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FLKAutoLayout";
 			sourceTree = "<group>";
 		};
 		D93C4EBA66B8206C742F555D4C11F842 /* Targets Support Files */ = {
@@ -343,154 +282,132 @@
 			path = "Target Support Files/Pods-SpyCraft Utility BeltUITests";
 			sourceTree = "<group>";
 		};
+		F2C8CDF393049C715DF1ED801E12FA56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				655D3BF981752A18E67B3FE3EA08BCC6 /* FLKAutoLayout.framework */,
+				8E829485FC145DFF0436B8D2F55575FB /* Pods_SpyCraft_Utility_Belt.framework */,
+				EBD3CCA09F6254F049552EB6502D10FF /* Pods_SpyCraft_Utility_BeltTests.framework */,
+				F300296F014F9EF80503B495A54CBA1D /* Pods_SpyCraft_Utility_BeltUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7582CB5A3684605F25E229938FCFD1E8 /* Headers */ = {
+		0D51A8B18779C6266BF48BD237FC3B98 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CAFE65121B1A8596C2382EA4F712178 /* Pods-SpyCraft Utility BeltUITests-umbrella.h in Headers */,
+				4D1C3DC77AD1434568F272DCC5A7DDAF /* Pods-SpyCraft Utility Belt-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77606D5A50AAE3D69199D1AB82621F59 /* Headers */ = {
+		6F9B15957D48DC5153E5526B611E2424 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EB8C692F9A16EF0C719512700DBA3E3 /* Pods-SpyCraft Utility Belt-umbrella.h in Headers */,
+				B8115E37B7325665210B7A6F927DC844 /* FLKAutoLayout-umbrella.h in Headers */,
+				33514869C3CC490715AB5E1CBA8162B1 /* FLKAutoLayout.h in Headers */,
+				2D179ADD33FCAC31DE202E491811E4A8 /* FLKAutoLayoutPredicateList.h in Headers */,
+				220DF4AC27ECA2F3F858D803BD2509E8 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */,
+				8D54EA30BC6DC57434925290813770F8 /* NSObject+FLKAutoLayoutDebug.h in Headers */,
+				1035016B231157E67641D57FCC2A05FA /* UIView+FLKAutoLayout.h in Headers */,
+				8B2CF5F00019F12B54132C7A8BDDF889 /* UIView+FLKAutoLayoutDebug.h in Headers */,
+				74310AC3743AEBD89B117D1AF8E53064 /* UIView+FLKAutoLayoutPredicate.h in Headers */,
+				CAF6AFF4F150C99880FCC8FEA28018EF /* UIViewController+FLKAutoLayout.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDF4C386E2227F3FC6269699FDD67B6A /* Headers */ = {
+		70F9198CD384BB88175F72F78885E928 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C24A0FCDDF216E844F02B312F656662 /* FLKAutoLayout-iOS9.0-umbrella.h in Headers */,
-				7959BFB0A12A92494BD3CF4578F76EB4 /* FLKAutoLayout.h in Headers */,
-				6DF7F86CAC3AA6AD7CD99D8B45D3B10E /* FLKAutoLayoutPredicateList.h in Headers */,
-				EA368A2B935EB10FB4FBA6E77315E6B6 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */,
-				4E4E1A4D43931B86002AD5CC0D0AF51F /* NSObject+FLKAutoLayoutDebug.h in Headers */,
-				5F89C6814A2EFCCB0237B6755FAB978C /* UIView+FLKAutoLayout.h in Headers */,
-				208ADE253F053F51A16CFDD52ACFA222 /* UIView+FLKAutoLayoutDebug.h in Headers */,
-				F8FDDB7FFA0A778B1D7D9D67826B67DD /* UIView+FLKAutoLayoutPredicate.h in Headers */,
-				81A351B4D011DFCBC423974A63FD17AD /* UIViewController+FLKAutoLayout.h in Headers */,
+				1EA6C1BEA1BA585C25D9789F36BC7F8D /* Pods-SpyCraft Utility BeltUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C97A422396298C3620E9AFBBC42FDB41 /* Headers */ = {
+		F43A9D41B7E85CBBDA32A81CF47D2522 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57BD5308601AFA76A0910B8268F0B9AA /* FLKAutoLayout-iOS9.3-umbrella.h in Headers */,
-				46C84A56938F41A8B4612A4C180C33E9 /* FLKAutoLayout.h in Headers */,
-				A09B5F1F87D9105CCF3E1E7D48B63B0B /* FLKAutoLayoutPredicateList.h in Headers */,
-				860F5B15C8D478FFA0C2E8890E4CBB84 /* NSLayoutConstraint+FLKAutoLayoutDebug.h in Headers */,
-				E7AB9A464F197253AE21C95F63630354 /* NSObject+FLKAutoLayoutDebug.h in Headers */,
-				87AD282CA23D3A670732A8BF30EE3F0C /* UIView+FLKAutoLayout.h in Headers */,
-				B53AA55505D4C430D88AF78CE6D89043 /* UIView+FLKAutoLayoutDebug.h in Headers */,
-				5B1D7D7869DCC2DC65D2F8558671A56A /* UIView+FLKAutoLayoutPredicate.h in Headers */,
-				FC797D9BC019E6D8B8704C8DD3853C85 /* UIViewController+FLKAutoLayout.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E828F5EF3C81C9315E6B7F6212E8B942 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E5A1FFFC5F41101EA104891DBF0C20F7 /* Pods-SpyCraft Utility BeltTests-umbrella.h in Headers */,
+				4675057A56B1D84DEE7A38D9A0718305 /* Pods-SpyCraft Utility BeltTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2D7B4EAE0BBD76D038E799BA73D94326 /* Pods-SpyCraft Utility BeltTests */ = {
+		3E2C784AC76F616CC121FF4FCEE1B7EA /* Pods-SpyCraft Utility Belt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D9D63291645829A1E3B7C92E3DF85BD /* Build configuration list for PBXNativeTarget "Pods-SpyCraft Utility BeltTests" */;
+			buildConfigurationList = 69A6DCB71944DBC6AB14C6D9D14B43DD /* Build configuration list for PBXNativeTarget "Pods-SpyCraft Utility Belt" */;
 			buildPhases = (
-				9AFEB57CA42EF845177E742EC4D276A6 /* Sources */,
-				324432BE274CD03767E4011A7E9FBAAA /* Frameworks */,
-				E828F5EF3C81C9315E6B7F6212E8B942 /* Headers */,
+				EF46440D8D2323565F4C0CD9456E7783 /* Sources */,
+				B1C8D65F903B5DED669697D3108EAF24 /* Frameworks */,
+				0D51A8B18779C6266BF48BD237FC3B98 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4570B1F08383C8CF51D89FDDB38322A2 /* PBXTargetDependency */,
-			);
-			name = "Pods-SpyCraft Utility BeltTests";
-			productName = "Pods-SpyCraft Utility BeltTests";
-			productReference = E145408878750BA032DD08BC9A4EDED3 /* Pods_SpyCraft_Utility_BeltTests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		3DE9B718804BE0BCC5346F73FD1E2166 /* FLKAutoLayout-iOS9.0 */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A4136F5B3C58E2858A970A0CA0577316 /* Build configuration list for PBXNativeTarget "FLKAutoLayout-iOS9.0" */;
-			buildPhases = (
-				1D7BC9D61A685E7C827263F7E0202696 /* Sources */,
-				443958EF0A37291CCB649FF53419F97A /* Frameworks */,
-				BDF4C386E2227F3FC6269699FDD67B6A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "FLKAutoLayout-iOS9.0";
-			productName = "FLKAutoLayout-iOS9.0";
-			productReference = 1757E3E89EB93C74A216599315841BF4 /* FLKAutoLayout.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		8858490A0F14D8D93BDB3FE984E88CC4 /* Pods-SpyCraft Utility BeltUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AE4DD924D99042EBF4B87FAFA3867774 /* Build configuration list for PBXNativeTarget "Pods-SpyCraft Utility BeltUITests" */;
-			buildPhases = (
-				37E4EEFAF64A8FD0ABF5FDFFC598C835 /* Sources */,
-				FD5843ABB036D731D1091A4B1263D2F0 /* Frameworks */,
-				7582CB5A3684605F25E229938FCFD1E8 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0E58185E054BCC9934737F0DE3D0B089 /* PBXTargetDependency */,
-			);
-			name = "Pods-SpyCraft Utility BeltUITests";
-			productName = "Pods-SpyCraft Utility BeltUITests";
-			productReference = E103C6C37527931227C8D5E8A89CAC12 /* Pods_SpyCraft_Utility_BeltUITests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		CE8339C96030A728F8C0EAA64ED9BE3A /* Pods-SpyCraft Utility Belt */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = FFB49C1C6EA2C3571C764A78054A5C9B /* Build configuration list for PBXNativeTarget "Pods-SpyCraft Utility Belt" */;
-			buildPhases = (
-				299F7C58E4DDACD544365F8E6A25B277 /* Sources */,
-				78983965F04B64CA372676391132A531 /* Frameworks */,
-				77606D5A50AAE3D69199D1AB82621F59 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E7CDA2520D1867D3253E37BECDDBBE2E /* PBXTargetDependency */,
+				631C37292C9015677B045A068E85C94D /* PBXTargetDependency */,
 			);
 			name = "Pods-SpyCraft Utility Belt";
 			productName = "Pods-SpyCraft Utility Belt";
-			productReference = DACEE82C71EE497AE6BCEBE809FBFD08 /* Pods_SpyCraft_Utility_Belt.framework */;
+			productReference = 8E829485FC145DFF0436B8D2F55575FB /* Pods_SpyCraft_Utility_Belt.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E2468320611DBA6675E61C65FFC227CC /* FLKAutoLayout-iOS9.3 */ = {
+		7BFF26AFDBBCCAC9145945157AF97ED0 /* FLKAutoLayout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A648958205C816844B292E8E263B05A /* Build configuration list for PBXNativeTarget "FLKAutoLayout-iOS9.3" */;
+			buildConfigurationList = 97A49624C37F18CD17C25E461A85870B /* Build configuration list for PBXNativeTarget "FLKAutoLayout" */;
 			buildPhases = (
-				2A50ADECF8DB1623CB05E5DAEBEDFA81 /* Sources */,
-				50F145ACA692BC0910A9C95AB2258CA9 /* Frameworks */,
-				C97A422396298C3620E9AFBBC42FDB41 /* Headers */,
+				D39BE1726333BA4DA2AAC926564C5425 /* Sources */,
+				6B9F8F8E01D32552CE380901EE4914CD /* Frameworks */,
+				6F9B15957D48DC5153E5526B611E2424 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "FLKAutoLayout-iOS9.3";
-			productName = "FLKAutoLayout-iOS9.3";
-			productReference = 76427216FE2C81DC0EC26C2D56B034FC /* FLKAutoLayout.framework */;
+			name = FLKAutoLayout;
+			productName = FLKAutoLayout;
+			productReference = 655D3BF981752A18E67B3FE3EA08BCC6 /* FLKAutoLayout.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C2F8610E7BD84B9046F0727ED3705D44 /* Pods-SpyCraft Utility BeltUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3B457BC4A98A7A96F9ED5B440F14C26 /* Build configuration list for PBXNativeTarget "Pods-SpyCraft Utility BeltUITests" */;
+			buildPhases = (
+				CDE5A640F3D97DD4F089566B60482A03 /* Sources */,
+				BDB262DBB797BABC11EA8D824DAB3824 /* Frameworks */,
+				70F9198CD384BB88175F72F78885E928 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F410D633C44622A16C63C29CBCCEAB5A /* PBXTargetDependency */,
+			);
+			name = "Pods-SpyCraft Utility BeltUITests";
+			productName = "Pods-SpyCraft Utility BeltUITests";
+			productReference = F300296F014F9EF80503B495A54CBA1D /* Pods_SpyCraft_Utility_BeltUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D2AE964307E99347E00A3DB8B45108E5 /* Pods-SpyCraft Utility BeltTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EE3741714F849A582ED111D2008F70 /* Build configuration list for PBXNativeTarget "Pods-SpyCraft Utility BeltTests" */;
+			buildPhases = (
+				0FB12635FE05816B46392C02453FEC63 /* Sources */,
+				6095FD5943FBE1C27A74AF4F5154387C /* Frameworks */,
+				F43A9D41B7E85CBBDA32A81CF47D2522 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89296577FAC3B7D328F1224B41C2B651 /* PBXTargetDependency */,
+			);
+			name = "Pods-SpyCraft Utility BeltTests";
+			productName = "Pods-SpyCraft Utility BeltTests";
+			productReference = EBD3CCA09F6254F049552EB6502D10FF /* Pods_SpyCraft_Utility_BeltTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -510,94 +427,78 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 6FD65CBF693F37F346F34302C9911294 /* Products */;
+			productRefGroup = F2C8CDF393049C715DF1ED801E12FA56 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3DE9B718804BE0BCC5346F73FD1E2166 /* FLKAutoLayout-iOS9.0 */,
-				E2468320611DBA6675E61C65FFC227CC /* FLKAutoLayout-iOS9.3 */,
-				CE8339C96030A728F8C0EAA64ED9BE3A /* Pods-SpyCraft Utility Belt */,
-				2D7B4EAE0BBD76D038E799BA73D94326 /* Pods-SpyCraft Utility BeltTests */,
-				8858490A0F14D8D93BDB3FE984E88CC4 /* Pods-SpyCraft Utility BeltUITests */,
+				7BFF26AFDBBCCAC9145945157AF97ED0 /* FLKAutoLayout */,
+				3E2C784AC76F616CC121FF4FCEE1B7EA /* Pods-SpyCraft Utility Belt */,
+				D2AE964307E99347E00A3DB8B45108E5 /* Pods-SpyCraft Utility BeltTests */,
+				C2F8610E7BD84B9046F0727ED3705D44 /* Pods-SpyCraft Utility BeltUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1D7BC9D61A685E7C827263F7E0202696 /* Sources */ = {
+		0FB12635FE05816B46392C02453FEC63 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70A48BA494615D4F70C31548F63B8326 /* FLKAutoLayout-iOS9.0-dummy.m in Sources */,
-				4960C2A1F6172EE871C3B5E3F37BC4AE /* FLKAutoLayoutPredicateList.m in Sources */,
-				BF31ED050A7758353A89BB631EE70C87 /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */,
-				1DDBF5BA697DF3D2916C87A3E19658A0 /* NSObject+FLKAutoLayoutDebug.m in Sources */,
-				8616253F882C27F2888027EB2090B719 /* UIView+FLKAutoLayout.m in Sources */,
-				79BB5F1EC2DBD995EA1875B294356922 /* UIView+FLKAutoLayoutDebug.m in Sources */,
-				43BD5B3776AFC1744A84B814A1C288DA /* UIView+FLKAutoLayoutPredicate.m in Sources */,
-				2D4424609CBC41F244AE03B47DFA08A8 /* UIViewController+FLKAutoLayout.m in Sources */,
+				7384714E09F3E63AE73F48D4EFD4831D /* Pods-SpyCraft Utility BeltTests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		299F7C58E4DDACD544365F8E6A25B277 /* Sources */ = {
+		CDE5A640F3D97DD4F089566B60482A03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7C56AFF674FD12D795BA736AF705BEC /* Pods-SpyCraft Utility Belt-dummy.m in Sources */,
+				7C4FCB0B34D815B8A394F4B32D0A6ED0 /* Pods-SpyCraft Utility BeltUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2A50ADECF8DB1623CB05E5DAEBEDFA81 /* Sources */ = {
+		D39BE1726333BA4DA2AAC926564C5425 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				404B34794721B7474ECB325284253C22 /* FLKAutoLayout-iOS9.3-dummy.m in Sources */,
-				0F056898FF0460E35CA0815E152DFD72 /* FLKAutoLayoutPredicateList.m in Sources */,
-				2C32DA6F4C0D2A85BF9990F210AACC83 /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */,
-				1873CBDE251E2EE0A4C3A5DD2FF209C9 /* NSObject+FLKAutoLayoutDebug.m in Sources */,
-				01A79DB37E43A0ECFD997D39E9376D1B /* UIView+FLKAutoLayout.m in Sources */,
-				51139A1FE7D93328DC60AB5FFEB4C21E /* UIView+FLKAutoLayoutDebug.m in Sources */,
-				EC861C4075F59A78D854AE66789B10F8 /* UIView+FLKAutoLayoutPredicate.m in Sources */,
-				1893212B05F1010241CDDB559E305E62 /* UIViewController+FLKAutoLayout.m in Sources */,
+				CC2820A003F22016A60879A879E0867E /* FLKAutoLayout-dummy.m in Sources */,
+				9BD85FFDC5BE5044AD22576C4C020094 /* FLKAutoLayoutPredicateList.m in Sources */,
+				6C8D6F0A325ADB34E5D77A2712ABEA94 /* NSLayoutConstraint+FLKAutoLayoutDebug.m in Sources */,
+				5CCDCA2FC0DC02DAA491072CFD6ACCFC /* NSObject+FLKAutoLayoutDebug.m in Sources */,
+				94E530B8F63C44DD84F212502CB3E264 /* UIView+FLKAutoLayout.m in Sources */,
+				B33EEAECDA3150314D280B7032B70C69 /* UIView+FLKAutoLayoutDebug.m in Sources */,
+				F62F1C4C9DB5D9D0B84B445BE1DC60FF /* UIView+FLKAutoLayoutPredicate.m in Sources */,
+				079C7C5437FFBF406E8BD73C46D8CBCE /* UIViewController+FLKAutoLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		37E4EEFAF64A8FD0ABF5FDFFC598C835 /* Sources */ = {
+		EF46440D8D2323565F4C0CD9456E7783 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				653126751A48F90E5637DCEB4E83DCBD /* Pods-SpyCraft Utility BeltUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9AFEB57CA42EF845177E742EC4D276A6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E8E9017CCF6B1F185F9B0EDF28E5F5E3 /* Pods-SpyCraft Utility BeltTests-dummy.m in Sources */,
+				D4711FC70DE8ED758A2A38A41264285A /* Pods-SpyCraft Utility Belt-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0E58185E054BCC9934737F0DE3D0B089 /* PBXTargetDependency */ = {
+		631C37292C9015677B045A068E85C94D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "FLKAutoLayout-iOS9.3";
-			target = E2468320611DBA6675E61C65FFC227CC /* FLKAutoLayout-iOS9.3 */;
-			targetProxy = 2D15D586D447F67F9763B64217402360 /* PBXContainerItemProxy */;
+			name = FLKAutoLayout;
+			target = 7BFF26AFDBBCCAC9145945157AF97ED0 /* FLKAutoLayout */;
+			targetProxy = E54B082A0554C9791AD0C4839D1FED45 /* PBXContainerItemProxy */;
 		};
-		4570B1F08383C8CF51D89FDDB38322A2 /* PBXTargetDependency */ = {
+		89296577FAC3B7D328F1224B41C2B651 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "FLKAutoLayout-iOS9.3";
-			target = E2468320611DBA6675E61C65FFC227CC /* FLKAutoLayout-iOS9.3 */;
-			targetProxy = CBD299F4E6F9734E26A084AB956D25A3 /* PBXContainerItemProxy */;
+			name = FLKAutoLayout;
+			target = 7BFF26AFDBBCCAC9145945157AF97ED0 /* FLKAutoLayout */;
+			targetProxy = ADCBA5D13D72351B48DAF35A28508D41 /* PBXContainerItemProxy */;
 		};
-		E7CDA2520D1867D3253E37BECDDBBE2E /* PBXTargetDependency */ = {
+		F410D633C44622A16C63C29CBCCEAB5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "FLKAutoLayout-iOS9.0";
-			target = 3DE9B718804BE0BCC5346F73FD1E2166 /* FLKAutoLayout-iOS9.0 */;
-			targetProxy = 6875EEF4E750E8F0A9D27AE9549E43F0 /* PBXContainerItemProxy */;
+			name = FLKAutoLayout;
+			target = 7BFF26AFDBBCCAC9145945157AF97ED0 /* FLKAutoLayout */;
+			targetProxy = AE615996F9E7FFEAE82EFBD2C2D14DBD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -644,7 +545,41 @@
 			};
 			name = Debug;
 		};
-		2C6B9B3075833BFA5DEB83BE7485D089 /* Release */ = {
+		39E9422A64EC8FADEDE6A852EB3F2088 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9B1CA30940D1E6B6A2452F8E83A5EEB /* Pods-SpyCraft Utility BeltTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpyCraft Utility BeltTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpyCraft Utility BeltTests/Pods-SpyCraft Utility BeltTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpyCraft_Utility_BeltTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		417BA68A493F97AE77E2C2F3C0B19877 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E33633BA876C0AD33E71BB6B9E24DA6A /* Pods-SpyCraft Utility BeltUITests.release.xcconfig */;
 			buildSettings = {
@@ -659,7 +594,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-SpyCraft Utility BeltUITests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SpyCraft Utility BeltUITests/Pods-SpyCraft Utility BeltUITests.modulemap";
@@ -678,39 +613,9 @@
 			};
 			name = Release;
 		};
-		43BAF155AB22881894060851F5D0789F /* Release */ = {
+		4CC722DE58015BB2A7385D956EB274C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7D0CE292B161D8B67001FC008A0BA64 /* FLKAutoLayout-iOS9.0.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout-iOS9.0/FLKAutoLayout-iOS9.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout-iOS9.0/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout-iOS9.0/FLKAutoLayout-iOS9.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FLKAutoLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4ABBE665CDC420808DD90F40FF8B46D8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ECCF1FAF0BCFA7B9754691419B5065A /* Pods-SpyCraft Utility BeltUITests.debug.xcconfig */;
+			baseConfigurationReference = 66169FC41B065688033DD6F6D70DE342 /* FLKAutoLayout.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -721,46 +626,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SpyCraft Utility BeltUITests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SpyCraft Utility BeltUITests/Pods-SpyCraft Utility BeltUITests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SpyCraft_Utility_BeltUITests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		595A2FA971D0D8C5DEE851793A28A962 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AB748A256D5F9D43364DEB034647CAA /* FLKAutoLayout-iOS9.3.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout-iOS9.3/FLKAutoLayout-iOS9.3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout-iOS9.3/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout/FLKAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout-iOS9.3/FLKAutoLayout-iOS9.3.modulemap";
+				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = FLKAutoLayout;
 				SDKROOT = iphoneos;
@@ -772,37 +643,7 @@
 			};
 			name = Debug;
 		};
-		6D0B87A3FD91161F90EE00CACB6A8DB5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6AB748A256D5F9D43364DEB034647CAA /* FLKAutoLayout-iOS9.3.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout-iOS9.3/FLKAutoLayout-iOS9.3-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout-iOS9.3/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout-iOS9.3/FLKAutoLayout-iOS9.3.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = FLKAutoLayout;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		87203B9AA21E862376B81015787E29CB /* Debug */ = {
+		5976E3E6234554CA5A109D15C4EF5A10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F2601218C55DF2B6730F6C683C96F025 /* Pods-SpyCraft Utility BeltTests.debug.xcconfig */;
 			buildSettings = {
@@ -817,7 +658,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-SpyCraft Utility BeltTests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-SpyCraft Utility BeltTests/Pods-SpyCraft Utility BeltTests.modulemap";
@@ -836,9 +677,9 @@
 			};
 			name = Debug;
 		};
-		9DF1B1123DE2A0C237CDAC1E89DA86C9 /* Debug */ = {
+		660C8986BD6595B8ADE3F5180758330C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E7D0CE292B161D8B67001FC008A0BA64 /* FLKAutoLayout-iOS9.0.xcconfig */;
+			baseConfigurationReference = FC75A8E227D8980B6B3C52EEFADC1DC7 /* Pods-SpyCraft Utility Belt.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -849,14 +690,116 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout-iOS9.0/FLKAutoLayout-iOS9.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout-iOS9.0/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SpyCraft Utility Belt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpyCraft Utility Belt/Pods-SpyCraft Utility Belt.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpyCraft_Utility_Belt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6BA0652D92A62ABA7D4D1A8FFBFC8929 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66169FC41B065688033DD6F6D70DE342 /* FLKAutoLayout.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/FLKAutoLayout/FLKAutoLayout-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FLKAutoLayout/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout-iOS9.0/FLKAutoLayout-iOS9.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MODULEMAP_FILE = "Target Support Files/FLKAutoLayout/FLKAutoLayout.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = FLKAutoLayout;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		86A91C3765C56E3D7BF7DE354C5DFFBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65EF89B356584C45C953DCF22A1E5626 /* Pods-SpyCraft Utility Belt.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpyCraft Utility Belt/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpyCraft Utility Belt/Pods-SpyCraft Utility Belt.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpyCraft_Utility_Belt;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9E1D26FF378E0D63F0C2ECF94D9E6308 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ECCF1FAF0BCFA7B9754691419B5065A /* Pods-SpyCraft Utility BeltUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SpyCraft Utility BeltUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SpyCraft Utility BeltUITests/Pods-SpyCraft Utility BeltUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SpyCraft_Utility_BeltUITests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -904,120 +847,9 @@
 			};
 			name = Release;
 		};
-		D0C60C04673E403D2DD4561BD69053A3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65EF89B356584C45C953DCF22A1E5626 /* Pods-SpyCraft Utility Belt.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SpyCraft Utility Belt/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SpyCraft Utility Belt/Pods-SpyCraft Utility Belt.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SpyCraft_Utility_Belt;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D60C8459ED3B1EEC70ADB4AA654D57DB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9B1CA30940D1E6B6A2452F8E83A5EEB /* Pods-SpyCraft Utility BeltTests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SpyCraft Utility BeltTests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SpyCraft Utility BeltTests/Pods-SpyCraft Utility BeltTests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SpyCraft_Utility_BeltTests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EF75BF0158916EC3B42D0CD1866A5C90 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC75A8E227D8980B6B3C52EEFADC1DC7 /* Pods-SpyCraft Utility Belt.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SpyCraft Utility Belt/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SpyCraft Utility Belt/Pods-SpyCraft Utility Belt.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SpyCraft_Utility_Belt;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D9D63291645829A1E3B7C92E3DF85BD /* Build configuration list for PBXNativeTarget "Pods-SpyCraft Utility BeltTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				87203B9AA21E862376B81015787E29CB /* Debug */,
-				D60C8459ED3B1EEC70ADB4AA654D57DB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1027,38 +859,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A648958205C816844B292E8E263B05A /* Build configuration list for PBXNativeTarget "FLKAutoLayout-iOS9.3" */ = {
+		50EE3741714F849A582ED111D2008F70 /* Build configuration list for PBXNativeTarget "Pods-SpyCraft Utility BeltTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				595A2FA971D0D8C5DEE851793A28A962 /* Debug */,
-				6D0B87A3FD91161F90EE00CACB6A8DB5 /* Release */,
+				5976E3E6234554CA5A109D15C4EF5A10 /* Debug */,
+				39E9422A64EC8FADEDE6A852EB3F2088 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A4136F5B3C58E2858A970A0CA0577316 /* Build configuration list for PBXNativeTarget "FLKAutoLayout-iOS9.0" */ = {
+		69A6DCB71944DBC6AB14C6D9D14B43DD /* Build configuration list for PBXNativeTarget "Pods-SpyCraft Utility Belt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9DF1B1123DE2A0C237CDAC1E89DA86C9 /* Debug */,
-				43BAF155AB22881894060851F5D0789F /* Release */,
+				660C8986BD6595B8ADE3F5180758330C /* Debug */,
+				86A91C3765C56E3D7BF7DE354C5DFFBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AE4DD924D99042EBF4B87FAFA3867774 /* Build configuration list for PBXNativeTarget "Pods-SpyCraft Utility BeltUITests" */ = {
+		97A49624C37F18CD17C25E461A85870B /* Build configuration list for PBXNativeTarget "FLKAutoLayout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4ABBE665CDC420808DD90F40FF8B46D8 /* Debug */,
-				2C6B9B3075833BFA5DEB83BE7485D089 /* Release */,
+				4CC722DE58015BB2A7385D956EB274C8 /* Debug */,
+				6BA0652D92A62ABA7D4D1A8FFBFC8929 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FFB49C1C6EA2C3571C764A78054A5C9B /* Build configuration list for PBXNativeTarget "Pods-SpyCraft Utility Belt" */ = {
+		F3B457BC4A98A7A96F9ED5B440F14C26 /* Build configuration list for PBXNativeTarget "Pods-SpyCraft Utility BeltUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EF75BF0158916EC3B42D0CD1866A5C90 /* Debug */,
-				D0C60C04673E403D2DD4561BD69053A3 /* Release */,
+				9E1D26FF378E0D63F0C2ECF94D9E6308 /* Debug */,
+				417BA68A493F97AE77E2C2F3C0B19877 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -11,12 +11,14 @@
 		116FB58F1DB70F76000E475C /* CrisisCardModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 116FB58D1DB70F76000E475C /* CrisisCardModel.xcdatamodeld */; };
 		116FB5911DB710A2000E475C /* FLKAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116FB5901DB710A2000E475C /* FLKAutoLayout.framework */; };
 		116FB5941DB72CEA000E475C /* CrisisCard+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FB5921DB72CEA000E475C /* CrisisCard+CoreDataClass.swift */; };
-		116FB5951DB72CEA000E475C /* CrisisCard+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FB5931DB72CEA000E475C /* CrisisCard+CoreDataProperties.swift */; };
+		116FB59C1DB860C5000E475C /* conflict_cards.txt in Resources */ = {isa = PBXBuildFile; fileRef = 116FB59B1DB860C5000E475C /* conflict_cards.txt */; };
+		116FB59E1DB87AA8000E475C /* CrisisCard+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FB59D1DB87AA8000E475C /* CrisisCard+CoreDataProperties.swift */; };
+		116FB5A11DB9BCDB000E475C /* HSCrisisCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FB5A01DB9BCDB000E475C /* HSCrisisCardCell.swift */; };
 		1174D8691DB4485D00147108 /* HSConflictCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174D8681DB4485D00147108 /* HSConflictCardTableViewController.swift */; };
 		1174D86C1DB4510B00147108 /* HSDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174D86B1DB4510B00147108 /* HSDatabaseManager.swift */; };
+		11AC3FCB1DB9CF2500F2F433 /* HSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AC3FCA1DB9CF2500F2F433 /* HSNavigationController.swift */; };
 		11D34FF31DB4682D00001D52 /* ConflictCardTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D34FF21DB4682D00001D52 /* ConflictCardTable.swift */; };
-		9D6BE0A5FE77553324D49980 /* Pods_SpyCraft_Utility_BeltUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07C4CBA83DB1E31BF2D49B30 /* Pods_SpyCraft_Utility_BeltUITests.framework */; };
-		D8C6F4C4D75DA98DD13CDAE2 /* Pods_SpyCraft_Utility_BeltTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BDB16EAA2CA75898FC6A3ED /* Pods_SpyCraft_Utility_BeltTests.framework */; };
+		2D6AA0A60C94DCB00C4F97C1 /* Pods_SpyCraft_Utility_Belt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C24FDEACF6C655D2F8DC31D2 /* Pods_SpyCraft_Utility_Belt.framework */; };
 		E751F8C91DB361C700334F3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751F8C81DB361C700334F3D /* AppDelegate.swift */; };
 		E751F8CB1DB361C700334F3D /* HSCrisisCardSetSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E751F8CA1DB361C700334F3D /* HSCrisisCardSetSelectionViewController.swift */; };
 		E751F8D01DB361C700334F3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E751F8CE1DB361C700334F3D /* Main.storyboard */; };
@@ -46,22 +48,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07C4CBA83DB1E31BF2D49B30 /* Pods_SpyCraft_Utility_BeltUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_BeltUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C590D6BB31A797BB5742428 /* Pods-SpyCraft Utility Belt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility Belt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility Belt/Pods-SpyCraft Utility Belt.debug.xcconfig"; sourceTree = "<group>"; };
 		116FB58B1DB70EAA000E475C /* HSDataBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSDataBridge.swift; sourceTree = "<group>"; };
 		116FB58E1DB70F76000E475C /* CrisisCardModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrisisCardModel.xcdatamodel; sourceTree = "<group>"; };
 		116FB5901DB710A2000E475C /* FLKAutoLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLKAutoLayout.framework; path = "../../../Library/Developer/Xcode/DerivedData/SpyCraft_Utility_Belt-chrlqvxukegogodwcvrlonbukfng/Build/Products/Debug-iphoneos/FLKAutoLayout-iOS9.0/FLKAutoLayout.framework"; sourceTree = "<group>"; };
 		116FB5921DB72CEA000E475C /* CrisisCard+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CrisisCard+CoreDataClass.swift"; sourceTree = "<group>"; };
-		116FB5931DB72CEA000E475C /* CrisisCard+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CrisisCard+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		116FB59B1DB860C5000E475C /* conflict_cards.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = conflict_cards.txt; path = assets/conflict_cards.txt; sourceTree = "<group>"; };
+		116FB59D1DB87AA8000E475C /* CrisisCard+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CrisisCard+CoreDataProperties.swift"; path = "../CrisisCard+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		116FB5A01DB9BCDB000E475C /* HSCrisisCardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCrisisCardCell.swift; sourceTree = "<group>"; };
 		1174D8681DB4485D00147108 /* HSConflictCardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSConflictCardTableViewController.swift; sourceTree = "<group>"; };
 		1174D86B1DB4510B00147108 /* HSDatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSDatabaseManager.swift; sourceTree = "<group>"; };
+		11AC3FCA1DB9CF2500F2F433 /* HSNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSNavigationController.swift; sourceTree = "<group>"; };
 		11D34F7B1DB45AAC00001D52 /* SpyCraft-Utility-Belt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpyCraft-Utility-Belt-Bridging-Header.h"; sourceTree = "<group>"; };
 		11D34FF21DB4682D00001D52 /* ConflictCardTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConflictCardTable.swift; sourceTree = "<group>"; };
 		11D3500C1DB6FC8000001D52 /* SpyCraft Utility Belt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpyCraft Utility Belt-Bridging-Header.h"; sourceTree = "<group>"; };
 		181DDD3F152E189C62F89E04 /* Pods-SpyCraft Utility BeltUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility BeltUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility BeltUITests/Pods-SpyCraft Utility BeltUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		50D50BAD672ED05091003F6A /* Pods-SpyCraft Utility BeltTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility BeltTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility BeltTests/Pods-SpyCraft Utility BeltTests.release.xcconfig"; sourceTree = "<group>"; };
 		57AB681858A99607AD7AC0C0 /* Pods-SpyCraft Utility BeltUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility BeltUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility BeltUITests/Pods-SpyCraft Utility BeltUITests.release.xcconfig"; sourceTree = "<group>"; };
-		9BDB16EAA2CA75898FC6A3ED /* Pods_SpyCraft_Utility_BeltTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_BeltTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C24FDEACF6C655D2F8DC31D2 /* Pods_SpyCraft_Utility_Belt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpyCraft_Utility_Belt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D09A91AB9723F2E7271118 /* Pods-SpyCraft Utility BeltTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility BeltTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility BeltTests/Pods-SpyCraft Utility BeltTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E751F8C51DB361C500334F3D /* SpyCraft Utility Belt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SpyCraft Utility Belt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +91,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				116FB5911DB710A2000E475C /* FLKAutoLayout.framework in Frameworks */,
+				2D6AA0A60C94DCB00C4F97C1 /* Pods_SpyCraft_Utility_Belt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +99,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8C6F4C4D75DA98DD13CDAE2 /* Pods_SpyCraft_Utility_BeltTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,18 +106,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D6BE0A5FE77553324D49980 /* Pods_SpyCraft_Utility_BeltUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		116FB5961DB84C90000E475C /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				116FB59B1DB860C5000E475C /* conflict_cards.txt */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		116FB59F1DB9BCC8000E475C /* TableCells */ = {
+			isa = PBXGroup;
+			children = (
+				116FB5A01DB9BCDB000E475C /* HSCrisisCardCell.swift */,
+			);
+			name = TableCells;
+			sourceTree = "<group>";
+		};
 		1174D86A1DB450F800147108 /* Database */ = {
 			isa = PBXGroup;
 			children = (
+				116FB59D1DB87AA8000E475C /* CrisisCard+CoreDataProperties.swift */,
 				116FB5921DB72CEA000E475C /* CrisisCard+CoreDataClass.swift */,
-				116FB5931DB72CEA000E475C /* CrisisCard+CoreDataProperties.swift */,
 				1174D86B1DB4510B00147108 /* HSDatabaseManager.swift */,
 				11D34FF21DB4682D00001D52 /* ConflictCardTable.swift */,
 				11D3500C1DB6FC8000001D52 /* SpyCraft Utility Belt-Bridging-Header.h */,
@@ -128,8 +146,6 @@
 			children = (
 				116FB5901DB710A2000E475C /* FLKAutoLayout.framework */,
 				C24FDEACF6C655D2F8DC31D2 /* Pods_SpyCraft_Utility_Belt.framework */,
-				9BDB16EAA2CA75898FC6A3ED /* Pods_SpyCraft_Utility_BeltTests.framework */,
-				07C4CBA83DB1E31BF2D49B30 /* Pods_SpyCraft_Utility_BeltUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -174,6 +190,8 @@
 		E751F8C71DB361C700334F3D /* SpyCraft Utility Belt */ = {
 			isa = PBXGroup;
 			children = (
+				116FB59F1DB9BCC8000E475C /* TableCells */,
+				116FB5961DB84C90000E475C /* assets */,
 				1174D86A1DB450F800147108 /* Database */,
 				E75CC7DB1DB43695006A1162 /* Widgets */,
 				E7BE642E1DB40E6500C7A039 /* ViewControllers */,
@@ -218,6 +236,7 @@
 			children = (
 				E751F8CA1DB361C700334F3D /* HSCrisisCardSetSelectionViewController.swift */,
 				1174D8681DB4485D00147108 /* HSConflictCardTableViewController.swift */,
+				11AC3FCA1DB9CF2500F2F433 /* HSNavigationController.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -342,6 +361,7 @@
 				E7BE642D1DB40E0E00C7A039 /* Podfile in Resources */,
 				E751F8D51DB361C700334F3D /* LaunchScreen.storyboard in Resources */,
 				E751F8D21DB361C700334F3D /* Assets.xcassets in Resources */,
+				116FB59C1DB860C5000E475C /* conflict_cards.txt in Resources */,
 				E751F8D01DB361C700334F3D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,14 +525,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				116FB5951DB72CEA000E475C /* CrisisCard+CoreDataProperties.swift in Sources */,
+				116FB59E1DB87AA8000E475C /* CrisisCard+CoreDataProperties.swift in Sources */,
 				1174D8691DB4485D00147108 /* HSConflictCardTableViewController.swift in Sources */,
+				11AC3FCB1DB9CF2500F2F433 /* HSNavigationController.swift in Sources */,
 				E751F8C91DB361C700334F3D /* AppDelegate.swift in Sources */,
 				1174D86C1DB4510B00147108 /* HSDatabaseManager.swift in Sources */,
 				116FB5941DB72CEA000E475C /* CrisisCard+CoreDataClass.swift in Sources */,
 				116FB58F1DB70F76000E475C /* CrisisCardModel.xcdatamodeld in Sources */,
 				E751F8CB1DB361C700334F3D /* HSCrisisCardSetSelectionViewController.swift in Sources */,
 				11D34FF31DB4682D00001D52 /* ConflictCardTable.swift in Sources */,
+				116FB5A11DB9BCDB000E475C /* HSCrisisCardCell.swift in Sources */,
 				E75CC7DD1DB436D7006A1162 /* HSRoundedButton.swift in Sources */,
 				116FB58C1DB70EAA000E475C /* HSDataBridge.swift in Sources */,
 			);
@@ -608,7 +630,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -652,7 +674,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "SpyCraft-Utility-Belt-Bridging-Header.h";

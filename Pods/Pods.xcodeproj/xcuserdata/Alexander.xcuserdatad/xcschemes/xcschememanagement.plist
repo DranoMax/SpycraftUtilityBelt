@@ -4,65 +4,45 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FLKAutoLayout-iOS9.0.xcscheme</key>
+		<key>FLKAutoLayout.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>5</integer>
-		</dict>
-		<key>FLKAutoLayout-iOS9.3.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>6</integer>
 		</dict>
 		<key>Pods-SpyCraft Utility Belt.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>7</integer>
 		</dict>
 		<key>Pods-SpyCraft Utility BeltTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>8</integer>
 		</dict>
 		<key>Pods-SpyCraft Utility BeltUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>9</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2D7B4EAE0BBD76D038E799BA73D94326</key>
+		<key>3E2C784AC76F616CC121FF4FCEE1B7EA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3DE9B718804BE0BCC5346F73FD1E2166</key>
+		<key>7BFF26AFDBBCCAC9145945157AF97ED0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8858490A0F14D8D93BDB3FE984E88CC4</key>
+		<key>C2F8610E7BD84B9046F0727ED3705D44</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CE8339C96030A728F8C0EAA64ED9BE3A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>E2468320611DBA6675E61C65FFC227CC</key>
+		<key>D2AE964307E99347E00A3DB8B45108E5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

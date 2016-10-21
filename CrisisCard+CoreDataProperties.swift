@@ -1,9 +1,9 @@
 //
 //  CrisisCard+CoreDataProperties.swift
-//  SpyCraft Utility Belt
+//  
 //
-//  Created by Alexander Scoggins on 10/18/16.
-//  Copyright © 2016 Alexander Scroggins. All rights reserved.
+//  Created by Alexander Scoggins on 10/19/16.
+//
 //
 
 import Foundation
@@ -22,7 +22,8 @@ extension CrisisCard {
     @NSManaged public var skill: String?
     @NSManaged public var requirements: String?
     @NSManaged public var advantages: String?
-    @NSManaged public var skillmod: Int16
-    @NSManaged public var crisistype: Int16
+    @NSManaged public var skillmod: String?
+    @NSManaged public var crisistype: String?
+    @NSManaged public var duration: String?
 
 }

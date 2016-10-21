@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CE8339C96030A728F8C0EAA64ED9BE3A"
+               BlueprintIdentifier = "3E2C784AC76F616CC121FF4FCEE1B7EA"
                BuildableName = "Pods_SpyCraft_Utility_Belt.framework"
                BlueprintName = "Pods-SpyCraft Utility Belt"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CE8339C96030A728F8C0EAA64ED9BE3A"
+            BlueprintIdentifier = "3E2C784AC76F616CC121FF4FCEE1B7EA"
             BuildableName = "Pods_SpyCraft_Utility_Belt.framework"
             BlueprintName = "Pods-SpyCraft Utility Belt"
             ReferencedContainer = "container:Pods.xcodeproj">
