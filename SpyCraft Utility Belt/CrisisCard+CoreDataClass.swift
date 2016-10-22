@@ -23,14 +23,14 @@ public class CrisisCard: NSManagedObject {
         case SEDUCTION = 6
     }
     
-    convenience init(context: NSManagedObjectContext!, name: String?, desc: String?, strategy: String?, skill: String?,
-                     duration: String?, requirements: String?, advantages: String?, skillmod: String?, crisisType: String?) {
+    convenience init(context: NSManagedObjectContext!, name: String!, desc: String?, strategy: String?, special: String?, skill: String?, duration: String?, requirements: String?, advantages: String?, skillmod: String?, crisisType: String!) {
         let entity = NSEntityDescription.entity(forEntityName: "CrisisCard", in: context)
         self.init(entity: entity!, insertInto: context)
         
         self.name = name
         self.desc = desc
         self.strategy = strategy
+        self.special = special
         self.skill = skill
         self.duration = duration
         self.requirements = requirements
@@ -38,6 +38,54 @@ public class CrisisCard: NSManagedObject {
         self.skillmod = skillmod
         self.crisistype = crisisType
     }
+    
+    // MARK: - Getters
+    public func getCleanedStrategy() -> String {
+        if let strategy = self.strategy {
+            return strategy.replacingOccurrences(of: "Strategy: ", with: "")
+        }
+        return ""
+    }
+    
+    public func getCleanedSkill() -> String {
+        if let skill = self.skill {
+            return skill.replacingOccurrences(of: "Skill: ", with: "")
+        }
+        return ""
+    }
+    
+    public func getCleanedRequirements() -> String {
+        if let reqs = self.requirements {
+            return reqs.replacingOccurrences(of: "Requirements: ", with: "")
+        }
+        return ""
+    }
+    
+    public func getCleanedSkillMod() -> String {
+        if let skillMod = self.skillmod {
+            return skillMod.replacingOccurrences(of: "Skill Check Modifier: ", with: "")
+        }
+        return ""
+    }
+    
+    public func getCleanedSpecialspecial() -> String {
+        if let special = self.skillmod {
+            return special.replacingOccurrences(of: "Special: ", with: "")
+        }
+        return ""
+    }
+    
+    public func getCleanedAdvantages() -> String {
+        if let advantages = self.strategy {
+            return advantages.replacingOccurrences(of: "Strategy: ", with: "")
+        }
+        return ""
+    }
+    
+    // MARK: - Private Methods
+    
+    
+    //MARK: - Public Methods
     
     func crisisTypeForString(str: String) -> CrisisType {
         switch str {

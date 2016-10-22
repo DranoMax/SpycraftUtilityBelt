@@ -13,7 +13,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         self.startUpQueue()
@@ -26,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
      */
     private func startUpQueue() {
         let usrDefs = UserDefaults.standard
-        if usrDefs.bool(forKey: "hasRunForFirstTime") {
+        if !usrDefs.bool(forKey: "hasRunForFirstTime") {
             ConflictCardTable().loadCrisisCardTableForFirstTime()
             usrDefs.set(true, forKey: "hasRunForFirstTime")
         }

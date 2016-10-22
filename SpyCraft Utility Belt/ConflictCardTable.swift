@@ -60,6 +60,7 @@ public class ConflictCardTable: NSObject {
         var skill: String?
         var requirements: String?
         var skillMod: String?
+        var special: String?
         var duration: String?
         var advantages: String?
         // CrisisType is always the last value
@@ -72,6 +73,10 @@ public class ConflictCardTable: NSObject {
                 requirements = cardParts[i] as? String
             } else if self.matches(for: "Skill Check Modifier: ", in: cardParts[i] as! String).count != 0 {
                 skillMod = cardParts[i] as? String
+            } else if self.matches(for: "Special: ", in: cardParts[i] as! String).count != 0 {
+                special = cardParts[i] as? String
+            } else if self.matches(for: "Description: ", in: cardParts[i] as! String).count != 0 {
+                desc = (cardParts[i] as? String)?.replacingOccurrences(of: "Description: ", with: "")
             } else if self.matches(for: "Conflict Round Duration: ", in: cardParts[i] as! String).count != 0 {
                 duration = cardParts[i] as? String
             } else if self.matches(for: "Advantages \\w*: ", in: cardParts[i] as! String).count != 0 {
@@ -85,6 +90,7 @@ public class ConflictCardTable: NSObject {
                        name: name,
                        desc: desc,
                        strategy: strategy,
+                       special: special,
                        skill: skill,
                        duration: duration,
                        requirements: requirements,
@@ -101,7 +107,7 @@ public class ConflictCardTable: NSObject {
             str == "INTERROGATION" ||
             str == "MANHUNT" ||
             str == "SEDUCTION" {
-                return str
+            return str
         }
         return nil
     }

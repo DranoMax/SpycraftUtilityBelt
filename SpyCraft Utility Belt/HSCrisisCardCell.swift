@@ -29,16 +29,19 @@ public class HSCrisisCardCell: UITableViewCell {
         
         // Name Label
         self.nameLabel.constrainWidth(self.contentView.frame.width.description)
-        self.nameLabel.alignLeadingEdge(withView: self.contentView, predicate: "16")
+        self.nameLabel.constrainHeight("30")
+        self.nameLabel.alignTopEdge(withView: self.contentView, predicate: "16")
+        self.nameLabel.alignLeading("16", trailing: "-16", toView: self.contentView)
+        self.nameLabel.font = HSStyleManager.sharedInstance.spyBodyBoldFont
         
         // Description Label
         self.descLabel.lineBreakMode = .byWordWrapping
         self.descLabel.numberOfLines = 0;
-        self.descLabel.font = UIFont(name: "Helvetica Neue Ultralight", size: 12)
+        self.descLabel.font = HSStyleManager.sharedInstance.spyBodyFont
         self.descLabel.constrainWidth(self.contentView.frame.width.description)
         self.descLabel.constrainHeight("60")
-        self.descLabel.alignLeadingEdge(withView: self.contentView, predicate: "16")
-        self.descLabel.alignTrailingEdge(withView: self.contentView, predicate: "16")
-        self.descLabel.constrainTopSpace(toView: self.nameLabel, predicate: "16")
+        self.descLabel.constrainTopSpace(toView: self.nameLabel, predicate: "0")
+        self.descLabel.alignBottomEdge(withView: self.contentView, predicate: "-16")
+        self.descLabel.alignLeading("16", trailing: "-16", toView: self.contentView)
     }
 }

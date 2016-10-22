@@ -8,6 +8,23 @@
 
 import UIKit
 
-public class HSNavigationController: UITableViewController {
+public class HSNavigationController: UINavigationController {
 
+    public override func viewDidLoad() {
+        super.viewDidLoad()
+        self.setupBackButton()
+    }
+    
+    private func setupBackButton() {
+        let backBtn = UIBarButtonItem(barButtonSystemItem: .cancel,
+                                      target: #selector(backButtonPress),
+                                      action: nil)
+        backBtn.title = "Back"
+        
+        self.navigationItem.leftBarButtonItem = backBtn
+    }
+    
+    @objc private func backButtonPress(sender: UIBarButtonItem) {
+        self.popViewController(animated: true)
+    }
 }
