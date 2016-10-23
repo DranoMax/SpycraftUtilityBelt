@@ -79,7 +79,7 @@ public class ConflictCardTable: NSObject {
                 desc = (cardParts[i] as? String)?.replacingOccurrences(of: "Description: ", with: "")
             } else if self.matches(for: "Conflict Round Duration: ", in: cardParts[i] as! String).count != 0 {
                 duration = cardParts[i] as? String
-            } else if self.matches(for: "Advantages \\w*: ", in: cardParts[i] as! String).count != 0 {
+            } else if self.matches(for: "(Advantages[^:]*:) ", in: cardParts[i] as! String).count != 0 {
                 advantages = cardParts[i] as? String
             } else if i < cardParts.count-1 && i > 1{
                 desc = cardParts[i] as? String

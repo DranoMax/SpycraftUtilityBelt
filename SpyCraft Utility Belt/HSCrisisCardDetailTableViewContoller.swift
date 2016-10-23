@@ -25,6 +25,7 @@ class HSCrisisCardDetailTableViewContoller: UITableViewController {
     // Special Section and rows
     let kStatsSectionHeader = 0
     let kDurationRow = 1
+    let kSkillRow = 2
     
     let kSpecialSectionHeader = 1
     let kSpecialRow = 0
@@ -40,6 +41,7 @@ class HSCrisisCardDetailTableViewContoller: UITableViewController {
         super.viewDidLoad()
         
         self.setupLabels()
+        self.tableView.allowsSelection = false
     }
     
     // MARK: - Private Methods
@@ -62,13 +64,19 @@ class HSCrisisCardDetailTableViewContoller: UITableViewController {
         }
         if let special = self.crisisCard?.special {
             self.specialTextView.text = special
+            self.specialTextView.allowsEditingTextAttributes = false
+            self.specialTextView.scrollRangeToVisible(NSMakeRange(0, 1))
         }
         if let desc = self.crisisCard?.desc {
-            self.detailsTextView.font = UIFont(name: "HelveticaNeue-Italic", size: 14)
+            self.detailsTextView.font = HSStyleManager.sharedInstance.spyBodyItalicFont
             self.detailsTextView.text = desc
+            self.detailsTextView.allowsEditingTextAttributes = false
+            self.detailsTextView.scrollRangeToVisible(NSMakeRange(0, 1))
         }
         if let advantages = self.crisisCard?.advantages {
             self.advantagesTextView.text = advantages
+            self.advantagesTextView.allowsEditingTextAttributes = false
+            self.advantagesTextView.scrollRangeToVisible(NSMakeRange(0, 1))
         }
     }
     
@@ -91,6 +99,9 @@ class HSCrisisCardDetailTableViewContoller: UITableViewController {
         switch indexPath.section {
         case kStatsSectionHeader:
             if indexPath.row == kDurationRow && self.durationLabel.text == "-" {
+                return 0
+            }
+            if indexPath.row == kSkillRow && self.skillLabel.text == "" {
                 return 0
             }
         case kSpecialSectionHeader:

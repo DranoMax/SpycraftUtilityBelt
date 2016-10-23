@@ -37,7 +37,7 @@ public class HSCrisisCardCell: UITableViewCell {
         // Description Label
         self.descLabel.lineBreakMode = .byWordWrapping
         self.descLabel.numberOfLines = 0;
-        self.descLabel.font = HSStyleManager.sharedInstance.spyBodyFont
+        self.descLabel.font = HSStyleManager.sharedInstance.spyBodyItalicFont
         self.descLabel.constrainWidth(self.contentView.frame.width.description)
         self.descLabel.constrainHeight("60")
         self.descLabel.constrainTopSpace(toView: self.nameLabel, predicate: "0")

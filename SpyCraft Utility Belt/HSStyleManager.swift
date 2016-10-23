@@ -13,4 +13,5 @@ public class HSStyleManager {
     
     lazy var spyBodyFont = UIFont(name: "HelveticaNeue", size: 16)
     lazy var spyBodyBoldFont = UIFont(name: "HelveticaNeue-Bold", size: 16)
+    lazy var spyBodyItalicFont = UIFont(name: "HelveticaNeue-Italic", size: 14)
 }
