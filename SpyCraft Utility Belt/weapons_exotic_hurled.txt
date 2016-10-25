@@ -1,0 +1,21 @@
+Weapon Name Damage E/T Ammo Rec Rng SZ/H Qualities Wgt Upg Comp Year SV
+
+Caliber I
+Atlatl 1d6 1/19–20 1S2* — 30 ft. × 4 S/1h — 3 lbs. — 17/+1 — $60
+Blowgun 1d2 1/19–20 25S2* — 25 ft. × 3 S/2h INJ (ammo) .5 lbs. — 15/+1 — $10
+Bola (×3) 1d4 subdual 1–2/20 — — 15 ft. × 4 T/1h — 2 lbs. — 15/+0 — $10
+Boomerang 1d4+1 1–3/20 — — 15 ft. × 4 D/1h — 1 lbs. — 17/+0 — $12
+Boomerang, hunting 1d6+1 1/20 — — 10 ft. × 4 S/1h — 2 lbs. — 12/+0 — $10
+Bow, compound as arrow** 1/19–20 30M2** — 100 ft. × 2 S/2h INJ (ammo) 12 lbs. — 22/+1 1940s $150
+Bow, long as arrow** 1/19–20 30M2** — 90 ft. × 2 M/2h INJ (ammo) 8 lbs. — 12/+0 — $30
+Bow, short as arrow** 1/19–20 30M2** — 75 ft. × 2 S/2h INJ (ammo) 6 lbs. — 12/+0 — $25
+Caltrops, 1 set (×3) — 1/— — — 5 ft. × 3 F/2h INJ 2 lbs. — 17/+0 — $20
+Crossbow, light as bolt** 1/19–20 30M2** — 60 ft. × 2 D/1h INJ (ammo) 5 lbs. — 25/+1 1920s $250
+Crossbow, heavy as bolt** 1/19–20 30M2** — 120 ft. × 2 S/2h INJ (ammo) 15 lbs. — 22/+1 — $300
+Net (×2) — 1–3/— — — 5 ft. × 3 S/2h — 6 lbs. — 15/+0 — $15
+Shuriken 1d3 1/20 25M2* — 15 ft. × 3 N/1h INJ .1 lbs. — 15/+0 — $50
+
+Calibers II–V
+None
+
+* Each additional ammunition stockpile for this weapon costs 1 upgrade or 3 Common Items. ** See Table 4.62: Ammunition, page 274.

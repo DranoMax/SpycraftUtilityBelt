@@ -1,0 +1,74 @@
+Picks by Caliber PR Year Reputation/Net Worth Street Value
+
+Caliber I
+Bag full of guns — — — —
+Medical assistance 1 — — $100
+Feat training — — — —
+Manhunt — — — $400 per day
+Skill training 1 — — —
+Smuggling — — — $1,000
+Unmarked weapon (melee, handgun, hurled†) — — — +100% of weapon cost
+Work group 2 — — $1,000
+
+Caliber II
+Animal, trained 2 — — $100
+Bag full of guns — — — —
+Feat training — — — —
+Guided/indirect strike — — — —
+Hospitalization, public — — — $400 per day
+Manhunt — — — $1,000 per day
+Reconnaissance, broad — — — —
+Skill training 2 — — —
+Smuggling — — — $2,000
+Medical assistance 2 — — $250
+
+Caliber III
+Bag full of guns — — — —
+Body, corpse — — — —
+Feat training — — — —
+Guided/indirect strike — — — —
+Manhunt — — — $2,500 per day
+Medical assistance 3 — — $500
+Phone line trace — 1940s — —
+Skill training 4 — — —
+Smuggling — — — $5,000
+Unmarked weapon (rifle, shotgun, SMG) — — — +100% of weapon cost
+Work group 4 — — $5,000
+
+Caliber IV
+Animal, trained 4 — — $1,000
+Bag full of guns — — — —
+Body double — — — —
+Cell phone dump — — — —
+Feat training — — — —
+Guided/indirect strike — — — —
+Hospitalization, private — — — $2,000 per day
+Manhunt — — — $6,000 per day
+Medical assistance 4 — — $1,000
+Phone line trace — 1940s — —
+Reconnaissance, narrow — — — —
+Skill training 6 — — —
+Smuggling — — — $7,500
+
+Caliber V
+Bag full of guns — — — —
+Body, clone — — — —
+Feat training — — — —
+Guided/indirect strike — — — —
+Manhunt — — — $15,000 per day
+Medical assistance 5 — — $5,000
+Phone line trace — 1940s — —
+Skill training 8 — — —
+Smuggling — — — $10,000
+Work group 6 — — $20,000
+
+Reputation/Net Worth Only
+Animal, trained 8 — 10/$500,000 $5,000
+Civilians, gaggle — — 20/$1,000,000 —
+Civilians, swarm — — 40/$2,000,000 —
+Reconnaissance, keyhole — — 15/$750,000 —
+Smuggling — — 15/$750,000 —
+Translator — — 2/$100,000 $250/day
+Unmarked weapon (any other) — — 10/$500,000 +100% of weapon cost
+
+† Except grenades, which may only be unmarked with the Reputation/Net Worth Resource pick.

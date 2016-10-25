@@ -1,0 +1,26 @@
+Upgrade Name Cost DR* Resistances DP ACP Speed Search DC Wgt Comp Year Value
+
+Camouflage 1 — — — — — — — — — $30
+Face cage kit 1 +1/+0 — — — — — +1 lbs. 10/+0 1950s $50
+Face shield kit 1 +1/+1 FL2 — –1 — — +0.5 lbs. 10/+0 1950s $100
+Gas mask 1 — CN8 –0 –2 — obvious 2 lbs. 17/+0 1910s $100
+Helmet, athletic 1 1/1 BN2, FA2 — –1† — obvious 3 lbs. 17/+0 1950s $80
+Helmet, ballistic (early) 1 1/1 — — –2† — obvious 3 lbs. 15/+0 1930s $100
+Helmet, ballistic (modern) 1 1/2 — — –1† — obvious 2.5 lbs. 17/+0 1980s $300
+Helmet, fire 1 2/1 FA2, FR2 — –2† — obvious 4 lbs. 12/+0 1900s $250
+Helmet, flight 1 2/1 BN2, CD2, FA2 — –2† — obvious 2 lbs. 22/+1 1950s $500
+Helmet, hobbyist’s 1 2/1 — — –4† — obvious 10 lbs. 12/+0 1960s $200
+Helmet, racing 1 1/1 BN1, FA1 — –3† — obvious 2 lbs. 17/+0 1960s $150
+Knee and elbow pads 1 — FA3 –0 –0 — 16 2 lbs. 12/+0 1940s $50
+Nomex underwear 1 — CD3, FR6 — –0 — 24 3 lbs. 20/+1 1980s $2,000
+Personal tailoring 1 — — +1 +1 — +4 –5% 20/+1 1980s 100%
+Respirator 1 — CN4 — –1 — obvious 1 lbs. 15/+0 1900s $40
+SCUBA tank 1 — — –1 –1 — obvious 20 lbs. 17/+0 1960s $500
+Shield, briefcase 1 3/1 — +1 –2 — 30D 8 lbs. 17/+0 1980s $450
+Shield, hobbyist’s 1 3/2 — +1 –1 — obvious 8 lbs. 15/+0 1960s $100
+Shield, riot 1 4/3 — +2 –2 — obvious 10 lbs. 17/+0 1950s $300
+Tactical glasses 1 2/2 FL4 — –1 — 20D 0.2 lbs. 15/+0 1980s $100
+Trauma plates 1 +2/+2 — –1 — — –2 4 lbs. 12/+0 1970s $400
+Weight reduction 1 — — — — +5 ft. (max +0) — –25% 25/+1 1980s 100%
+
+* The DR before the slash applies to hurled, melee, and unarmed attacks (except for grenades), while the DR after the slash applies to all other attacks. In both cases, the DR is not negated under any standard circumstances (see page 332). Thus, an riot shield has a DR of 4/— vs. hurled, melee, and unarmed attacks (except for grenades), and a DR of 3/— vs. all other attacks.

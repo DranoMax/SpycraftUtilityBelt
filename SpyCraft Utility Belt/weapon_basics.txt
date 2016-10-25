@@ -1,0 +1,38 @@
+Unarmed Unarmed Str –2 N/A N/A
+Blunt Str –2 +10 N/A
+Exotic Blunt Exotic (Blunt) Str –6 +5 N/A
+Edged Edged Str –4 +8 N/A
+Exotic Edged Exotic (Edged) Str –8 +6 N/A
+Hurled Hurled Dex –2 +4 N/A
+Exotic Hurled Exotic (Hurled) Dex –6 +3 N/A
+Backup Pistols Handgun Dex –6 +10 Single-Shot
+Holdout Pistols Handgun Dex –6 +8 Single-Shot
+Service Pistols Handgun Dex –4 +10 Single-Shot
+Backup Revolvers Handgun Dex –6 +10 Single-Shot
+Hunting Revolvers Handgun Dex –4 +11 Single-Shot
+Service Revolvers Handgun Dex –4 +11 Single-Shot
+Assault Rifles Rifle Dex –6 +10 Single-Shot, Burst, Full Auto
+Bolt-Action Rifles Rifle Dex –4 +10 Single-Shot
+Semi-Automatic Rifles Rifle Dex –4 +10 Single-Shot
+Break-Action Shotguns Shotgun Dex –4 +8 Single-Shot
+Pump-Action Shotguns Shotgun Dex –4 +10 Single-Shot
+Semi-Automatic Shotguns Shotgun Dex –4 +10 Single-Shot
+Light Submachine Guns Submachine Gun Dex –4 +6 Single-Shot, Burst, Full Auto
+Heavy Submachine Guns Submachine Gun Dex –4 +8 Single-Shot, Burst, Full Auto
+Squad Automatic Weapons (SAWs) Ri e Dex –6 +10 Burst, Full Auto *
+General Purpose Machine Guns (GPMGs) Tactical Dex –8 +10 Burst, Full Auto *
+Heavy Machine Guns (HMGs) Tactical Dex –8 +10 Burst, Full Auto *
+Explosives Explosives Int –8 +2 N/A
+Flamethrowers Tactical Dex –8 +5 Single-Shot, Burst, Full Auto
+Grenade Launchers Tactical/Indirect † Dex/Int † –6/–10 +8 Single-Shot
+Missile Launchers Guided Int –10 +7 Single-Shot **
+Mortars Indirect Int –12 +11 Single-Shot **
+Rocket Launchers Tactical Dex –8 +7 Single-Shot **
+Vehicle Weapons †† Varies †† Varies †† Varies †† +14 Varies ††
+
+* Further, these weapons target a number of squares with the Suppressive Fire action equal to the character’s Strength modifier + 2 (see page 361). ** No character ability or other effect may increase these fire modes.
+† The Tactical proficiency applies with Dexterity as the key attribute when a grenade launcher is red directly at a target within the character’s line
+of sight. The Indirect proficiency applies with Intelligence as the key attribute when a grenade launcher is red at any target out of the character’s
+line of sight (see Indirect Fire, page 300).
+†† Vehicle weapons are considered part of the Vehicle gear category and are gained with Vehicle upgrades. The rules for using each vehicular weapon
+type are described in a separate section (see page 297).

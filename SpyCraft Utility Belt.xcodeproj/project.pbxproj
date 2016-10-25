@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11154D561DBD70C000BD9800 /* weapon_basics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11154D551DBD70C000BD9800 /* weapon_basics.txt */; };
+		11154D581DBD726400BD9800 /* gear_electronics.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11154D571DBD726400BD9800 /* gear_electronics.txt */; };
+		11154D5A1DBD85C200BD9800 /* gear_mechanisms.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11154D591DBD85C200BD9800 /* gear_mechanisms.txt */; };
+		11154D5C1DBD86CF00BD9800 /* gear_resources.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11154D5B1DBD86CF00BD9800 /* gear_resources.txt */; };
+		11154D5E1DBD879D00BD9800 /* gear_security.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11154D5D1DBD879D00BD9800 /* gear_security.txt */; };
+		11154D601DBD882700BD9800 /* gear_security_armor.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11154D5F1DBD882700BD9800 /* gear_security_armor.txt */; };
+		11154D621DBD895700BD9800 /* gear_security_armor_upgrades.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11154D611DBD895700BD9800 /* gear_security_armor_upgrades.txt */; };
+		11154D641DBD89EF00BD9800 /* weapons_blunt.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11154D631DBD89EF00BD9800 /* weapons_blunt.txt */; };
+		11154D661DBD8AB300BD9800 /* weapons_exotic_blunt.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11154D651DBD8AB300BD9800 /* weapons_exotic_blunt.txt */; };
+		11154D681DBD8B0800BD9800 /* weapons_edged.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11154D671DBD8B0800BD9800 /* weapons_edged.txt */; };
+		11154D6A1DBD8B7700BD9800 /* weapons_exotic_edged.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11154D691DBD8B7700BD9800 /* weapons_exotic_edged.txt */; };
+		11154D6C1DBD8BC000BD9800 /* weapons_hurled.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11154D6B1DBD8BC000BD9800 /* weapons_hurled.txt */; };
+		11154D6E1DBD8CA800BD9800 /* weapons_exotic_hurled.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11154D6D1DBD8CA800BD9800 /* weapons_exotic_hurled.txt */; };
+		11154D731DBDA9AC00BD9800 /* GearPickTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11154D721DBDA9AC00BD9800 /* GearPickTable.swift */; };
+		11154D801DBDAF6600BD9800 /* ElectronicsGear+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11154D7E1DBDAF6600BD9800 /* ElectronicsGear+CoreDataClass.swift */; };
+		11154D811DBDAF6600BD9800 /* ElectronicsGear+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11154D7F1DBDAF6600BD9800 /* ElectronicsGear+CoreDataProperties.swift */; };
+		11154D851DBDC2C100BD9800 /* String+More.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11154D841DBDC2C100BD9800 /* String+More.swift */; };
+		11154D871DBDC4DA00BD9800 /* MutableString+More.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11154D861DBDC4DA00BD9800 /* MutableString+More.swift */; };
+		11154D8B1DBE938F00BD9800 /* HSGearPickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11154D8A1DBE938F00BD9800 /* HSGearPickTableViewController.swift */; };
 		116FB58C1DB70EAA000E475C /* HSDataBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FB58B1DB70EAA000E475C /* HSDataBridge.swift */; };
 		116FB58F1DB70F76000E475C /* CrisisCardModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 116FB58D1DB70F76000E475C /* CrisisCardModel.xcdatamodeld */; };
 		116FB5911DB710A2000E475C /* FLKAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116FB5901DB710A2000E475C /* FLKAutoLayout.framework */; };
@@ -17,6 +36,8 @@
 		1174D8691DB4485D00147108 /* HSConflictCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174D8681DB4485D00147108 /* HSConflictCardTableViewController.swift */; };
 		1174D86C1DB4510B00147108 /* HSDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1174D86B1DB4510B00147108 /* HSDatabaseManager.swift */; };
 		11AC3FCB1DB9CF2500F2F433 /* HSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AC3FCA1DB9CF2500F2F433 /* HSNavigationController.swift */; };
+		11B4234A1DBF0E50008EC16C /* HSGearCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B423491DBF0E50008EC16C /* HSGearCell.swift */; };
+		11B4234C1DBF125D008EC16C /* HSElectronicsGearDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4234B1DBF125D008EC16C /* HSElectronicsGearDetailTableViewController.swift */; };
 		11B7305D1DBAF9D70068A135 /* HSCrisisCardDetailTableViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7305C1DBAF9D70068A135 /* HSCrisisCardDetailTableViewContoller.swift */; };
 		11D34FF31DB4682D00001D52 /* ConflictCardTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D34FF21DB4682D00001D52 /* ConflictCardTable.swift */; };
 		11FA28AF1DBB138B00954D4E /* HSStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA28AE1DBB138A00954D4E /* HSStyleManager.swift */; };
@@ -53,6 +74,25 @@
 
 /* Begin PBXFileReference section */
 		0C590D6BB31A797BB5742428 /* Pods-SpyCraft Utility Belt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpyCraft Utility Belt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpyCraft Utility Belt/Pods-SpyCraft Utility Belt.debug.xcconfig"; sourceTree = "<group>"; };
+		11154D551DBD70C000BD9800 /* weapon_basics.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = weapon_basics.txt; sourceTree = "<group>"; };
+		11154D571DBD726400BD9800 /* gear_electronics.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gear_electronics.txt; sourceTree = "<group>"; };
+		11154D591DBD85C200BD9800 /* gear_mechanisms.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gear_mechanisms.txt; sourceTree = "<group>"; };
+		11154D5B1DBD86CF00BD9800 /* gear_resources.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gear_resources.txt; sourceTree = "<group>"; };
+		11154D5D1DBD879D00BD9800 /* gear_security.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gear_security.txt; sourceTree = "<group>"; };
+		11154D5F1DBD882700BD9800 /* gear_security_armor.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gear_security_armor.txt; sourceTree = "<group>"; };
+		11154D611DBD895700BD9800 /* gear_security_armor_upgrades.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gear_security_armor_upgrades.txt; sourceTree = "<group>"; };
+		11154D631DBD89EF00BD9800 /* weapons_blunt.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = weapons_blunt.txt; sourceTree = "<group>"; };
+		11154D651DBD8AB300BD9800 /* weapons_exotic_blunt.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = weapons_exotic_blunt.txt; sourceTree = "<group>"; };
+		11154D671DBD8B0800BD9800 /* weapons_edged.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = weapons_edged.txt; sourceTree = "<group>"; };
+		11154D691DBD8B7700BD9800 /* weapons_exotic_edged.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = weapons_exotic_edged.txt; sourceTree = "<group>"; };
+		11154D6B1DBD8BC000BD9800 /* weapons_hurled.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = weapons_hurled.txt; sourceTree = "<group>"; };
+		11154D6D1DBD8CA800BD9800 /* weapons_exotic_hurled.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = weapons_exotic_hurled.txt; sourceTree = "<group>"; };
+		11154D721DBDA9AC00BD9800 /* GearPickTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GearPickTable.swift; sourceTree = "<group>"; };
+		11154D7E1DBDAF6600BD9800 /* ElectronicsGear+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ElectronicsGear+CoreDataClass.swift"; path = "../ElectronicsGear+CoreDataClass.swift"; sourceTree = "<group>"; };
+		11154D7F1DBDAF6600BD9800 /* ElectronicsGear+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ElectronicsGear+CoreDataProperties.swift"; path = "../ElectronicsGear+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		11154D841DBDC2C100BD9800 /* String+More.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+More.swift"; sourceTree = "<group>"; };
+		11154D861DBDC4DA00BD9800 /* MutableString+More.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableString+More.swift"; sourceTree = "<group>"; };
+		11154D8A1DBE938F00BD9800 /* HSGearPickTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSGearPickTableViewController.swift; sourceTree = "<group>"; };
 		116FB58B1DB70EAA000E475C /* HSDataBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSDataBridge.swift; sourceTree = "<group>"; };
 		116FB58E1DB70F76000E475C /* CrisisCardModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrisisCardModel.xcdatamodel; sourceTree = "<group>"; };
 		116FB5901DB710A2000E475C /* FLKAutoLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLKAutoLayout.framework; path = "../../../Library/Developer/Xcode/DerivedData/SpyCraft_Utility_Belt-chrlqvxukegogodwcvrlonbukfng/Build/Products/Debug-iphoneos/FLKAutoLayout-iOS9.0/FLKAutoLayout.framework"; sourceTree = "<group>"; };
@@ -63,6 +103,8 @@
 		1174D8681DB4485D00147108 /* HSConflictCardTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSConflictCardTableViewController.swift; sourceTree = "<group>"; };
 		1174D86B1DB4510B00147108 /* HSDatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSDatabaseManager.swift; sourceTree = "<group>"; };
 		11AC3FCA1DB9CF2500F2F433 /* HSNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSNavigationController.swift; sourceTree = "<group>"; };
+		11B423491DBF0E50008EC16C /* HSGearCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSGearCell.swift; sourceTree = "<group>"; };
+		11B4234B1DBF125D008EC16C /* HSElectronicsGearDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSElectronicsGearDetailTableViewController.swift; sourceTree = "<group>"; };
 		11B7305C1DBAF9D70068A135 /* HSCrisisCardDetailTableViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCrisisCardDetailTableViewContoller.swift; sourceTree = "<group>"; };
 		11D34F7B1DB45AAC00001D52 /* SpyCraft-Utility-Belt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpyCraft-Utility-Belt-Bridging-Header.h"; sourceTree = "<group>"; };
 		11D34FF21DB4682D00001D52 /* ConflictCardTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConflictCardTable.swift; sourceTree = "<group>"; };
@@ -122,10 +164,96 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11154D6F1DBDA93900BD9800 /* CrisisCards */ = {
+			isa = PBXGroup;
+			children = (
+				E751F8CA1DB361C700334F3D /* HSCrisisCardSetSelectionViewController.swift */,
+				1174D8681DB4485D00147108 /* HSConflictCardTableViewController.swift */,
+				11B7305C1DBAF9D70068A135 /* HSCrisisCardDetailTableViewContoller.swift */,
+			);
+			name = CrisisCards;
+			sourceTree = "<group>";
+		};
+		11154D701DBDA94F00BD9800 /* CrisisCards */ = {
+			isa = PBXGroup;
+			children = (
+				11D34FF21DB4682D00001D52 /* ConflictCardTable.swift */,
+				116FB58D1DB70F76000E475C /* CrisisCardModel.xcdatamodeld */,
+				116FB59D1DB87AA8000E475C /* CrisisCard+CoreDataProperties.swift */,
+				116FB5921DB72CEA000E475C /* CrisisCard+CoreDataClass.swift */,
+			);
+			name = CrisisCards;
+			sourceTree = "<group>";
+		};
+		11154D711DBDA97500BD9800 /* GearPicks */ = {
+			isa = PBXGroup;
+			children = (
+				11154D7B1DBDABC100BD9800 /* Electronics */,
+				11154D721DBDA9AC00BD9800 /* GearPickTable.swift */,
+			);
+			name = GearPicks;
+			sourceTree = "<group>";
+		};
+		11154D7B1DBDABC100BD9800 /* Electronics */ = {
+			isa = PBXGroup;
+			children = (
+				11154D7E1DBDAF6600BD9800 /* ElectronicsGear+CoreDataClass.swift */,
+				11154D7F1DBDAF6600BD9800 /* ElectronicsGear+CoreDataProperties.swift */,
+			);
+			name = Electronics;
+			sourceTree = "<group>";
+		};
+		11154D821DBDC2A200BD9800 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				11154D831DBDC2AA00BD9800 /* Categories */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		11154D831DBDC2AA00BD9800 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				11154D841DBDC2C100BD9800 /* String+More.swift */,
+				11154D861DBDC4DA00BD9800 /* MutableString+More.swift */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		11154D881DBE935C00BD9800 /* GearPicks */ = {
+			isa = PBXGroup;
+			children = (
+				11154D891DBE937B00BD9800 /* Electronics */,
+				11154D8A1DBE938F00BD9800 /* HSGearPickTableViewController.swift */,
+			);
+			name = GearPicks;
+			sourceTree = "<group>";
+		};
+		11154D891DBE937B00BD9800 /* Electronics */ = {
+			isa = PBXGroup;
+			children = (
+				11B4234B1DBF125D008EC16C /* HSElectronicsGearDetailTableViewController.swift */,
+			);
+			name = Electronics;
+			sourceTree = "<group>";
+		};
 		116FB5961DB84C90000E475C /* assets */ = {
 			isa = PBXGroup;
 			children = (
 				116FB59B1DB860C5000E475C /* conflict_cards.txt */,
+				11154D551DBD70C000BD9800 /* weapon_basics.txt */,
+				11154D571DBD726400BD9800 /* gear_electronics.txt */,
+				11154D591DBD85C200BD9800 /* gear_mechanisms.txt */,
+				11154D5B1DBD86CF00BD9800 /* gear_resources.txt */,
+				11154D5D1DBD879D00BD9800 /* gear_security.txt */,
+				11154D5F1DBD882700BD9800 /* gear_security_armor.txt */,
+				11154D611DBD895700BD9800 /* gear_security_armor_upgrades.txt */,
+				11154D631DBD89EF00BD9800 /* weapons_blunt.txt */,
+				11154D651DBD8AB300BD9800 /* weapons_exotic_blunt.txt */,
+				11154D671DBD8B0800BD9800 /* weapons_edged.txt */,
+				11154D691DBD8B7700BD9800 /* weapons_exotic_edged.txt */,
+				11154D6B1DBD8BC000BD9800 /* weapons_hurled.txt */,
+				11154D6D1DBD8CA800BD9800 /* weapons_exotic_hurled.txt */,
 			);
 			name = assets;
 			sourceTree = "<group>";
@@ -134,6 +262,7 @@
 			isa = PBXGroup;
 			children = (
 				116FB5A01DB9BCDB000E475C /* HSCrisisCardCell.swift */,
+				11B423491DBF0E50008EC16C /* HSGearCell.swift */,
 			);
 			name = TableCells;
 			sourceTree = "<group>";
@@ -141,12 +270,10 @@
 		1174D86A1DB450F800147108 /* Database */ = {
 			isa = PBXGroup;
 			children = (
-				116FB59D1DB87AA8000E475C /* CrisisCard+CoreDataProperties.swift */,
-				116FB5921DB72CEA000E475C /* CrisisCard+CoreDataClass.swift */,
+				11154D711DBDA97500BD9800 /* GearPicks */,
+				11154D701DBDA94F00BD9800 /* CrisisCards */,
 				1174D86B1DB4510B00147108 /* HSDatabaseManager.swift */,
-				11D34FF21DB4682D00001D52 /* ConflictCardTable.swift */,
 				11D3500C1DB6FC8000001D52 /* SpyCraft Utility Belt-Bridging-Header.h */,
-				116FB58D1DB70F76000E475C /* CrisisCardModel.xcdatamodeld */,
 			);
 			name = Database;
 			sourceTree = "<group>";
@@ -210,6 +337,7 @@
 		E751F8C71DB361C700334F3D /* SpyCraft Utility Belt */ = {
 			isa = PBXGroup;
 			children = (
+				11154D821DBDC2A200BD9800 /* Shared */,
 				11FA28AD1DBB137B00954D4E /* Singletons */,
 				116FB59F1DB9BCC8000E475C /* TableCells */,
 				116FB5961DB84C90000E475C /* assets */,
@@ -255,10 +383,9 @@
 		E7BE642E1DB40E6500C7A039 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				E751F8CA1DB361C700334F3D /* HSCrisisCardSetSelectionViewController.swift */,
-				1174D8681DB4485D00147108 /* HSConflictCardTableViewController.swift */,
+				11154D881DBE935C00BD9800 /* GearPicks */,
+				11154D6F1DBDA93900BD9800 /* CrisisCards */,
 				11AC3FCA1DB9CF2500F2F433 /* HSNavigationController.swift */,
-				11B7305C1DBAF9D70068A135 /* HSCrisisCardDetailTableViewContoller.swift */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -380,11 +507,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11154D6E1DBD8CA800BD9800 /* weapons_exotic_hurled.txt in Resources */,
 				E7BE642D1DB40E0E00C7A039 /* Podfile in Resources */,
+				11154D6C1DBD8BC000BD9800 /* weapons_hurled.txt in Resources */,
+				11154D641DBD89EF00BD9800 /* weapons_blunt.txt in Resources */,
 				E751F8D51DB361C700334F3D /* LaunchScreen.storyboard in Resources */,
 				E751F8D21DB361C700334F3D /* Assets.xcassets in Resources */,
+				11154D6A1DBD8B7700BD9800 /* weapons_exotic_edged.txt in Resources */,
 				116FB59C1DB860C5000E475C /* conflict_cards.txt in Resources */,
+				11154D681DBD8B0800BD9800 /* weapons_edged.txt in Resources */,
+				11154D601DBD882700BD9800 /* gear_security_armor.txt in Resources */,
+				11154D5C1DBD86CF00BD9800 /* gear_resources.txt in Resources */,
 				E751F8D01DB361C700334F3D /* Main.storyboard in Resources */,
+				11154D5A1DBD85C200BD9800 /* gear_mechanisms.txt in Resources */,
+				11154D621DBD895700BD9800 /* gear_security_armor_upgrades.txt in Resources */,
+				11154D5E1DBD879D00BD9800 /* gear_security.txt in Resources */,
+				11154D561DBD70C000BD9800 /* weapon_basics.txt in Resources */,
+				11154D661DBD8AB300BD9800 /* weapons_exotic_blunt.txt in Resources */,
+				11154D581DBD726400BD9800 /* gear_electronics.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,18 +688,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				116FB59E1DB87AA8000E475C /* CrisisCard+CoreDataProperties.swift in Sources */,
+				11154D871DBDC4DA00BD9800 /* MutableString+More.swift in Sources */,
 				1174D8691DB4485D00147108 /* HSConflictCardTableViewController.swift in Sources */,
+				11154D851DBDC2C100BD9800 /* String+More.swift in Sources */,
+				11154D731DBDA9AC00BD9800 /* GearPickTable.swift in Sources */,
+				11B4234A1DBF0E50008EC16C /* HSGearCell.swift in Sources */,
 				11B7305D1DBAF9D70068A135 /* HSCrisisCardDetailTableViewContoller.swift in Sources */,
 				11AC3FCB1DB9CF2500F2F433 /* HSNavigationController.swift in Sources */,
 				E751F8C91DB361C700334F3D /* AppDelegate.swift in Sources */,
 				1174D86C1DB4510B00147108 /* HSDatabaseManager.swift in Sources */,
+				11B4234C1DBF125D008EC16C /* HSElectronicsGearDetailTableViewController.swift in Sources */,
 				116FB5941DB72CEA000E475C /* CrisisCard+CoreDataClass.swift in Sources */,
 				116FB58F1DB70F76000E475C /* CrisisCardModel.xcdatamodeld in Sources */,
 				E751F8CB1DB361C700334F3D /* HSCrisisCardSetSelectionViewController.swift in Sources */,
 				11D34FF31DB4682D00001D52 /* ConflictCardTable.swift in Sources */,
 				11FA28AF1DBB138B00954D4E /* HSStyleManager.swift in Sources */,
+				11154D8B1DBE938F00BD9800 /* HSGearPickTableViewController.swift in Sources */,
 				116FB5A11DB9BCDB000E475C /* HSCrisisCardCell.swift in Sources */,
+				11154D801DBDAF6600BD9800 /* ElectronicsGear+CoreDataClass.swift in Sources */,
 				E75CC7DD1DB436D7006A1162 /* HSRoundedButton.swift in Sources */,
+				11154D811DBDAF6600BD9800 /* ElectronicsGear+CoreDataProperties.swift in Sources */,
 				116FB58C1DB70EAA000E475C /* HSDataBridge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

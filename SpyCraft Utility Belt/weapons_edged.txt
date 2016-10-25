@@ -1,0 +1,28 @@
+Weapon Name Damage E/T Ammo Rec Rng SZ/H Qualities Wgt Upg Comp Year SV
+
+Caliber I
+Chainsaw, light 2d6 1–3/20 — — — S/1h BLD 7 lbs. — 20/+1 — $90
+Cutlass/saber 1d10 1/19–20 — — — S/1h FIN 3 lbs. — 20/+1 — $150
+Hatchet 1d6+1 1–2/20 — — — T/1h AP (2), TRP (+2) 2 lbs. — 17/+0 — $45
+Hook 1d4+1 1–2/20 — — — D/1h AP (1), HOK (+2) 1 lbs. — 15/+0 — $15
+Knife, escape 1d4 1–2/— — — — F/1h DST, FIN 0.1 lbs. — 15/+0 — $25
+Knife, survival (dagger) 1d6+1 1/19–20 — — — D/1h AP (1), BLD 1 lbs. — 17/+0 — $30
+Machete 1d8+1 1/19–20 — — — T/1h AP (3) 4 lbs. — 17/+0 — $60
+Main-gauche 1d4 1/20 — — — D/1h AP (1), GAR (+1), HOK (+1), QKY 1 lbs. — 20/+1 — $50
+Punch dagger 1d6 1/19–20 — — — D/1h AP (4), FIN, SUR 1 lbs. — 17/+0 — $75
+Rapier 1d8 1/20 — — — S/1h FIN, KEN (+3) 2 lbs. — 20/+1 — $50
+Scalpel/straight razor 1d4+1 1–2/18-20 — — — F/1h BLD, FIN, INA (–2), QKY 0.2 lbs. — 17/+0 — $10
+Knife, switchblade 1d6 1/19–20 — — — D/1h AP (3), BLD, FIN 0.2 lbs. — 17/+0 — R$50
+Sword, bastard 1d10+1 1/19–20 — — — S/1h KEN (+5) 6 lbs. — 25/+1 — $200
+Sword, broad 1d12 1/18–20 — — — S/1h — 8 lbs. — 17/+0 — $200
+Sword, butter y 1d8 1/20 — — — T/1h GAR (+1), SUR 5 lbs. — 17/+0 — $120
+Sword, short 1d8 1/19–20 — — — T/1h KEN (+5) 3 lbs. — 22/+1 — $75
+Syringe 1d4 1–3/19–20 — — — F/1h AP (2), FIN, INJ, QKY 0.1 lbs. — 20/+1 — $5
+
+Caliber II
+Axe, battle 1d8+1 1–2/20 — — — S/2h AP (2), KEN (+3), TRP (+1) 12 lbs. — 17/+0 — $150
+Axe, broad 1d12 1/19–20 — — — S/2h AP (3), MAS, RGD 18 lbs. — 17/+0 — $200
+Scythe 1d10 1–3/19–20 — — — M/2h AP (3), INA (–2), TRO, TRP (+2) 15 lbs. — 17/+0 — $80
+
+Calibers III–V
+None

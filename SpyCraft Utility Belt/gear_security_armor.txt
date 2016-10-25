@@ -1,0 +1,85 @@
+Armor Name Type DR* Resistances DP ACP Speed Search DC Upg Wgt Comp Year Value
+
+Caliber I
+Corrections vest** P 6/3 — –2 –1 — 12 — 4.5 lbs. 20/+1 1980s $700
+Flotation vest** P 3/2 CD5, FA3 –2 –2 — as clothing 1 2 lbs. 20/+1 1880s $80
+Hobbyist’s armor +Helmet, hobbyist’s +Shield, hobbyist’s
+M 5/1 — — 2/1 — — 3/2 —
+–4 –3 — –4† +1 –1
+–10 ft. — —
+10 obvious obvious
+— 14 lbs. — 10 lbs. — 8 lbs.
+12/+0 1960s $200 12/+0 1960s $200 15/+0 1960s $100
+K-9 vest P 4/4 — +0 0 — obvious — 6 lbs. 12/+0 1990s $1,100
+Motorcycle jacket P 3/0 CD3, FA3 –1 –1 — as clothing — 6 lbs. 15/+0 1920s $200
+NBC gear, Level 1 F — AC2, CD1, EL1 –2 –1 — 12 — 6 lbs. 15/+0 1960s — +Gas mask — — CN8 –0 –2 — obvious — 2 lbs. 17/+0 1910s $100
+
+AC6, CN12
+Plastron P 4/0 EX1,FA2 –1 +0 — 20 — 5 lbs. 12/+0 1800s $75
+Radiation suit (sealed) F 2/0 EL6, FH3, FL1 –5 –3 –10 ft. obvious — 10 lbs. 35/+2 1960s $900
+Red man suit M 7/0 CD2, FA6 –2 –2 –10 ft. obvious — 15 lbs. 12/+0 1960s $1,300
+Shield, tactical — 4/4 — +3 –5 –10 ft. obvious — 24 lbs. 17/+0 1960s $1,500
+Tuxedo liner P 2/3 — –1 0 — 20 — 3 lbs. 22/+1 1990s $1,000
+Wetsuit F 2/0 CD 15, EX2 –2 –1 — 16 — 6 lbs. 22/+1 1960s $250 +SCUBA tank — — — –1 –1 — obvious — 20 lbs. 17/+0 1960s $500
+
+Caliber II
+Any 1 Caliber I armor or protective gear pick 2
+AC15, CD3, CN (all),
+Biohazard suit (sealed) F 2/0 EL3, HT3, VC3 –5 –3 –10 ft. obvious — 12 lbs. 30/+2 1980s $2,000
+Corrections suit** M 10/4 CD2, FA4 –4 –3 –5 ft. 10 — 7 lbs. 22/+1 1980s $1,100
+Duty vest, Class IIA P 1/4 — +0 +0 — 16 1 3.5 lbs. 17/+0 1970s $500
+Flak jacket M 3/5 — –5 –2 — 14 2 9 lbs. 17/+0 1940s $100
+Hobbyist’s plate harness +Helmet, hobbyist’s +Shield, hobbyist’s
+F 10/2 — — 2/1 — — 3/2 —
+–4 –4 — –4† +1 –1
+–10 ft. — —
+obvious obvious obvious
+— 70 lbs. — 10 lbs. — 8 lbs.
+15/+0 1960s $2,000 12/+0 1960s $200 15/+0 1960s $100
+Low-pro le armor
+(poor or average) P 3/6 — +0 0 — 20D 1 7 lbs. 15/+0 1980s $400
+Military flight suit M 2/0 VC6 –2 –2 –5 ft. as clothing 1†† 8 lbs. 25/+1 1950s $125,000 +Helmet,  flight — 2/1 BN2, CD2, FA2 — –2† — obvious — 2 lbs. 22/+1 1950s $500
+Modular tactical armor,
+vest only** M 3/6 — –3 –1 — 14 — 7 lbs. 20/+1 1990s R$2,500
+Motorcycle suit M 5/1 CD6, FA4 –3 –2 –5 ft. as clothing 2 12 lbs. 15/+0 1920s $600
+NBC gear, Level 2 F — AC2, CD1, EL3 –2 –1 –5 ft. 10 — 6.5 lbs. 17/+0 1960s — + Gas mask — — CN8 –0 –2 — obvious — 2 lbs. 17/+0 1910s $100
+Raid jacket P 3/6 — +0 0 — 18D 1 7 lbs. 15/+0 1980s $800
+Tactical vest** P 3/6 EX2 –3 –2 — 10 1 6 lbs. 20/+1 1980s $800
+
+Caliber III
+Any 1 Caliber II armor or protective gear pick 2
+Duty vest, Class II** P 2/5 — –1 –1 — 15 1 4 lbs. 20/+1 1970s $700
+Low-pro le armor (trendy) P 2/5 — +0 0 — 20D 1 6 lbs. 15/+0 1990s $800
+Modular tactical armor,
+vest + guards** M 5/8 — –3 –2 –5 ft. 12 — 8 lbs. 20/+1 1990s R$3,500
+AC3, CD1, CN8
+NBC gear, Level 3 F — EL3, FL1 –3 –2 –5 ft. obvious — 8.5 lbs. 20/+1 1960s —
++ Gas mask — — CN8 –0 –2 — obvious — 2 lbs. 17/+0 1910s $100
+Tactical jacket** M 4/9 — –4 –2 — 10 2 9 lbs. 20/+1 1980s $1,000
+AC6, CD6,
+Turnout gear M 6/2 EL6, FR15, HT8 –4 –3 –5 ft. obvious — 45 lbs. 15/+0 1900s $900
++Helmet, fire — 2/1 FA2, FR2 — –2† — obvious — 4 lbs. 12/+0 1900s $250
+
+Caliber IV
+Any 1 Caliber III armor or protective gear pick 2
+Crash rescue suit (sealed) AC20, CD10,
+F 2/2 EL10, FR30, HT15 –6 –4 –15 ft. obvious — 80 lbs. 32/+2 1950s $55,000
+Duty vest, Class IIIA** P 3/6 — –2 –1 — 14 1 5 lbs. 20/+1 1980s $900
+AC3, CD1,
+NBC gear, Level 4 F — CN12, EL3, FL1 –4 –3 –5 ft. obvious — 9 lbs. 22/+1 1960s —
++Gas mask — — CN8 –0 –2 — obvious — 2 lbs. 17/+0 1910s $100
+Riot gear** F 14/14 BN6, CD3, FA3 –6 –5 –10 ft. obvious 1 16 lbs. 20/+1 1950s $1,500
+
+Caliber V
+Any 1 Caliber IV armor or protective gear pick 2
+Diving hardsuit (sealed) AC30, BN10, CD20
+CN (all), EX10, FA10, FR10
+F 16/16 FH5, HT20, VC (all) –8 –10 * obvious — 1,140 lbs. 45/+3 1970s $1,500,000
+EOD suit** AC3, BN12, EL6,
+F 10/15 EX25, FA3, FR3 –7 –6 –15 ft. obvious — 40 lbs. 17/+0 1950s $6,000
+Space suit (sealed) AC10, BN5, CD30, CN (all), EL10, FR10,
+F 7/5 HT30, LA5, VC (all) –8 –6 –30 ft. obvious — 310 lbs. 45/+3 1950s $2,000,000
+
+* The DR before the slash applies to hurled, melee, and unarmed attacks (except for grenades), while the DR after the slash applies to all other attacks. In both cases, the DR is not negated under any standard circumstances (see page 332). Thus, an EOD suit has a DR of 10/— vs. hurled, melee, and unarmed attacks (except for grenades), and a DR of 15/— vs. all other attacks.
+** This armor can accept trauma plates.
+† This penalty is not applied to skill checks possessing the Armor Check Penalty tag, but rather all skill checks with the vision tag while the helmet is worn. †† This upgrade may be applied to either any 1 armor or other piece of protective gear gained with this pick.

@@ -1,0 +1,138 @@
+Mechanisms by Caliber PR Cap Rng SZ/Hand Battery Save Weight Comp Year Street Value*
+
+Caliber I
+Attack† 1 — 10 ft./5 ft .∆∆ —/1h 1 use — — 25/+1 — —
+Common Item, miniature ∆ ∆ ∆ ∆ ∆ — — ∆/+0 — —
+Damage save boost — — — — — +1 — 15/+0 — —
+Damage resistance 4 — — — — — — 20/+1 — —
+Disguised gadget 2 — — — — — — 25/+1 — —
+Durable gadget 2 — — — — — — 15/+0 — —
+Gear pick, miniature ∆ ∆ ∆ ∆ ∆ — — ∆/+0 — —
+Ahead of its time — — — — — — — 20/+1 — —
+Battery life boost — — — — ×2 — — 20/+1 — —
+Result cap boost — +5 — — — — — 20/+1 — —
+Upgraded — — — — — — — 15/+0 — —
+Hidden compartment — — — — — — — 15/+0 — —
+Proteus modification † ∆ ∆ ∆ ∆ ∆ — — ∆/+0 — —
+Remote control 4 — 100 ft. — — — — 25/+1 — —
+Sensor mask † 4 — self ** —/1h 10 min. — — 25/+1 — —
+Silence † 2 — — —/1h 10 min. — — 25/+1 — —
+Skill boost † 2 +5 — —/1h 10 min. — — 30/+2 — —
+Skill check † 1 — — —/1h 3 uses — — 30/+2 — —
+Turret, hidden † 1 — — —/1h — — — 17/+0 — —
+Vehicle defense system † 3 — — —/1h 3 uses — — 25/+1 — —
+Voice control — — 20 ft. ** — — — — 25/+1 — —
+
+Caliber II
+Attack † 2 — 15 ft./5 ft. ∆∆ —/1h 1 use — — 30/+2 — —
+Burrow † — — — —/1h — — — 30/+1 — —
+Chemical transfer † — — 1 person —/1h 3 uses — — 17/+1 — —
+Damage save boost — — — — — +2 — 15/+0 — —
+Damage reduction 2 — — — — — — 20/+1 — —
+Defense boost † 1 — — —/1h 1 min. — — 30/+2 — —
+Disguised gadget 4 — — — — — — 25/+1 — —
+Durable gadget 4 — — — — — — 15/+0 — —
+EMP † — — 5 ft. ** —/1h 1 use †† — — 25/+1 — —
+Gear pick, miniature ∆ ∆ ∆ ∆ ∆ — — ∆/+0 — —
+Ahead of i’s time — — — — — — — 25/+1 — —
+Battery life boost — — — — ×3 — — 22/+1 — —
+Power Rating boost +1 — — — — — — 30/+2 — —
+Result cap boost — +10 — — — — — 25/+1 — —
+Healing † 1 — 1 person —/1h 3 uses — — 40/+3 — —
+Incinerator, low-grade † — — — —/1h 3 uses — — 20/+1 — —
+Media-safe (gadget) — –10 — — — — — 30/+2 — —
+Proteus modification † ∆ ∆ ∆ ∆ ∆ — — ∆/+0 — —
+Self-destruct, remnants † — — — —/1h — — — 20/+1 — —
+Silence † 3 — — —/1h 10 min. — — 30/+2 — —
+Skill check † 2 — — —/1h 3 uses — — 30/+2 — —
+Speed boost † 4 — — —/1h 3 rounds — — 30/+2 — —
+
+Caliber III
+Any 2 Caliber I Mechanisms Ω
+Attack † 4 — 20 ft./10 ft. ∆∆ —/1h 1 use — — 35/+2 — —
+Attribute boost † 4 +10 — —/1h 3 uses — — 40/+3 — —
+Gear pick, miniature ∆ ∆ ∆ ∆ ∆ — — ∆/+0 — —
+Ahead of its time — — — — — — — 30/+2 — —
+Battery life boost — — — — ×4 — — 25/+1 — —
+Damage resistance 8 — — — — — — 25/+1 — —
+Damage save boost — — — — — +4 — 20/+1 — —
+Defense boost † 2 — — —/1h 1 min. — — 30/+2 — —
+Disguised gadget 6 — — — — — — 25/+1 — —
+Durable gadget 6 — — — — — — 15/+0 — —
+EMP † — — 4d6 blast ** —/1h 1 use †† — — 30/+2 — —
+EMP hardening (device) — — — — — — — 35/+2 — —
+Healing † 2 — 1 person —/1h 3 uses — — 45/+3 — —
+Hologram, static † 7 — 20 ft. —/2h 30 min. — — 45/+3 — —
+Proteus modification † ∆ ∆ ∆ ∆ ∆ — — ∆/+0 — —
+Remote control (with movement) 4 — 100 ft. — — — — 25/+1 — —
+Silence † 4 — — —/1h 10 min. — — 35/+2 — —
+Skill boost † 4 +10 — —/1h 10 min. — — 35/+2 — —
+Skill check † 3 — — —/1h 3 uses — — 35/+2 — —
+Turret, hidden † 2 — — —/1h — — — 20/+1 — —
+Vehicle defense system † 5 — — —/1h 3 uses — — 30/+2 — —
+X-ray vision † 2 — per vision —/1h 3 min. — — 35/+2 — —
+
+Caliber IV
+Any 3 Caliber I Mechanisms Ω — — — — — — — — — —
+Any 2 Caliber II Mechanisms Ω — — — — — — — — — —
+Attack† 6 — 25 ft./10 ft. ∆∆ —/1h 1 use — — 40/+3 — —
+Damage reduction 4 — — — — — — 25/+1 — —
+Damage save boost — — — — — +8 — 20/+1 — —
+Defense boost† 3 — — —/1h 1 min. — — 30/+2 — —
+Disguised gadget 8 — — — — — — 25/+1 — —
+Durable gadget 8 — — — — — — 15/+0 — —
+EMP † — — 6d6 blast ** —/1h 1 use †† — — 30/+2 — —
+Flight † — — — —/1h 1 hour — — 35/+2 — —
+Gear pick, miniature ∆ ∆ ∆ ∆ ∆ — — ∆/+0 — —
+Ahead of its time — — — — — — — 35/+1 — —
+Result cap boost — +15 — — — — — 30/+2 — —
+Healing † 3 — 1 person —/1h 3 uses — — 50/+4 — —
+Incinerator, high-grade† — — — —/1h 3 uses — — 30/+2 — —
+Invisibility † — — — —/1h 5 min. — — 30/+2 — —
+Media-safe (gadget user) — –10 — — — — — 30/+2 — —
+Proteus modification † ∆ ∆ ∆ ∆ ∆ — — ∆/+0 — —
+Self-destruct, traceless † — — — —/1h — — — 40/+3 — —
+Sensor mask † 6 — self ** —/1h 10 min. — — 30/+2 — —
+Skill check † 4 — — —/1h 3 uses — — 35/+2 — —
+Speed boost † 2 — — —/1h 10 min. — — 30/+2 — —
+X-ray vision † 3 — per vision —/1h 4 min. — — 50/+4 — —
+
+Caliber V
+Any 2 Caliber III Mechanisms Ω — — — — — — — — — —
+Attack† 8 — 25 ft./10 ft. ∆∆ —/1h 1 use — — 40/+3 — —
+Attribute boost † 2 +5 — —/1h 10 min. — — 40/+3 — —
+Defense boost† 4 — — —/1h 1 min. — — 30/+2 — —
+Disguised gadget 10 — — — — — — 25/+1 — —
+Durable gadget 10 — — — — — — 15/+0 — —
+EMP † — — 8d6 blast ** —/1h 1 use †† — — 35/+2 — —
+EMP hardening (vehicle) — — — — — — — 35/+2 — —
+Gear pick, miniature (options only)
+Ahead of its time — — — — — — — 40/+3 — —
+Power Rating boost +2 — — — — — — 40/+3 — —
+Healing † 4 — 1 person —/1h 3 uses — — 60/+5 — —
+Hologram, moving † 5 — 20 ft. —/2h 10 min. — — 55/+3 — —
+Incorporeal † — — — —/1h 5 min. — — 30/+2 — —
+Proteus modification † ∆ ∆ ∆ ∆ ∆ — — ∆/+0 — —
+Regeneration † — — 1 person —/1h 2 uses — — 60/+5 — —
+Skill check † 5 — — —/1h 3 uses — — 40/+2 — —
+Turret, hidden † 3 — — —/1h — — — 25/+1 — —
+X-ray vision † 4 — per vision —/1h 5 min. — — 65/+5 — —
+
+Reputation/Net Worth Only
+EMP † — — 10d6 blast** —/1h 1 use † — — 40/+3 — 15/$750,000
+Sensor mask † 8 — self** —/1h 10 min. — — 35/+2 — 12/$600,000
+Silence † 7 — — —/1h 10 min. — — 40/+3 — 15/$750,000
+Weather control, constrained † 3 — 25 miles** —/1h 6 hours — — 75/+6 — 300/$15,000,000
+Weather control, apocalyptic † 4 — 50 miles** —/1h 12 hours — — 100/+10 — 500/$25,000,000
+
+* When this item may only be requested by spending Reputation or Net Worth, this column lists that cost.
+** This range is a flat maximum distance, not an increment.
+† This gadget Mechanism requires activation. Turning it on or off requires 1 half action.
+†† This gadget Mechanism may not be re-used beyond its battery life without a recharge; it may, however, be installed in a gadget multiple times to
+increase its initial battery life.
+∆ Per chosen Common Item or gear pick, adjusted as noted in the Mechanism description.
+∆∆ The number to the left of the slash is used for a directed attack’s range increment, while the number to the right of the slash is used for a blast attack’s
+blast increment.
+Ω These picks may not be split again (e.g. a character may not use a Caliber V pick to gain 2 Caliber III picks and then use each of these Caliber III picks
+to gain 2 Caliber I picks).
+

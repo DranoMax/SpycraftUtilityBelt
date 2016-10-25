@@ -1,0 +1,96 @@
+*
+Caliber I
+Bug, audio 1 - - F/1h 72 hrs. +2 0.1lbs. 25/+1 1960s $100
+Bug, video 1 - - F/1h 72 hrs. +2 0.1lbs. 27/+1 1960s $100
+Chemical analyzer - +5 - T/1h 8 hrs. +6 1lbs. 30/+2 1980s $250
+Computer, desktop 2 - - S/2h - +4 10lbs. 20/+1 1990s $750
+Computer, laptop † 1 - - T/2h 2 hrs. +2 5lbs. 27/+1 1990s $1,500
+Computer software 1–2†† - - - - - - 10 or 15/+0 1980s $200
+Goggles - - - T/1h 8 hrs. +5 1.5lbs. 20/+1 1980s $500
+Microphone, parabolic - - Wis × 30** T/2h 4 hrs. +6 4lbs. 22/+1 1970s $300
+Police Scanner - - - D/1h - +8 4lbs. 17/+0 1970s R$75
+Radio, tactical or headset † 2 - 1 mile T/1h 8 hrs. +5 1lb. 20/+1 1940s $75
+Receiver, audio/video † 3 - 1 mile S/1h 10 hrs. +5 10lbs. 20/+1 1980s $100
+Voice modulator - - - N/1h 2 hrs. +2 0.2lbs. 20/+1 1980s $100
+*
+Caliber II
+Bomb sniffer, commercial - +5 5 ft. T/1h 6 hrs. +4 0.5lbs. 35/+2 1990s $8,000
+Bug, audio 2 - 200 ft. F/1h 48 hrs. +2 0.1lbs. 25/+1 1970s $150
+Bug, tracer 2 - 200 ft. F/1h 48 hrs. +2 0.1lbs. 22/+1 1970s $150
+Bug, video 2 - 200 ft. F/1h 48 hrs. +2 0.1lbs. 27/+1 1970s $150
+Bug sweeper, commercial - +5 5 ft. T/1h 6 hrs. +4 0.5lbs. 25/+1 1980s $1,500
+Computer, desktop 3 +5 - S/2h - +5 10lbs. 20/+1 1990s $1,250
+Computer, laptop † 2 - - T/2h 2 hrs. +3 5lbs. 27/+1 1990s $2,000
+Computer software 3–4†† - - - - - - 20 or 25/+1 1990s $500
+GPS unit, commercial - - 30 ft.** D/1h 48 hrs. +5 0.2lbs. 30/+2 1990s $150
+Microphone, laser - –5 500 ft.** S/2h 2 hrs. +7 8lbs. 35/+2 1980s $2,000
+Radar unit, portable 4 - 5 miles M/1h 24 hrs. +8 15lbs. 20/+1 1950s $500
+Radio, base 5 - 5 miles M/1h 24 hrs. +8 40lbs. 20/+1 1940s $5,000
+Radio, satellite 3 - 100 miles S/1h 24 hrs. +7 20lbs. 25/+1 1980s $2,500
+Sonar unit, portable 4 - 5 miles M/1h 24 hrs. +8 15lbs. 20/+1 1950s $350
+Tap, physical - - - F/- - +7 2lbs. 22/+1 1970s $250
+Tap detector, physical - - - S/1h 8 hrs. +7 4lbs. 25/+1 1970s $250
+*
+Caliber III
+Any 2 Caliber I Electronic picks ∆ - - - - - - - - - -
+Bug, audio 4 - 1,000 ft. N/1h 48 hrs. +2 0.1lbs. 30/+2 1980s R$250
+Bug, tracer 4 - 1,000 ft. N/1h 48 hrs. +2 0.1lbs. 27/+1 1980s R$250
+Bug, video 4 - 1,000 ft. N/1h 48 hrs. +2 0.1lbs. 32/+2 1980s R$250
+Computer, desktop 4 +5 - M/2h - +6 12lbs. 22/+1 1990s $2,000
+Computer, laptop † 3 +5 - T/2h 2 hrs. +4 5lbs. 30/+2 1990s $2,500
+Computer software 5 - - - - - - 30/+2 1990s $1,000
+Jammer 4 - 500 ft. S/1h 30 min. - 10lbs. 30/+2 2000s $5,000
+Laser designator - - 3,000 ft.** S/2h 30 min. +5 12lbs. 37/+2 1980s R$3,000
+Radio, tactical or headset (encrypted) † 5 - 10 miles T/1h 8 hrs. +5 1lb. 25/+1 1980s $250
+Transceiver, audio/video † 6 - 10 miles S/1h 10 hrs. +5 10lbs. 25/+1 1990s $500
+Stress analyzer, voice - +5 - S/2h 6 hrs. +7 15lbs. 20/+1 1970s $600
+*
+Caliber IV
+Any 2 Caliber II Electronic picks ∆ - - - - - - - - - -
+Bomb sniffer, military - +10 15 ft.** T/1h 12 hrs. +5 0.5lbs. 40/+1 1990s R$20,000
+Bug, audio 6 - 1 mile. N/1h 48 hrs. +2 0.1lbs. 35/+2 1990s R$500
+Bug, tracer 6 - 1 mile N/1h 48 hrs. +2 0.1lbs. 32/+2 1990s R$500
+Bug, video 6 - 1 mile N/1h 48 hrs. +2 0.1lbs. 37/+2 1990s R$500
+Bug sweeper, military - +10 15 ft.** T/1h 12 hrs. +5 0.5lbs. 30/+2 1970s R$5,000
+Cellular interceptor - - 5 miles S/2h 10 hrs. +7 30lbs. 35/+2 1990s R$75,000
+Computer, desktop 5 +10 - M/2h - +6 12lbs. 25/+1 1990s $2,500
+Computer, laptop † 4 +5 - S/2h 2 hrs. +5 5lbs. 32/+2 2000s $3,500
+Computer software 6 - - - - - - 35/+2 1990s $5,000
+GPS unit, military - - 4 in.** D/1h 48 hrs. +6 0.2lbs. 30/+2 1980s R$500
+Radar unit, portable 6 - 10 miles M/1h 24 hrs. +8 15lbs. 25/+1 1970s $800
+Radio, base 7 - 25 miles M/1h 24 hrs. +8 40lbs. 25/+1 2000s $10,000
+Radio, satellite 5 - 1,000 miles M/1h 24 hrs. +7 20lbs. 30/+2 1980s $5,000
+Sonar unit, portable 6 - 10 miles M/1h 24 hrs. +8 15lbs. 25/+1 1970s $500
+Tap, wireless - - 1,000 ft.** F/- - +2 0.1lbs. 30/+2 1990s $1,000
+Tap detector, wireless - - 1,000 ft.** S/1h 8 hrs. +7 4lbs. 32/+2 1990s $1,000
+*
+Caliber V
+Any 2 Caliber III Electronic picks ∆ - - - - - - - - - -
+Bug, audio 8 - 5 miles N/1h 48 hrs. +2 0.1lbs. 40/+3 2000s $1,000
+Bug, tracer 8 - 5 miles N/1h 48 hrs. +2 0.1lbs. 37/+2 2000s $1,000
+Bug, video 8 - 5 miles N/1h 48 hrs. +2 0.1lbs. 42/+3 2000s $1,000
+Computer, desktop 6 +10 - M/2h - +6 12lbs. 27/+1 1990s $3,000
+Computer, laptop† 5 +10 - S/2h 2 hrs. +5 5lbs. 35/+2 2000s $5,000
+Computer software 7 - - - - - - 40/+3 2000s $10,000
+Jammer 6 - 1 mile M/1h 1 hr. - 20lbs. 30/+2 2000s $10,000
+Radio, tactical or headset † 7 - 50 miles T/1h 8 hrs. +5 1lb. 30/+2 2000s $500
+Transceiver, audio/video † 8 - 50 miles S/1h 10 hrs. +5 10lbs. 30/+2 2000s $10,000
+Stress analyzer, retina - +10 - S/2h 6 hrs. +7 15lbs. 30/+2 1990s R$2,000
+TEMPEST interceptor - - 500 ft.** M/2h 2 hrs. +10 300lbs. 50/+4 2000s R$200,000
+*
+Reputation/Net Worth Only
+Computer, desktop 7 +15 - L/2h - +8 14lbs. 30/+2 1990s 15/$750,000
+Computer, laptop † 6 +10 - S/2h 1 hrs. +7 5lbs. 40/+3 2000s 15/$750,000
+SATCOM Terminal (×2, encrypted) 8 - global** M/2h 24 hrs. +8 5lbs. 30/+1 1990s 25/$1,250,000
+Software, Anti-Virus 8 - - - - - - 45/+3 2000s 15/$750,000
+Software, Probe 8 - - - - - - 45/+3 2000s 15/$750,000
+Software, Security 8 - - - - - - 45/+3 2000s 15/$750,000
+Software, Trace 8 - - - - - - 45/+3 2000s 15/$750,000
+Software, Virus 8 - - - - - - 45/+3 2000s 15/$750,000
+**
+* When this item may only be requested by spending Reputation or Net Worth, this column lists that cost.
+** This range is a  at maximum distance, not an increment.
+† This item may be recharged with a ready source of power at no cost. Each full recharge requires 1/4 the item’s battery life (rounded up).
+†† The character must determine each program’s Power Rating when it’s requested.
+∆ These picks may not be split again (e.g. a character may not use a Caliber V pick to gain 2 Caliber III picks and then use each of these Caliber III picks
+to gain 2 Caliber I picks).

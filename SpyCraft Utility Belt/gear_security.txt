@@ -1,0 +1,55 @@
+Picks by Caliber PR Cap Rng SZ/Hand Battery Save Weight Comp Year Street Value*
+
+Caliber I
+Armor or protective gear (see Table 4.12 —pages 232–233)
+Acid, mild 1 — — — — — 0.1 lbs. — — $10
+Flare gun — — 20 ft. D/1h 4 shots +9 2 lbs. 17/+0 1970s $75
+Grapple gun, standard — — 75 ft. D/1h — +8 5 lbs. 25/+1 1950s $300
+Lodging, 1-star hotel/ op house — — — — — — — — — $20/night
+Medical gear, blood expander (×3) — — — T/1h 1 use each +2 0.1 lbs. 17/+0 1980s $25
+Medical gear, liquid skin patch (×3) — — — T/1h 1 use each +2 0.1 lbs 25/+1 1990s $50
+Medical gear, antibiotic shot (×3) — — — T/1h 1 use each +2 0.1 lbs. 20/+1 1940s $15
+Medical gear, antivenin shot (×3) — — — T/1h 1 use each +2 0.1 lbs. 20/+1 1900s $25
+Medical gear, atropine shot (×3) — — — T/1h 1 use each +2 0.1 lbs. 22/+1 1980s $50
+Medical gear, stimulant shot (×3) — — — T/1h 1 use each +2 0.1 lbs. 15/+0 1970s $30
+Security device 1 — — — — — — — — $500
+
+Caliber II
+Armor or protective gear (see Table 4.12 —pages 232–233)
+Acid, commercial 2 — — — — — 0.1 lbs. — — $100
+Invitation, local gathering — — — — — — — — — $500
+Lodging, 2-star hotel/rectory — — — — — — — — — $50/night
+Security device 2 — — — — — — — — $2,000
+
+Caliber III
+Armor or protective gear (see Table 4.12 —pages 232–233)
+Any 2 Caliber I Security picks ∆ — — — — — — — — — —
+Acid, corrosive 3 — — — — — 0.1 lbs. — — $300
+Grapple gun, winch — — 75 ft. S/1h — +8 12 lbs. 25/+1 1960s $500
+Lodging, 3-star hotel/loft — — — — — — — — — $125/night
+Security device 4 — — — — — — — — $7,500
+
+Caliber IV
+Armor or protective gear (see Table 4.12 —pages 232–233)
+Any 2 Caliber II Security picks ∆ — — — — — — — — — —
+Acid, concentrated 4 — — — — — 0.1 lbs. — — $1,000
+Invitation, regional gathering — — — — — — — — — $5,000
+Lodging, 4-star hotel/ranch house — — — — — — — — — $250/night
+Security device 6 — — — — — — — — $30,000
+
+Caliber V
+Armor or protective gear (see Table 4.12 —pages 232–233)
+Any 2 Caliber III Security picks ∆ — — — — — — — — — —
+Acid, industrial 5 — — — — — 0.1 lbs. — — $2,500
+Drone, security — — — — 24 hours** — — — 2000s $100,000
+Lodging, 5-star hotel/mansion — — — — — — — — — $600/night
+Security device 8 — — — — — — — — $100,000
+
+Reputation/Net Worth Only
+Invitation, international gathering — — — — — — — — — 15/$750,000
+Security device 10 — — — — — — — — 15/$750,000
+
+* When this item may only be requested by spending Reputation or Net Worth, this column lists that cost.
+** When turned off, this drone fully recharges in 8 hours.
+∆ These picks may not be split again (e.g. a character may not use a Caliber V pick to gain 2 Caliber III picks and then use each of these Caliber III picks
+to gain 2 Caliber I picks).

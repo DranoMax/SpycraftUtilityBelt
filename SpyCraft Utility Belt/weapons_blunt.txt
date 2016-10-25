@@ -1,0 +1,29 @@
+Weapon Name Damage E/T Ammo Rec Rng SZ/H Qualities Wgt Upg Comp Year SV
+
+Caliber I
+Brass knuckles +1d4–1 (min. 0) +1/— — — — F/1h NKL, SUR 0.5 lbs. — 17/+0 — R$40
+Club, light 1d6+1 subdual 1/20 — — — T/1h — 3 lbs. — 10/+0 — $20
+Hammer, tool 1d4+1 subdual 1–2/— — — — T/1h — 2 lbs. — 17/+0 — $15
+Jitte/Sai 1d4 subdual 1/20 — — — T/1h FIN, GAR (+1), HOK (+3), QKY 3 lbs. — 17/+0 — $40
+Pepper spray* 3d6 flash 1–2/19–20 12 — — F/1h FIN, INA (–1) 0.2 lbs. — 20/+1 — $60
+Punch gloves +2 subdual +1/— — — — F/1h NKL, SUR 1 lbs. — 12/+0 — $50
+Sap 1d6 subdual 1–2/18–20 — — — D/1h DST, FIN 2 lbs. — 15/+0 — R$20
+Shield 1d4 subdual 1–2/— — — — S/1h GAR (+3), INA (–2) 5 lbs. — 12/+0 — $100
+Stun gun, melee 5d4 electrical 1/18–20 20 — — D/1h FIN 2 lbs. — 20/+1 1970s $75
+Tonfa 1d4+1 subdual 1/20 — — — T/1h FIN, GAR (+2), QKY 3 lbs. — 15/+10 — $30
+
+Caliber II
+Club, heavy 1d8+1 subdual 1/20 — — — S/2h — 5 lbs. — 10/+0 — $40
+Club, massive 2d6 subdual 1/19–20 — — — M/2h MAS, TKD 20 lbs. — 12/+0 — $75
+Garrote +0 +2/+1 — — — F/2h NKL 0.3 lbs. — 10/+0 — R$30
+Hammer, sledge 1d12 subdual 1/20 — — — S/2h TKD 16 lbs. — 17/+0 — $40
+Maul 2d8 subdual 1–2/20 — — — M/2h MAS, TKD 30 lbs. — 15/+0 — $120
+Pick 1d8 1–2/19–20 — — — S/2h AP (3), TRP (+1) 12 lbs. — 15/+0 — $40
+Stun gun, ranged** 3d8 electrical 1–2/20 4 — 5 ft.† D/1h — 3 lbs. — 20/+1 1970s $100
+
+Calibers III–V
+None
+
+* Pepper spray uses the Handgun weapon pro ciency with Dex as the key attribute and an untrained penalty of –2.
+** As a melee weapon, a ranged stun gun uses the Blunt weapon pro ciency with Dex as the key attribute and an untrained penalty of –4. As a ranged
+weapon, it uses the Handgun weapon pro ciency with Dex as the key attribute and an untrained penalty of –4. † This weapon may be fired a maximum of 4 range increments.

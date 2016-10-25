@@ -27,6 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let usrDefs = UserDefaults.standard
         if !usrDefs.bool(forKey: "hasRunForFirstTime") {
             ConflictCardTable().loadCrisisCardTableForFirstTime()
+            GearPickTable().loadGearPickTablesForFirstTime()
             usrDefs.set(true, forKey: "hasRunForFirstTime")
         }
         

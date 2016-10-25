@@ -1,0 +1,24 @@
+Weapon Name Damage E/T Ammo Rec Rng SZ/H Qualities Wgt Upg Comp Year SV
+
+Caliber I
+None
+
+Caliber II
+Bullwhip 1 + 1d6 subdual 1–2/20 — — — D/1h FIN, HOK (+2), RCH (+10 ft.), 2 lbs. — 15/+0 — $50 TRO, TRP (+2)
+Chain 1d6 1–2/20 — — — T/1h HOK (+2) 3 lbs. — 20/+1 — $5
+Chain, whip 1d6+1 1–2/19–20 — — — S/1h AP (2), TKD 7 lbs. — 25/+1 — $120
+Flail 1d10 subdual 1–2/20 — — — T/1h AP (4), QKY 8 lbs. — 22/+1 — $80
+Nunchaku 1d10 subdual 1–2/20 — — — T/1h AP (2), KEN (+3), QKY 3 lbs. — 17/+0 — $35
+Scourge 3d4 subdual 1–2/20 — — — T/1h BLD, FIN 5 lbs. — 17/+0 — $50
+Staff, short 1d6 subdual —/20 — — — S/1h TRP (+1) 4 lbs. — 15/+0 — $40
+
+Caliber III
+Chain, combo 1d4+1 1–2/20 — — — —/2h HOK (+2), RCH (+5 ft.) +4 lbs. — 22/+1 — +$75
+Chain, massive 1d10 1–2/19–20 — — — M/2h AP (1), MAS, TKD 20 lbs. — 20/+1 — $25
+Chain, weighted 1d4+1 1–2/19–20 — — — S/2h AP (1), HOK (+3), RCH (+5 ft.) 5 lbs. — 22/+1 — $50
+Staff, Long 1d8 subdual 1/20 — — — M/2h GAR (+1), RCH (+5 ft.), TRP (+1) 12 lbs. — 15/+0 — $70
+Staff, three-section 1d12 subdual 1–2/20 — — — S/2h AP (2), TKD, TRO 5 lbs. — 20/+1 — $60
+Quarterstaff 1d6 subdual —/20 — — — M/2h GAR (+1), TRP (+1) 7 lbs. — 15/+0 — $50
+
+Calibers IV–V
+None
