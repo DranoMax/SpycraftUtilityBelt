@@ -1,5 +1,5 @@
 //
-//  HSCrisisCardDetailTableViewContoller.swift
+//  HSelectronicGearDetailTableViewContoller.swift
 //  SpyCraft Utility Belt
 //
 //  Created by Alexander Scoggins on 10/21/16.
@@ -10,17 +10,21 @@ import UIKit
 
 class HSElectronicsGearDetailTableViewController: UITableViewController {
     
-    var crisisCard: CrisisCard?
+    var electronicGear: ElectronicsGear?
     
     // Label Outlets
-    @IBOutlet weak var strategyLabel: UILabel!
-    @IBOutlet weak var durationLabel: UILabel!
-    @IBOutlet weak var skillLabel: UILabel!
-    @IBOutlet weak var requirementsLabel: UILabel!
-    @IBOutlet weak var skillCheckModLabel: UILabel!
-    @IBOutlet weak var specialTextView: UITextView!
-    @IBOutlet weak var detailsTextView: UITextView!
-    @IBOutlet weak var advantagesTextView: UITextView!
+    @IBOutlet weak var caliberLabel: UILabel!
+    @IBOutlet weak var powerRatingLabel: UILabel!
+    @IBOutlet weak var resultCapLabel: UILabel!
+    @IBOutlet weak var rangeLabel: UILabel!
+    @IBOutlet weak var sizeHandLabel: UILabel!
+    @IBOutlet weak var batteryLabel: UILabel!
+    @IBOutlet weak var saveLabel: UILabel!
+    @IBOutlet weak var weightLabel: UILabel!
+    @IBOutlet weak var complexityLabel: UILabel!
+    @IBOutlet weak var yearLabel: UILabel!
+    @IBOutlet weak var streetValueLabel: UILabel!
+    
     
     // Special Section and rows
     let kStatsSectionHeader = 0
@@ -39,7 +43,6 @@ class HSElectronicsGearDetailTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         self.setupLabels()
         self.tableView.allowsSelection = false
     }
@@ -47,37 +50,43 @@ class HSElectronicsGearDetailTableViewController: UITableViewController {
     // MARK: - Private Methods
     
     private func setupLabels() {
-        if let name = self.crisisCard?.name {
+        if let name = self.electronicGear?.name {
             self.title = name
         }
-        if let strategy = self.crisisCard?.getCleanedStrategy() {
-            self.strategyLabel.text = strategy
+        if let caliber = self.electronicGear?.caliber {
+            self.caliberLabel.text = caliber
         }
-        if let skill = self.crisisCard?.getCleanedSkill() {
-            self.skillLabel.text = skill
+        if let powerRating = self.electronicGear?.powerRating {
+            self.powerRatingLabel.text = powerRating
         }
-        if let reqs = self.crisisCard?.getCleanedRequirements() {
-            self.requirementsLabel.text = reqs
+        if let resultCapMod = self.electronicGear?.resultCapMod {
+            self.resultCapLabel.text = resultCapMod
         }
-        if let skillmod = self.crisisCard?.getCleanedSkillMod() {
-            self.skillCheckModLabel.text = skillmod
+        if let range = self.electronicGear?.range {
+            self.rangeLabel.text = range
         }
-        if let special = self.crisisCard?.special {
-            self.specialTextView.text = special
-            self.specialTextView.allowsEditingTextAttributes = false
-            self.specialTextView.scrollRangeToVisible(NSMakeRange(0, 1))
+        if let sizeHand = self.electronicGear?.sizeHand {
+            self.sizeHandLabel.text = sizeHand
         }
-        if let desc = self.crisisCard?.desc {
-            self.detailsTextView.font = HSStyleManager.sharedInstance.spyBodyItalicFont
-            self.detailsTextView.text = desc
-            self.detailsTextView.allowsEditingTextAttributes = false
-            self.detailsTextView.scrollRangeToVisible(NSMakeRange(0, 1))
+        if let battery = self.electronicGear?.battery {
+            self.batteryLabel.text = battery
         }
-        if let advantages = self.crisisCard?.advantages {
-            self.advantagesTextView.text = advantages
-            self.advantagesTextView.allowsEditingTextAttributes = false
-            self.advantagesTextView.scrollRangeToVisible(NSMakeRange(0, 1))
+        if let save = self.electronicGear?.save {
+            self.saveLabel.text = save
         }
+        if let weight = self.electronicGear?.weight {
+            self.weightLabel.text = weight
+        }
+        if let complexity = self.electronicGear?.complexity {
+            self.complexityLabel.text = complexity
+        }
+        if let year = self.electronicGear?.year {
+            self.yearLabel.text = year
+        }
+        if let streetValue = self.electronicGear?.streetValue {
+            self.streetValueLabel.text = streetValue
+        }
+        
     }
     
     // MARK: - UITableViewDelegate
@@ -86,47 +95,16 @@ class HSElectronicsGearDetailTableViewController: UITableViewController {
         //
     }
     
-    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        // Hide Special Header if there is no special value
-        if section == kSpecialSectionHeader && self.specialTextView.text == "" {
-            return 0
-        }
-        
-        return UITableViewAutomaticDimension
-    }
+//    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+//        // Hide Special Header if there is no special value
+//        if section == kSpecialSectionHeader && self.specialTextView.text == "" {
+//            return 0
+//        }
+//        
+//        return UITableViewAutomaticDimension
+//    }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        switch indexPath.section {
-        case kStatsSectionHeader:
-            if indexPath.row == kDurationRow && self.durationLabel.text == "-" {
-                return 0
-            }
-            if indexPath.row == kSkillRow && self.skillLabel.text == "" {
-                return 0
-            }
-        case kSpecialSectionHeader:
-            switch indexPath.row {
-            case kSpecialRow:
-                if self.specialTextView.text == "" {
-                    return 0
-                } else {
-                    return 88
-                }
-            case kDetailsRow:
-                if self.detailsTextView.text == "" {
-                    return 0
-                } else {
-                    return 88
-                }
-            default:
-                return 44
-            }
-        case kAdvantagesSectionHeader:
-            return 300
-        default:
-            return 44
-        }
-        
         return 44
     }
 }

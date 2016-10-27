@@ -25,7 +25,7 @@
 		11154D811DBDAF6600BD9800 /* ElectronicsGear+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11154D7F1DBDAF6600BD9800 /* ElectronicsGear+CoreDataProperties.swift */; };
 		11154D851DBDC2C100BD9800 /* String+More.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11154D841DBDC2C100BD9800 /* String+More.swift */; };
 		11154D871DBDC4DA00BD9800 /* MutableString+More.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11154D861DBDC4DA00BD9800 /* MutableString+More.swift */; };
-		11154D8B1DBE938F00BD9800 /* HSGearPickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11154D8A1DBE938F00BD9800 /* HSGearPickTableViewController.swift */; };
+		11154D8B1DBE938F00BD9800 /* HSIndividualGearPickTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11154D8A1DBE938F00BD9800 /* HSIndividualGearPickTableViewController.swift */; };
 		116FB58C1DB70EAA000E475C /* HSDataBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 116FB58B1DB70EAA000E475C /* HSDataBridge.swift */; };
 		116FB58F1DB70F76000E475C /* CrisisCardModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 116FB58D1DB70F76000E475C /* CrisisCardModel.xcdatamodeld */; };
 		116FB5911DB710A2000E475C /* FLKAutoLayout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116FB5901DB710A2000E475C /* FLKAutoLayout.framework */; };
@@ -38,6 +38,10 @@
 		11AC3FCB1DB9CF2500F2F433 /* HSNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11AC3FCA1DB9CF2500F2F433 /* HSNavigationController.swift */; };
 		11B4234A1DBF0E50008EC16C /* HSGearCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B423491DBF0E50008EC16C /* HSGearCell.swift */; };
 		11B4234C1DBF125D008EC16C /* HSElectronicsGearDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B4234B1DBF125D008EC16C /* HSElectronicsGearDetailTableViewController.swift */; };
+		11B4234E1DBF1B78008EC16C /* gear_description.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11B4234D1DBF1B78008EC16C /* gear_description.txt */; };
+		11B423661DC1BB2F008EC16C /* gear_tradecraft.txt in Resources */ = {isa = PBXBuildFile; fileRef = 11B423651DC1BB2F008EC16C /* gear_tradecraft.txt */; };
+		11B423681DC1C05D008EC16C /* HSAllGearPickerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B423671DC1C05D008EC16C /* HSAllGearPickerTableViewController.swift */; };
+		11B4236A1DC1C19E008EC16C /* HSSingleLineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B423691DC1C19E008EC16C /* HSSingleLineCell.swift */; };
 		11B7305D1DBAF9D70068A135 /* HSCrisisCardDetailTableViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B7305C1DBAF9D70068A135 /* HSCrisisCardDetailTableViewContoller.swift */; };
 		11D34FF31DB4682D00001D52 /* ConflictCardTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D34FF21DB4682D00001D52 /* ConflictCardTable.swift */; };
 		11FA28AF1DBB138B00954D4E /* HSStyleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11FA28AE1DBB138A00954D4E /* HSStyleManager.swift */; };
@@ -92,7 +96,7 @@
 		11154D7F1DBDAF6600BD9800 /* ElectronicsGear+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ElectronicsGear+CoreDataProperties.swift"; path = "../ElectronicsGear+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		11154D841DBDC2C100BD9800 /* String+More.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+More.swift"; sourceTree = "<group>"; };
 		11154D861DBDC4DA00BD9800 /* MutableString+More.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MutableString+More.swift"; sourceTree = "<group>"; };
-		11154D8A1DBE938F00BD9800 /* HSGearPickTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSGearPickTableViewController.swift; sourceTree = "<group>"; };
+		11154D8A1DBE938F00BD9800 /* HSIndividualGearPickTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSIndividualGearPickTableViewController.swift; sourceTree = "<group>"; };
 		116FB58B1DB70EAA000E475C /* HSDataBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSDataBridge.swift; sourceTree = "<group>"; };
 		116FB58E1DB70F76000E475C /* CrisisCardModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrisisCardModel.xcdatamodel; sourceTree = "<group>"; };
 		116FB5901DB710A2000E475C /* FLKAutoLayout.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FLKAutoLayout.framework; path = "../../../Library/Developer/Xcode/DerivedData/SpyCraft_Utility_Belt-chrlqvxukegogodwcvrlonbukfng/Build/Products/Debug-iphoneos/FLKAutoLayout-iOS9.0/FLKAutoLayout.framework"; sourceTree = "<group>"; };
@@ -105,6 +109,10 @@
 		11AC3FCA1DB9CF2500F2F433 /* HSNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSNavigationController.swift; sourceTree = "<group>"; };
 		11B423491DBF0E50008EC16C /* HSGearCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSGearCell.swift; sourceTree = "<group>"; };
 		11B4234B1DBF125D008EC16C /* HSElectronicsGearDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSElectronicsGearDetailTableViewController.swift; sourceTree = "<group>"; };
+		11B4234D1DBF1B78008EC16C /* gear_description.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gear_description.txt; sourceTree = "<group>"; };
+		11B423651DC1BB2F008EC16C /* gear_tradecraft.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = gear_tradecraft.txt; sourceTree = "<group>"; };
+		11B423671DC1C05D008EC16C /* HSAllGearPickerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSAllGearPickerTableViewController.swift; sourceTree = "<group>"; };
+		11B423691DC1C19E008EC16C /* HSSingleLineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSSingleLineCell.swift; sourceTree = "<group>"; };
 		11B7305C1DBAF9D70068A135 /* HSCrisisCardDetailTableViewContoller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HSCrisisCardDetailTableViewContoller.swift; sourceTree = "<group>"; };
 		11D34F7B1DB45AAC00001D52 /* SpyCraft-Utility-Belt-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SpyCraft-Utility-Belt-Bridging-Header.h"; sourceTree = "<group>"; };
 		11D34FF21DB4682D00001D52 /* ConflictCardTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConflictCardTable.swift; sourceTree = "<group>"; };
@@ -224,7 +232,8 @@
 			isa = PBXGroup;
 			children = (
 				11154D891DBE937B00BD9800 /* Electronics */,
-				11154D8A1DBE938F00BD9800 /* HSGearPickTableViewController.swift */,
+				11154D8A1DBE938F00BD9800 /* HSIndividualGearPickTableViewController.swift */,
+				11B423671DC1C05D008EC16C /* HSAllGearPickerTableViewController.swift */,
 			);
 			name = GearPicks;
 			sourceTree = "<group>";
@@ -254,6 +263,8 @@
 				11154D691DBD8B7700BD9800 /* weapons_exotic_edged.txt */,
 				11154D6B1DBD8BC000BD9800 /* weapons_hurled.txt */,
 				11154D6D1DBD8CA800BD9800 /* weapons_exotic_hurled.txt */,
+				11B4234D1DBF1B78008EC16C /* gear_description.txt */,
+				11B423651DC1BB2F008EC16C /* gear_tradecraft.txt */,
 			);
 			name = assets;
 			sourceTree = "<group>";
@@ -263,6 +274,7 @@
 			children = (
 				116FB5A01DB9BCDB000E475C /* HSCrisisCardCell.swift */,
 				11B423491DBF0E50008EC16C /* HSGearCell.swift */,
+				11B423691DC1C19E008EC16C /* HSSingleLineCell.swift */,
 			);
 			name = TableCells;
 			sourceTree = "<group>";
@@ -507,6 +519,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B4234E1DBF1B78008EC16C /* gear_description.txt in Resources */,
 				11154D6E1DBD8CA800BD9800 /* weapons_exotic_hurled.txt in Resources */,
 				E7BE642D1DB40E0E00C7A039 /* Podfile in Resources */,
 				11154D6C1DBD8BC000BD9800 /* weapons_hurled.txt in Resources */,
@@ -521,6 +534,7 @@
 				E751F8D01DB361C700334F3D /* Main.storyboard in Resources */,
 				11154D5A1DBD85C200BD9800 /* gear_mechanisms.txt in Resources */,
 				11154D621DBD895700BD9800 /* gear_security_armor_upgrades.txt in Resources */,
+				11B423661DC1BB2F008EC16C /* gear_tradecraft.txt in Resources */,
 				11154D5E1DBD879D00BD9800 /* gear_security.txt in Resources */,
 				11154D561DBD70C000BD9800 /* weapon_basics.txt in Resources */,
 				11154D661DBD8AB300BD9800 /* weapons_exotic_blunt.txt in Resources */,
@@ -688,10 +702,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				116FB59E1DB87AA8000E475C /* CrisisCard+CoreDataProperties.swift in Sources */,
+				11B423681DC1C05D008EC16C /* HSAllGearPickerTableViewController.swift in Sources */,
 				11154D871DBDC4DA00BD9800 /* MutableString+More.swift in Sources */,
 				1174D8691DB4485D00147108 /* HSConflictCardTableViewController.swift in Sources */,
 				11154D851DBDC2C100BD9800 /* String+More.swift in Sources */,
 				11154D731DBDA9AC00BD9800 /* GearPickTable.swift in Sources */,
+				11B4236A1DC1C19E008EC16C /* HSSingleLineCell.swift in Sources */,
 				11B4234A1DBF0E50008EC16C /* HSGearCell.swift in Sources */,
 				11B7305D1DBAF9D70068A135 /* HSCrisisCardDetailTableViewContoller.swift in Sources */,
 				11AC3FCB1DB9CF2500F2F433 /* HSNavigationController.swift in Sources */,
@@ -703,7 +719,7 @@
 				E751F8CB1DB361C700334F3D /* HSCrisisCardSetSelectionViewController.swift in Sources */,
 				11D34FF31DB4682D00001D52 /* ConflictCardTable.swift in Sources */,
 				11FA28AF1DBB138B00954D4E /* HSStyleManager.swift in Sources */,
-				11154D8B1DBE938F00BD9800 /* HSGearPickTableViewController.swift in Sources */,
+				11154D8B1DBE938F00BD9800 /* HSIndividualGearPickTableViewController.swift in Sources */,
 				116FB5A11DB9BCDB000E475C /* HSCrisisCardCell.swift in Sources */,
 				11154D801DBDAF6600BD9800 /* ElectronicsGear+CoreDataClass.swift in Sources */,
 				E75CC7DD1DB436D7006A1162 /* HSRoundedButton.swift in Sources */,

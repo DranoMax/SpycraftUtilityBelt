@@ -26,7 +26,7 @@ extension ElectronicsGear {
     @NSManaged public var complexity: String?
     @NSManaged public var year: String?
     @NSManaged public var streetValue: String?
-    @NSManaged public var name: String?
-    @NSManaged public var caliber: String?
+    @NSManaged public var name: String!
+    @NSManaged public var caliber: String!
 
 }
