@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:StandardGearModels+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:StandardGearModels+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
       location = "group:SpyCraft Utility Belt.xcodeproj">
    </FileRef>
    <FileRef

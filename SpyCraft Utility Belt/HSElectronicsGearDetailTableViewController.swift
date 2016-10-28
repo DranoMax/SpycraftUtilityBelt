@@ -10,7 +10,7 @@ import UIKit
 
 class HSElectronicsGearDetailTableViewController: UITableViewController {
     
-    var electronicGear: ElectronicsGear?
+    var standardGear: StandardGearModels?
     
     // Label Outlets
     @IBOutlet weak var caliberLabel: UILabel!
@@ -50,40 +50,40 @@ class HSElectronicsGearDetailTableViewController: UITableViewController {
     // MARK: - Private Methods
     
     private func setupLabels() {
-        if let name = self.electronicGear?.name {
+        if let name = self.standardGear?.name {
             self.title = name
         }
-        if let caliber = self.electronicGear?.caliber {
+        if let caliber = self.standardGear?.caliber {
             self.caliberLabel.text = caliber
         }
-        if let powerRating = self.electronicGear?.powerRating {
+        if let powerRating = self.standardGear?.powerRating {
             self.powerRatingLabel.text = powerRating
         }
-        if let resultCapMod = self.electronicGear?.resultCapMod {
+        if let resultCapMod = self.standardGear?.resultCapMod {
             self.resultCapLabel.text = resultCapMod
         }
-        if let range = self.electronicGear?.range {
+        if let range = self.standardGear?.range {
             self.rangeLabel.text = range
         }
-        if let sizeHand = self.electronicGear?.sizeHand {
+        if let sizeHand = self.standardGear?.sizeHand {
             self.sizeHandLabel.text = sizeHand
         }
-        if let battery = self.electronicGear?.battery {
+        if let battery = self.standardGear?.battery {
             self.batteryLabel.text = battery
         }
-        if let save = self.electronicGear?.save {
+        if let save = self.standardGear?.save {
             self.saveLabel.text = save
         }
-        if let weight = self.electronicGear?.weight {
+        if let weight = self.standardGear?.weight {
             self.weightLabel.text = weight
         }
-        if let complexity = self.electronicGear?.complexity {
+        if let complexity = self.standardGear?.complexity {
             self.complexityLabel.text = complexity
         }
-        if let year = self.electronicGear?.year {
+        if let year = self.standardGear?.year {
             self.yearLabel.text = year
         }
-        if let streetValue = self.electronicGear?.streetValue {
+        if let streetValue = self.standardGear?.streetValue {
             self.streetValueLabel.text = streetValue
         }
         

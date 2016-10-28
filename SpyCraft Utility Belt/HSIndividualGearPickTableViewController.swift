@@ -11,13 +11,13 @@ import CoreData
 
 class HSIndividualGearPickTableViewController: UITableViewController {
     
-    var tableSource: [ElectronicsGear]!
+    var tableSource: [StandardGearModels]!
     
     // Table Source sorted into Sections
-    var sortedTableSource = [[ElectronicsGear]]()
+    var sortedTableSource = [[StandardGearModels]]()
     
-    // The Crisis Type to show chose from the enum above
-    //    var selectedCrisisType: CrisisCardType?
+    // The current type of gear to display
+    var currentGearType = ""
     
     // The names of the table headers
     var caliberSections = [String]()
@@ -27,6 +27,8 @@ class HSIndividualGearPickTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.title = self.currentGearType
         
         // Load our database stuff
         self.loadGearData()
@@ -44,17 +46,19 @@ class HSIndividualGearPickTableViewController: UITableViewController {
     private func loadGearData() {
         let moc = HSDatabaseManager.sharedInstance.mob
         do {
-            let electronicGearFetchRequest: NSFetchRequest<ElectronicsGear> = ElectronicsGear.fetchRequest()
+            let predicate = NSPredicate(format: "gearType == %@", self.currentGearType)
+            let gearFetchRequest: NSFetchRequest<StandardGearModels> = StandardGearModels.fetchRequest()
+            gearFetchRequest.predicate = predicate
             
-            self.tableSource = try moc.fetch(electronicGearFetchRequest)
+            self.tableSource = try moc.fetch(gearFetchRequest)
         } catch {
             fatalError("Failed to fetch gear: \(error)")
         }
     }
     
-    private func sortCardsAlphabetically(array: [ElectronicsGear]!) {
-        self.tableSource.sort { (card1: ElectronicsGear, card2: ElectronicsGear) -> Bool in
-            return card1.name < card2.name
+    private func sortCardsAlphabetically(array: [StandardGearModels]!) {
+        self.tableSource.sort { (card1: StandardGearModels, card2: StandardGearModels) -> Bool in
+            return card1.name! < card2.name!
         }
     }
     
@@ -77,7 +81,7 @@ class HSIndividualGearPickTableViewController: UITableViewController {
         
         // Init our arrayOfSections
         for _ in 0..<self.caliberSections.count {
-            self.sortedTableSource.append([ElectronicsGear]())
+            self.sortedTableSource.append([StandardGearModels]())
         }
     }
     
@@ -130,7 +134,7 @@ class HSIndividualGearPickTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "gearCell", for: indexPath) as? HSGearCell {
-            var gear: ElectronicsGear!
+            var gear: StandardGearModels!
             
             // If we have sorted Sections
             if self.sortedTableSource.count > 0 {
@@ -151,7 +155,7 @@ class HSIndividualGearPickTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        var gear: ElectronicsGear!
+        var gear: StandardGearModels!
         
         // If we have sorted Sections
         if self.sortedTableSource.count > 0 {
@@ -161,7 +165,7 @@ class HSIndividualGearPickTableViewController: UITableViewController {
         }
         
         if let viewCon = self.storyboard?.instantiateViewController(withIdentifier: "ElectronicsGearDetailTable") as? HSElectronicsGearDetailTableViewController {
-            viewCon.electronicGear = gear
+            viewCon.standardGear = gear
             self.navigationController?.pushViewController(viewCon, animated: true)
         }
     }

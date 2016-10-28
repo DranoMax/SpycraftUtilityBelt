@@ -1,0 +1,68 @@
+*
+Bomb Sniffer
+This handheld device helps a character determine whether an explosive is present at a location. When a bomb sniffer is used, any Search/Perception check made to find an explosive loses the Vision tag and its result cap is modified as shown in the pick’s table entry.
+*
+Bugs
+These items’ Power Ratings act as their Signal Power Ratings. Audio and video bugs with a Signal Power Rating of 4 or lower produce grainy transmissions, and video bugs with these Ratings transmit only in black and white. Tracer bugs simply transmit a locator signal, nothing more.
+*
+Bug Sweeper
+This handheld device helps a character determine whether a location is bugged. When a bug sweeper is used, any Search/Perception check made to find bugs loses the Vision tag and its result cap is modified as shown in the pick’s table entry.
+*
+Cellular Interceptor
+This item works like a wireless tap, except that it requires 10 minutes to set up and may only tap into a cell phone call as the call is being made. Further, the tap cannot be detected.
+*
+Chemical Analyzer
+This device grants a +1 gear bonus with Analysis/Forensics checks.
+*
+Computer Software
+The character gains 1 piece of software.
+• Anti-Virus: This software decreases the Power Rating of Virus software attacking the system by its own Power Rating (e.g. when a Virus program with a Power Rating of 6 attacks a system with Power Rating 3 Anti-Virus software, the Virus program’s Power Rating decreases to 3 before it harms the system).
+• CAD/CAM: This program grants a +1 gear bonus with Science (Engineering) and Science (Fabrication) checks.
+• Code Cracker: This program grants a +1 gear bonus with Analysis/Decipher and Science (Mathematics) checks.
+• Cultures Database: This program grants a +1 gear bonus with Knowledge and Cultures checks about 1 focus region chosen when the software is requested.
+• Image Processing: This program grants a +1 gear bonus with Analysis/Examine Media and Investigation/Detect Search checks.
+• Information Database: This program grants a +1 gear bonus with Knowledge and Investigation/Research checks about 1 topic chosen when the software is requested.
+• Probe: This software is used during a hack.
+• Security: This program grants the computer a Security Power Rating equal to the software’s Power Rating.
+• Trace: This software is used during a hack.
+• Virus: This software attacks a computer, reducing its Power Rating by its own Power Rating (e.g. when a Virus program with a Power Rating of 6 attacks a system with a Power Rating of 8, the system’s Power Rating decreases to 2). Delivering a virus requires the ability to perform core commands with the target system. Removing a virus requires a number of hours equal to the Virus Software’s Power Rating and a successful Computers (Int) check (DC 5 × the Virus Software’s Power Rating). This check possesses the Hands-On tag. Virus software is Restricted.
+*
+Goggles
+This item may be used with no hands when worn and comes with 1 upgrade chosen from the following: night vision (the goggles operate like a standalone night vision sight — see page 317), telescopic vision (the goggles operate like a standalone telescopic sight — see page 319), and thermal imaging (the goggles operate like a standalone thermal sight — see page 319). One set of goggles may contain all of these upgrades, though the second and third upgrade in each pair of goggles must be acquired separately.
+*
+GPS Units
+These devices provide a character’s global position, altitude, speed, and direction of travel. Details are precise down to the item’s listed range (which is not an increment, but a fixed number).
+*
+Laser Designator
+This device allows a character to take Aim actions as part of a guided weapon attack (see page 299).
+*
+Microphone, Laser
+This device allows a character to target any 1 surface or object up to 1 in. thick with a Damage save bonus no greater than +6. So long as the character remains still and concentrates, his hearing range is considered to be centered on the target (i.e. he hears things around the target as if he were at its location).
+*
+Microphone, Parabolic
+This device increases a character’s base hearing range as shown in the pick’s table entry.
+*
+Police Scanner
+This device allows a character to tune into local police broadcasts.
+*
+Radio
+All radios operate per the standard signals and jamming rules. When a radio is encrypted, its signal may only be translated with a successful Analysis/Decipher check (DC 5 × the radio’s Power Rating).
+*
+SATCOM Terminal
+These paired relay stations transmit audio, video, and data globally, and are encrypted, requiring a successful Analysis/Decipher check (DC 40) to crack. Each terminal comes with a relay post that also acts as a transceiver for a character’s electronic gear. This transceiver has a 1-mile range increment.
+*
+Stress Analyzers
+These items detect subtle changes in a character’s voice or pupil dilation when he’s lying. The voice model grants a +1 gear bonus with Sense Motive/Detect Lie checks, and the retina model grants a +3 gear bonus with these checks.
+*
+Taps
+These items allow a character to listen in on a telephone landline. Both models must be physically connected to the line in order to work, but the wireless model does not need to remain in physical contact after installation. At the start of each minute during which a call occurs over a tapped line, each caller may make a Notice/Awareness check (DC 20 for a physical tap or DC 30 for a wireless tap). With success, they hear a telltale “clicking” in the background.
+*
+Tap Detectors
+These devices attach to a phone and help a character to determine whether a phone is tapped. When a tap detector is installed, the DC to realize that a phone line is tapped decreases by 5.
+*
+TEMPEST Interceptor
+This device may display the real-time screen content of any 1 computer within its range. Tuning into a machine requires a successful 1-minute Electronics (Int) check (DC 30). This check possesses the Concentration and Gear
+(TEMPEST Interceptor) tags. A TEMPEST Interceptor cannot target a EMP-hardened device or vehicle.
+*
+Voice Modulator
+This device masks a character’s voice. Unmasking it requires a character to gain 3 clues using the Analysis/Examine Media check.
